@@ -1,7 +1,16 @@
 <div style="text-align:center">
   <h1>
-    Welcome to {{ title }}!
+    <a routerLink="/">Welcome to {{ title }}!</a>
   </h1>
 </div>
 
-<router-outlet></router-outlet>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm"><a routerLink="/">Home</a></div>
+        <div class="col-sm"><a routerLink="/games">Juegos</a></div>
+        <div class="col-sm">Software libre</div>
+        <div class="col-sm">Escritura</div>
+    </div>
+    <router-outlet></router-outlet>
+</div>
+

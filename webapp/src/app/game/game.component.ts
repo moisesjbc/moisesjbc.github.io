@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-game',
@@ -7,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GameComponent implements OnInit {
 
-  constructor() { }
+    gameData : any;
 
-  ngOnInit() {
-  }
+    constructor(private http: HttpClient) {
+        this.http.get('./assets/db/games/elf-hunting/info.json').subscribe(gameData => {
+            this.gameData = gameData;
+            console.log('gameData');
+            console.log(JSON.stringify(gameData));
+        });
+    }
+
+    ngOnInit() {
+    }
 
 }

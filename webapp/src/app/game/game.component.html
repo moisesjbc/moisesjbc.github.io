@@ -1,3 +1,32 @@
-<p>
-  game works!
-</p>
+<div *ngIf="gameData">
+    <h2>{{ gameData.title }}</h2>
+    <img [src]=gameData.img />
+    <p><markdown [data]="gameData.summary"></markdown></p>
+    <h3>Mecánicas</h3>
+    <p><markdown [data]="gameData.mechanics"></markdown></p>
+    <h3>Controles</h3>
+    <ul>
+        <li *ngFor="let control of gameData.controls">{{ control.key }}: {{ control.meaning }}</li>
+    </ul>
+    <h3>Créditos</h3>
+    <section *ngFor="let credits of gameData.credits.own">
+        <h4>{{ credits.title }}</h4>
+        <ul>
+            <li *ngFor="let person of credits.people">{{ person }}</li>
+        </ul>
+    </section>
+    <h3>Trabajo de terceros</h3>
+    <section *ngFor="let credits of gameData.credits['third-party']">
+        <h4>{{ credits.title }}</h4>
+        <ul>
+            <li *ngFor="let resource of credits.resources">"{{ resource.name }}" - {{ resource.author }}</li>
+        </ul>
+    </section>
+    <h3>Enlaces y descargas</h3>
+    <ul>
+        <li *ngFor="let link of gameData.links"><a [href]="link.href">{{ link.text }}</a></li>
+    </ul>
+</div>
+<div *ngIf="!gameData">
+    uh oh!
+</div>

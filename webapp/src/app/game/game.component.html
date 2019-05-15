@@ -26,12 +26,15 @@
         <h4>{{ credits.title }}</h4>
         <p *ngIf="credits.body"><markdown [data]="credits.body"></markdown></p>
         <ul>
-            <li *ngFor="let resource of credits.resources">"{{ resource.name }}" - {{ resource.author }}</li>
+            <li *ngFor="let resource of credits.resources">
+                <span *ngIf="resource.author">"{{ resource.name }}" - {{ resource.author }}</span>
+                <span *ngIf="!resource.author"><a href="{{ resource.href }}">{{ resource.name }}</a></span>
+            </li>
         </ul>
     </section>
     <h3>Enlaces y descargas</h3>
     <ul>
-        <li *ngFor="let link of gameData.links"><a [href]="link.href">{{ link.text }}</a></li>
+        <li *ngFor="let link of gameData.links"><a [href]="link.href">{{ link.text }}</a> <span *ngIf="link.warning"> ({{ link.warning }})</span></li>
     </ul>
 </div>
 <div *ngIf="!gameData">

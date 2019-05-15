@@ -15,7 +15,7 @@ export class GameComponent implements OnInit {
         const id = this.route.snapshot.paramMap.get('id');
         console.log('id');
         console.log(id);
-        this.http.get('./assets/db/games/' + id + '/info.json').subscribe(gameData => {
+        this.http.get('./assets/db/games/' + id + '.json').subscribe(gameData => {
             this.gameData = gameData;
             console.log('gameData');
             console.log(JSON.stringify(gameData));

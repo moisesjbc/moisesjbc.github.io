@@ -28,7 +28,8 @@
         <ul>
             <li *ngFor="let resource of credits.resources">
                 <span *ngIf="resource.author">"{{ resource.name }}" - {{ resource.author }}</span>
-                <span *ngIf="!resource.author"><a href="{{ resource.href }}">{{ resource.name }}</a></span>
+                <span *ngIf="!resource.author && resource.href"><a href="{{ resource.href }}">{{ resource.name }}</a></span>
+                <span *ngIf="!resource.author && !resource.href">{{ resource.name }}</span>
             </li>
         </ul>
     </section>

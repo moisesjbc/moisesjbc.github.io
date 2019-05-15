@@ -1,0 +1,71 @@
+{
+    "img": "https://raw.githubusercontent.com/moisesjbc/ldgc_37/master/img/escupitajulus_insanis.png",
+    "title": "Escupitajulus Insanis",
+    "summary": "Juego de habilidad en el que debes escupir al mayor número de guardias posible. Desarrollado en equipo con Unity para la Ludum Dare #37",
+    "mechanics": "Apunta y escupe a tantos guardias como puedas. ¡Pero cuidado! Hay dos personas a las que no te conviene escupir:\n\n-Si escupes al jefazo eres hombre muerto (game over).\n-Si escupes al amable guardia que te trae una botella de agua, no podrás convertir el preciado líquido en munición.",
+    "controls": [
+        {
+            "key": "Movimiento del ratón",
+            "meaning": "apuntar"
+        },
+        {
+            "key": "Botón izquierdo del ratón",
+            "meaning": "disparar"
+        }
+    ],
+    "credits": {
+        "own": [
+            {
+                "title": "Programación",
+                "people": [
+                    "Moisés J. Bonilla Caraballo",
+                    "Alejandro Castro Santana",
+                    "Joaquín Monte Soto"
+                ]
+            },
+            {
+                "title": "Arte",
+                "people": [
+                    "Raúl Pérez Martínez",
+                    "Leila Franquelo Martínez "
+                ]
+            },
+            {
+                "title": "Música",
+                "people": [
+                    "Jéremy Godoy Reyes"
+                ]
+            }
+        ],
+        "third-party": [
+            {
+                "title": "Misceláneo",
+                "resources": [
+                    {
+                        "name": "Imagen de fondo del menú principal"
+                    },
+                    {
+                        "name": "Sonido de escupitajo"
+                    },
+                    {
+                        "name": "Fuentes"
+                    }
+                ]
+            }
+        ]
+    },
+    "links": [
+        {
+            "text": "Jugar «Escupitajulus Insanis» online",
+            "href": "https://www.moisesjose.com/games/escupitajulus-insanis/play"
+        },
+        {
+            "text": "Página de «Escupitajulus Insanis» en ludumdare.com (incluye enlaces de descarga para Windows y Linux)",
+            "href": "http://moisesjbc.github.io/games/escupitajulus-insanis/index.html"
+        },
+        {
+            "text": "Repositorio de «Escupitajulus Insanis»en Github",
+            "href": "https://github.com/moisesjbc/ldgc_37"
+        }
+    ]
+}

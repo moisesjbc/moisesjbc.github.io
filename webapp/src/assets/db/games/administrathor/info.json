@@ -1,0 +1,61 @@
+{
+    "img": "https://raw.githubusercontent.com/moisesjbc/island-jam-iii/master/img/administrathor.png",
+    "title": "Administrathor",
+    "summary": "Juego de habilidad en el que el jugador debe hacer frente a la dura vida de oficina sin perder la paciencia. Desarrollado en equipo con Unity en la Island Jam Gran Canaria 3 para la Ludum Dare #41.",
+    "background": "Eres Viggo, un poderoso guerrero vikingo sediento de sangre que recientemente ha comenzado a trabajar en una oficina. Cuida de tu lugar de trabajo mientras lidias con los molestos aviones de papel que lanzan tus compañeros. Y lo que es más importante, ¡intenta controlar tu ira!.",
+    "mechanics": "Estás sentado frente a tu escritorio. El ordenador, la impresora y el teléfono reclamarán tu atención y tendrás que clicar sobre ellos y seguir la secuencia de teclas para mantenerlos bajo control.\nMientras esto ocurre, algunos aviones de papel pasarán volando y pondrán a prueba tu paciencia. ¡Derrívalos a tiempo!",
+    "controls": [
+        {
+            "key": "Botón izquierdo del ratón",
+            "meaning": "seleccionar objeto a reparar / lanzar hacha a avión de papel."
+        },
+        {
+            "key": "A, S, D, W",
+            "meaning": "reparar objeto"
+        }
+    ],
+    "credits": {
+        "own": [
+            {
+                "title": "Arte",
+                "people": [
+                    "Alicia Warhola ",
+                    "Luis Andrés ",
+                    "Lara Zepeda"
+                ]
+            },
+            {
+                "title": "Música",
+                "people": [
+                    "Diego David Díaz Martín"
+                ]
+            },
+            {
+                "title": "Programación",
+                "people": [
+                    "Moisés J. Bonilla Caraballo"
+                ]
+            }
+        ],
+        "third-party": [
+            {
+                "title": "Sonido",
+                "body": "Todos los sonidos fueron descargados desde <a href=\"https://www.freesound.org\">freesound.org</a>"
+            }
+        ]
+    },
+    "links": [
+        {
+            "text": "Jugar a Administrathor online",
+            "href": "https://www.moisesjose.com/games/administrathor/play"
+        },
+        {
+            "text": "Página de Administrathor en Ludum Dare #41",
+            "href": "https://ldjam.com/events/ludum-dare/41/administrathor"
+        },
+        {
+            "text": "Repositorio de Administrathor en Github",
+            "href": "https://github.com/moisesjbc/island-jam-iii"
+        }
+    ]
+}

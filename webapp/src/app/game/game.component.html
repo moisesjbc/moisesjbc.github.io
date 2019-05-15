@@ -2,6 +2,12 @@
     <h2>{{ gameData.title }}</h2>
     <img [src]=gameData.img />
     <p><markdown [data]="gameData.summary"></markdown></p>
+
+    <section *ngIf="gameData.background">
+        <h3>Trasfondo</h3>
+        <p><markdown [data]="gameData.background"></markdown></p>
+    </section>
+
     <h3>Mecánicas</h3>
     <p><markdown [data]="gameData.mechanics"></markdown></p>
     <h3>Controles</h3>
@@ -18,6 +24,7 @@
     <h3>Trabajo de terceros</h3>
     <section *ngFor="let credits of gameData.credits['third-party']">
         <h4>{{ credits.title }}</h4>
+        <p *ngIf="credits.body"><markdown [data]="credits.body"></markdown></p>
         <ul>
             <li *ngFor="let resource of credits.resources">"{{ resource.name }}" - {{ resource.author }}</li>
         </ul>

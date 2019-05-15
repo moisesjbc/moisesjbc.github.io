@@ -8,12 +8,18 @@
         <p><markdown [data]="gameData.background"></markdown></p>
     </section>
 
-    <h3>Mecánicas</h3>
-    <p><markdown [data]="gameData.mechanics"></markdown></p>
-    <h3>Controles</h3>
-    <ul>
-        <li *ngFor="let control of gameData.controls">{{ control.key }}: {{ control.meaning }}</li>
-    </ul>
+    <section *ngIf="gameData.mechanics">
+        <h3>Mecánicas</h3>
+        <p><markdown [data]="gameData.mechanics"></markdown></p>
+    </section>
+
+    <section *ngIf="gameData.controls">
+        <h3>Controles</h3>
+        <ul>
+            <li *ngFor="let control of gameData.controls">{{ control.key }}: {{ control.meaning }}</li>
+        </ul>
+    </section>
+
     <h3>Créditos</h3>
     <section *ngFor="let credits of gameData.credits.own">
         <h4>{{ credits.title }}</h4>
@@ -21,6 +27,7 @@
             <li *ngFor="let person of credits.people">{{ person }}</li>
         </ul>
     </section>
+
     <h3>Trabajo de terceros</h3>
     <section *ngFor="let credits of gameData.credits['third-party']">
         <h4>{{ credits.title }}</h4>

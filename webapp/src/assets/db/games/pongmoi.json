@@ -1,0 +1,49 @@
+{
+    "img": "https://raw.githubusercontent.com/moisesjbc/pongmoi/master/pongmoi.png",
+    "title": "Pongmoi",
+    "summary": "Pong para dos jugadores que permite a los oponentes intercambiar posiciones",
+    "controls": [
+        {
+            "key": "W, S",
+            "meaning": "movimiento jugador 1"
+        },
+        {
+            "key": "Espacio",
+            "meaning": "intercambiar palas (jugador 1)"
+        },
+        {
+            "key": "Flechas arriba / abajo",
+            "meaning": "movimiento jugador 2"
+        },
+        {
+            "key": "Número 0 del teclado numérico",
+            "meaning": "intercambiar palas (jugador 2)"
+        }
+    ],
+    "credits": {
+        "own": [
+            {
+                "title": "Idea, gráficos y programación",
+                "people": [
+                    "Moisés J. Bonilla Caraballo"
+                ]
+            }
+        ],
+        "third-party": [
+            {
+                "title": "Música y sonidos",
+                "body": "Todos los sonidos fueron descargados de <a href=\"https://www.freesound.org\">freesound.org</a> y pertenecen a sus respectivos autores."
+            }
+        ]
+    },
+    "links": [
+        {
+            "text": "Jugar a Pongmoi v1 online",
+            "href": "https://rawgit.com/moisesjbc/pongmoi/master/pongmoi.html"
+        },
+        {
+            "text": "Repositorio de Pongmoi en Github",
+            "href": "https://github.com/moisesjbc/pongmoi"
+        }
+    ]
+}

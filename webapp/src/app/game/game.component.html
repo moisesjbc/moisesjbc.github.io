@@ -28,18 +28,28 @@
         </ul>
     </section>
 
-    <h3>Trabajo de terceros</h3>
-    <section *ngFor="let credits of gameData.credits['third-party']">
-        <h4>{{ credits.title }}</h4>
-        <p *ngIf="credits.body"><markdown [data]="credits.body"></markdown></p>
+    <section *ngIf="gameData.credits['third-party']">
+        <h3>Trabajo de terceros</h3>
+        <section *ngFor="let credits of gameData.credits['third-party']">
+            <h4>{{ credits.title }}</h4>
+            <p *ngIf="credits.body"><markdown [data]="credits.body"></markdown></p>
+            <ul>
+                <li *ngFor="let resource of credits.resources">
+                    <span *ngIf="resource.author">"{{ resource.name }}" - {{ resource.author }}</span>
+                    <span *ngIf="!resource.author && resource.href"><a href="{{ resource.href }}">{{ resource.name }}</a></span>
+                    <span *ngIf="!resource.author && !resource.href">{{ resource.name }}</span>
+                </li>
+            </ul>
+        </section>
+    </section>
+
+    <section *ngIf="gameData.credits.thanks">
+        <h3>Agradecimientos</h3>
         <ul>
-            <li *ngFor="let resource of credits.resources">
-                <span *ngIf="resource.author">"{{ resource.name }}" - {{ resource.author }}</span>
-                <span *ngIf="!resource.author && resource.href"><a href="{{ resource.href }}">{{ resource.name }}</a></span>
-                <span *ngIf="!resource.author && !resource.href">{{ resource.name }}</span>
-            </li>
+            <li *ngFor="let thanks of gameData.credits.thanks">{{ thanks }}</li>
         </ul>
     </section>
+
     <h3>Enlaces y descargas</h3>
     <ul>
         <li *ngFor="let link of gameData.links"><a [href]="link.href">{{ link.text }}</a> <span *ngIf="link.warning"> ({{ link.warning }})</span></li>

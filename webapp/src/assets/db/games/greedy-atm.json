@@ -1,0 +1,74 @@
+{
+    "img": "https://raw.githubusercontent.com/moisesjbc/ludum-dare-44/master/img/screenshot.png",
+    "title": "The greedy ATM",
+    "summary": "Juego de azar / habilidad en el que el jugador asume el papel de un cajero automático sin escrúpulos. Desarrollado con [Godot Engine](https://godotengine.org/) para la [Ludum Dare #44](https://ldjam.com/events/ludum-dare/44).",
+    "mechanics": "Cada cierto tiempo un cliente se acercará a ti para cobrar un cheque. En este punto podrás decidir con el ratón cuánto dinero del total le devolverás.\n\nSi no le devuelves todo el dinero, el cliente podrá enfadarse y golpearte para recuperar su dinero. En este momento se iniciará un «Quick time event» en el que deberás pulsar sobre las exclamaciones con la suficiente rapidez para no recibir el golpe.",
+    "controls": [
+        {
+            "key": "(Fase de cobro) ratón",
+            "meaning": "seleccionar y confirmar cantidad a devolver"
+        },
+        {
+            "key": "(Fase de pelea) ratón",
+            "meaning": "clicar sobre las exclamaciones para evitar golpes"
+        }
+    ],
+    "credits": {
+        "own": [
+            {
+                "title": "Idea, programación, gráficos y sonido",
+                "people": [
+                    "Moisés J. Bonilla Caraballo"
+                ]
+            }
+        ],
+        "third-party": [
+            {
+                "title": "Software",
+                "resources": [
+                    {
+                        "name": "Godot Engine",
+                        "href": "https://godotengine.org/"
+                    },
+                    {
+                        "name": "GIMP",
+                        "href": "https://www.gimp.org/"
+                    }
+                ]
+            },
+            {
+                "title": "Fuentes",
+                "resources": [
+                    {
+                        "name": "Ubuntu-B.ttf"
+                    }
+                ]
+            }
+        ],
+        "thanks": [
+            "¡Gracias a Alicia Warhola por avisarme de la Ludum Dare!"
+        ]
+    },
+    "links": [
+        {
+            "text": "Jugar a «The Greedy ATM» online",
+            "href": "http://moisesjose.com/games/the-greedy-atm/play/"
+        },
+        {
+            "text": "Descargar «The Greedy ATM» v1.0.1 para Windows",
+            "href": "https://github.com/moisesjbc/ludum-dare-44/releases/download/v1.0.1/the_greedy_atm_windows_v1.0.1.zip"
+        },
+        {
+            "text": "Descargar «The Greedy ATM» v1.0.1 para Linux",
+            "href": "https://github.com/moisesjbc/ludum-dare-44/releases/download/v1.0.1/the_greedy_atm_linux_v1.0.1.zip"
+        },
+        {
+            "text": "Entrada de «The Greedy ATM» en la página de la Ludum Dare #44",
+            "href": "https://ldjam.com/events/ludum-dare/44/the-greedy-atm"
+        },
+        {
+            "text": "Repositorio en Github",
+            "href": "https://github.com/moisesjbc/ludum-dare-44"
+        }
+    ]
+}

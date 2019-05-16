@@ -1,3 +1,5 @@
-<p>
-  games works!
-</p>
+<div class="row" *ngFor="let gameRow of rows">
+    <div *ngFor="let gameId of gameRow" class="col-sm">
+        <app-game-summary [gameId]="gameId"></app-game-summary>
+    </div>
+</div>

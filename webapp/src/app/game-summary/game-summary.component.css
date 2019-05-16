@@ -1,0 +1,23 @@
+img {
+    width: 100%;
+}
+
+.game-summary-div {
+    height: 100%;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.game-summary-body-div {
+    border-top: solid 1px black;
+    padding: 20px;
+    
+}
+
+.game-summary-footer-div {
+    text-align: right;
+}
+
+.game-summary-footer-div a {
+    vertical-align: bottom;
+}

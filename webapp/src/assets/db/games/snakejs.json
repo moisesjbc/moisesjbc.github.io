@@ -1,0 +1,31 @@
+{
+    "img": "https://raw.githubusercontent.com/moisesjbc/snakejs/master/img/snakejs.png",
+    "title": "SnakeJS",
+    "summary": "Juego de la Serpiente realizado en JavaScript.",
+    "controls": [
+        {
+            "key": "Flechas",
+            "meaning": "movimiento"
+        }
+    ],
+    "credits": {
+        "own": [
+            {
+                "title": "Idea, gráficos y programación",
+                "people": [
+                    "Moisés J. Bonilla Caraballo"
+                ]
+            }
+        ]
+    },
+    "links": [
+        {
+            "text": "Jugar a SnakeJS online",
+            "href": "https://moisesjose.com/games/snakejs/play"
+        },
+        {
+            "text": "Repositorio de SnakeJS en Github",
+            "href": "https://github.com/moisesjbc/snakejs"
+        }
+    ]
+}

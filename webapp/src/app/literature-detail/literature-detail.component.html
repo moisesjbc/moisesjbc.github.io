@@ -1,0 +1,11 @@
+<div *ngIf="literatureData">
+    <h2>{{ literatureData.title }}</h2>
+    <p><markdown [data]="literatureData.summary"></markdown></p>
+
+    <section *ngIf="literatureData.links">
+        <h3>Enlaces y descargas</h3>
+        <ul>
+            <li *ngFor="let link of literatureData.links"><a [href]="link.href">{{ link.text }}</a> <span *ngIf="link.warning"> ({{ link.warning }})</span></li>
+        </ul>
+    </section>
+</div>

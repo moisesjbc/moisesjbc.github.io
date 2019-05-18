@@ -8,8 +8,9 @@ import { HomeComponent } from './home/home.component';
 import { GameComponent } from './game/game.component';
 import { HttpClientModule } from '@angular/common/http';
 import { MarkdownModule } from 'ngx-markdown';
-import { GameSummaryComponent } from './game-summary/game-summary.component';
 import { SoftwareComponent } from './software/software.component';
+import { ProjectsListComponent } from './projects-list/projects-list.component';
+import { ProjectSummaryComponent } from './project-summary/project-summary.component';
 
 @NgModule({
   declarations: [
@@ -17,8 +18,9 @@ import { SoftwareComponent } from './software/software.component';
     GamesComponent,
     HomeComponent,
     GameComponent,
-    GameSummaryComponent,
     SoftwareComponent,
+    ProjectsListComponent,
+    ProjectSummaryComponent
   ],
   imports: [
     BrowserModule,

@@ -2,21 +2,21 @@ img {
     width: 100%;
 }
 
-.game-summary-div {
+.project-summary-div {
     height: 100%;
     margin-bottom: 50px;
 }
 
-.game-summary-body-div {
+.project-summary-body-div {
     border-top: solid 1px black;
     padding: 20px;
     
 }
 
-.game-summary-footer-div {
+.project-summary-footer-div {
     text-align: right;
 }
 
-.game-summary-footer-div a {
+.project-summary-footer-div a {
     vertical-align: bottom;
 }

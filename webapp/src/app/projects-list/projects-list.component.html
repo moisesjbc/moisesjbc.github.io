@@ -1,0 +1,5 @@
+<div class="row" *ngFor="let projectRow of rows">
+    <div *ngFor="let projetId of projectRow" class="col-sm">
+        <app-project-summary [projectId]="projetId" [projectsType]="projectsType"></app-project-summary>
+    </div>
+</div>

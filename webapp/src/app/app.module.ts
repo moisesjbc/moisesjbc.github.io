@@ -12,6 +12,7 @@ import { SoftwareComponent } from './software/software.component';
 import { ProjectsListComponent } from './projects-list/projects-list.component';
 import { ProjectSummaryComponent } from './project-summary/project-summary.component';
 import { SoftwareProjectDetailComponent } from './software-project-detail/software-project-detail.component';
+import { LiteratureListComponent } from './literature-list/literature-list.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { SoftwareProjectDetailComponent } from './software-project-detail/softwa
     SoftwareComponent,
     ProjectsListComponent,
     ProjectSummaryComponent,
-    SoftwareProjectDetailComponent
+    SoftwareProjectDetailComponent,
+    LiteratureListComponent
   ],
   imports: [
     BrowserModule,

@@ -16,9 +16,16 @@ export class LiteratureDetailComponent implements OnInit {
         console.log('id');
         console.log(id);
         this.http.get('./assets/db/literature/' + id + '.json').subscribe(literatureData => {
-            this.literatureData = literatureData;
-            console.log('literatureData');
-            console.log(JSON.stringify(literatureData));
+            console.log('literatureData.src');
+            console.log(literatureData.src);
+            if (literatureData.src) {
+                this.http.get(literatureData.src, {responseType: "text"}).subscribe(literatureBody => {
+                    literatureData.body = literatureBody;
+                    this.literatureData = literatureData;
+                });
+            } else {
+                this.literatureData = literatureData;
+            }
         });
     }
 

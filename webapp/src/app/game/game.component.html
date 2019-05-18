@@ -55,6 +55,3 @@
         <li *ngFor="let link of gameData.links"><a [href]="link.href">{{ link.text }}</a> <span *ngIf="link.warning"> ({{ link.warning }})</span></li>
     </ul>
 </div>
-<div *ngIf="!gameData">
-    uh oh!
-</div>

@@ -11,6 +11,7 @@ import { MarkdownModule } from 'ngx-markdown';
 import { SoftwareComponent } from './software/software.component';
 import { ProjectsListComponent } from './projects-list/projects-list.component';
 import { ProjectSummaryComponent } from './project-summary/project-summary.component';
+import { SoftwareProjectDetailComponent } from './software-project-detail/software-project-detail.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ProjectSummaryComponent } from './project-summary/project-summary.compo
     GameComponent,
     SoftwareComponent,
     ProjectsListComponent,
-    ProjectSummaryComponent
+    ProjectSummaryComponent,
+    SoftwareProjectDetailComponent
   ],
   imports: [
     BrowserModule,

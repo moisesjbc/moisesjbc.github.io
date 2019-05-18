@@ -1,0 +1,16 @@
+<div *ngIf="softwareData">
+    <h2>{{ softwareData.title }}</h2>
+    <img [src]=softwareData.img />
+    <p><markdown [data]="softwareData.summary"></markdown></p>
+
+    <section *ngIf="softwareData.multimedia">
+        <h3>Multimedia</h3>
+        <iframe *ngFor="let video of softwareData.multimedia.videos" width="560" height="315" [src]="sanitizer.bypassSecurityTrustResourceUrl(video)" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <section *ngIf="softwareData.links">
+        <h3>Enlaces y descargas</h3>
+        <ul>
+            <li *ngFor="let link of softwareData.links"><a [href]="link.href">{{ link.text }}</a> <span *ngIf="link.warning"> ({{ link.warning }})</span></li>
+        </ul>
+    </section>
+</div>

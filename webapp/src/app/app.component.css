@@ -2,3 +2,34 @@
     font-size: 3em;
     color: black;
 }
+
+.body {
+    width: 90%;
+    min-height: 100vh;
+    margin: auto;
+    border: solid 1px black;
+    background-color: white;
+}
+
+.site-title-div {
+    padding: 25px;
+}
+
+.navigation-menu {
+    border-top: dashed 1px black;
+    border-bottom: dashed 1px black;
+}
+
+.navigation-entry {
+    padding: 10px;
+    text-align: center;
+}
+
+.non-first-navigation-entry {
+    border-left: solid 1px black;
+}
+
+.section-body {
+    margin-top: 50px;
+}
+

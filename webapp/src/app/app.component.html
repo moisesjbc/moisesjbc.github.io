@@ -1,14 +1,17 @@
-<div style="text-align:center" >
-    <a routerLink="/" class="site-title">Moisés José – Desarrollador software y escritor amateur</a>
-</div>
-
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-sm"><a routerLink="/">Home</a></div>
-        <div class="col-sm"><a routerLink="/games">Videojuegos</a></div>
-        <div class="col-sm"><a routerLink="/software">Software</a></div>
-        <div class="col-sm"><a routerLink="/literature">Literatura</a></div>
+<div class="body">
+    <div style="text-align:center" class="site-title-div">
+        <a routerLink="/" class="site-title">Moisés José – Desarrollador software y escritor amateur</a>
     </div>
-    <router-outlet></router-outlet>
-</div>
 
+    <div class="container-fluid">
+        <div class="row navigation-menu">
+            <div class="col-sm navigation-entry"><a routerLink="/">Home</a></div>
+            <div class="col-sm navigation-entry non-first-navigation-entry"><a routerLink="/games">Videojuegos</a></div>
+            <div class="col-sm navigation-entry non-first-navigation-entry"><a routerLink="/software">Software</a></div>
+            <div class="col-sm navigation-entry non-first-navigation-entry"><a routerLink="/literature">Literatura</a></div>
+        </div>
+        <div class="section-body">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>

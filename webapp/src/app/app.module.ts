@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { GamesListComponent } from './games-list/games-list.component';
 import { HomeComponent } from './home/home.component';
-import { GameComponent } from './game/game.component';
+import { GameDetailComponent } from './game-detail/game-detail.component';
 import { HttpClientModule } from '@angular/common/http';
 import { MarkdownModule } from 'ngx-markdown';
 import { SoftwareComponent } from './software/software.component';
@@ -21,7 +21,7 @@ import { LinksListComponent } from './links-list/links-list.component';
     AppComponent,
     GamesListComponent,
     HomeComponent,
-    GameComponent,
+    GameDetailComponent,
     SoftwareComponent,
     ProjectsListComponent,
     ProjectSummaryComponent,

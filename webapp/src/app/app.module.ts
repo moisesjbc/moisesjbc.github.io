@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { GamesComponent } from './games/games.component';
+import { GamesListComponent } from './games-list/games-list.component';
 import { HomeComponent } from './home/home.component';
 import { GameComponent } from './game/game.component';
 import { HttpClientModule } from '@angular/common/http';
@@ -19,7 +19,7 @@ import { LinksListComponent } from './links-list/links-list.component';
 @NgModule({
   declarations: [
     AppComponent,
-    GamesComponent,
+    GamesListComponent,
     HomeComponent,
     GameComponent,
     SoftwareComponent,

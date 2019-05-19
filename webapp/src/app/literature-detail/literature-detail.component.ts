@@ -13,8 +13,6 @@ export class LiteratureDetailComponent implements OnInit {
 
     constructor(private http: HttpClient, private route: ActivatedRoute) {
         const id = this.route.snapshot.paramMap.get('id');
-        console.log('id');
-        console.log(id);
         this.http.get('./assets/db/literature/' + id + '.json').subscribe(literatureData => {
             if (literatureData['src']) {
                 this.http.get(literatureData['src'], {responseType: "text"}).subscribe(literatureBody => {

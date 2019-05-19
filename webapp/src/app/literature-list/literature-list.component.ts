@@ -17,8 +17,6 @@ export class LiteratureListComponent implements OnInit {
     this.http.get('./assets/db/literature/index.json').subscribe(literatureInfo => {
         this.bookIds = literatureInfo['books'];
         this.shortStoryIds = literatureInfo['short-stories'];
-        console.log('------------------------> this.shortStoryIds');
-        console.log(this.shortStoryIds);
     });
   }
 }

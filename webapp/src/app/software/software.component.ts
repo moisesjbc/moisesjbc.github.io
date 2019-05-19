@@ -13,8 +13,6 @@ export class SoftwareComponent implements OnInit {
 
   ngOnInit() {
     this.http.get('./assets/db/software/index.json').subscribe(softwareData => {
-      console.log('softwareData');
-      console.log(softwareData);
       this.softwareIds = softwareData['software'];
     });
   }

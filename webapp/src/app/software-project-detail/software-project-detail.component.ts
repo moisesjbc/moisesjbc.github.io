@@ -16,12 +16,8 @@ export class SoftwareProjectDetailComponent implements OnInit {
 
   ngOnInit() {
      const id = this.route.snapshot.paramMap.get('id');
-     console.log('id');
-     console.log(id);
      this.http.get('./assets/db/software/' + id + '.json').subscribe(softwareData => {
         this.softwareData = softwareData;
-        console.log('softwareData');
-        console.log(JSON.stringify(softwareData));
      });
   }
 

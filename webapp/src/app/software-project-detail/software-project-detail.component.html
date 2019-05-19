@@ -9,8 +9,6 @@
     </section>
     <section *ngIf="softwareData.links">
         <h2>Enlaces y descargas</h2>
-        <ul>
-            <li *ngFor="let link of softwareData.links"><a [href]="link.href">{{ link.text }}</a> <span *ngIf="link.warning"> ({{ link.warning }})</span></li>
-        </ul>
+        <app-links-list [links]="softwareData.links"></app-links-list>
     </section>
 </div>

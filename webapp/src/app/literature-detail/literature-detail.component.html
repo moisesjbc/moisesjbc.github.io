@@ -8,9 +8,7 @@
 
         <section *ngIf="literatureData.links">
             <h2>Enlaces y descargas</h2>
-            <ul>
-                <li *ngFor="let link of literatureData.links"><a [href]="link.href">{{ link.text }}</a> <span *ngIf="link.warning"> ({{ link.warning }})</span></li>
-            </ul>
+            <app-links-list [links]="literatureData.links"></app-links-list>
         </section>
     </section>
     

@@ -14,6 +14,7 @@ import { ProjectSummaryComponent } from './project-summary/project-summary.compo
 import { SoftwareProjectDetailComponent } from './software-project-detail/software-project-detail.component';
 import { LiteratureListComponent } from './literature-list/literature-list.component';
 import { LiteratureDetailComponent } from './literature-detail/literature-detail.component';
+import { LinksListComponent } from './links-list/links-list.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { LiteratureDetailComponent } from './literature-detail/literature-detail
     ProjectSummaryComponent,
     SoftwareProjectDetailComponent,
     LiteratureListComponent,
-    LiteratureDetailComponent
+    LiteratureDetailComponent,
+    LinksListComponent
   ],
   imports: [
     BrowserModule,

@@ -1,7 +1,7 @@
-<div class="project-summary-div">
+<div *ngIf="projectData" class="project-summary-div">
     <h2>{{ projectData.title }}</h2>
     <div class="project-summary-body-div">
-        <a [href]="projectHref"><img [src]="projectData.img" /></a>
+        <a *ngIf="projectData.img" [href]="projectHref"><img [src]="projectData.img" /></a>
         <p><markdown [data]="projectData.summary"></markdown></p>
     </div>
     <div class="project-summary-footer-div">

@@ -22,7 +22,7 @@ export class ProjectsListComponent implements OnInit {
         var j = 0;
         var row: string[] = []; 
         console.log(j);
-        while (i < this.projectIds.length && j < 3) {
+        while (i < this.projectIds.length && j < 4) {
             row.push(this.projectIds[i]);
             i++;
             j++;

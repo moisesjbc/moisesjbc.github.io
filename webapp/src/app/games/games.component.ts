@@ -8,7 +8,6 @@ import { HttpClient } from '@angular/common/http';
 })
 export class GamesComponent implements OnInit {
 
-  public rows : any[];
   public gameIds : any[] = null;
 
   constructor(private http: HttpClient) {

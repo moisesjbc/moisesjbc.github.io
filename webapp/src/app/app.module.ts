@@ -3,18 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { GamesListComponent } from './games-list/games-list.component';
-import { HomeComponent } from './home/home.component';
-import { GameDetailComponent } from './game-detail/game-detail.component';
+import { GamesListComponent } from './sections/games-list/games-list.component';
+import { HomeComponent } from './sections/home/home.component';
+import { GameDetailComponent } from './sections/game-detail/game-detail.component';
 import { HttpClientModule } from '@angular/common/http';
 import { MarkdownModule } from 'ngx-markdown';
-import { SoftwareListComponent } from './software-list/software-list.component';
-import { ProjectsListComponent } from './projects-list/projects-list.component';
-import { ProjectSummaryComponent } from './project-summary/project-summary.component';
-import { SoftwareDetailComponent } from './software-detail/software-detail.component';
-import { LiteratureListComponent } from './literature-list/literature-list.component';
-import { LiteratureDetailComponent } from './literature-detail/literature-detail.component';
-import { LinksListComponent } from './links-list/links-list.component';
+import { SoftwareListComponent } from './sections/software-list/software-list.component';
+import { ProjectsListComponent } from './lib/projects-list/projects-list.component';
+import { ProjectSummaryComponent } from './lib/project-summary/project-summary.component';
+import { SoftwareDetailComponent } from './sections/software-detail/software-detail.component';
+import { LiteratureListComponent } from './sections/literature-list/literature-list.component';
+import { LiteratureDetailComponent } from './sections/literature-detail/literature-detail.component';
+import { LinksListComponent } from './lib/links-list/links-list.component';
 
 @NgModule({
   declarations: [

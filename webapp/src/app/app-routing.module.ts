@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { GamesListComponent } from './games-list/games-list.component';
-import { GameDetailComponent } from './game-detail/game-detail.component';
-import { HomeComponent } from './home/home.component';
-import { SoftwareListComponent } from './software-list/software-list.component';
-import { SoftwareDetailComponent } from './software-detail/software-detail.component'
-import { LiteratureListComponent } from './literature-list/literature-list.component'
-import { LiteratureDetailComponent } from './literature-detail/literature-detail.component'
+import { GamesListComponent } from './sections/games-list/games-list.component';
+import { GameDetailComponent } from './sections/game-detail/game-detail.component';
+import { HomeComponent } from './sections/home/home.component';
+import { SoftwareListComponent } from './sections/software-list/software-list.component';
+import { SoftwareDetailComponent } from './sections/software-detail/software-detail.component'
+import { LiteratureListComponent } from './sections/literature-list/literature-list.component'
+import { LiteratureDetailComponent } from './sections/literature-detail/literature-detail.component'
 
 const routes: Routes = [
     { path: '', component: HomeComponent },

@@ -2,12 +2,12 @@
 
     <!-- Books does not have a 'body' property -->
     <section *ngIf="!literatureData.body">
-        <h2>{{ literatureData.title }}</h2>
+        <h1>{{ literatureData.title }}</h1>
 
         <p><markdown [data]="literatureData.summary"></markdown></p>
 
         <section *ngIf="literatureData.links">
-            <h3>Enlaces y descargas</h3>
+            <h2>Enlaces y descargas</h2>
             <ul>
                 <li *ngFor="let link of literatureData.links"><a [href]="link.href">{{ link.text }}</a> <span *ngIf="link.warning"> ({{ link.warning }})</span></li>
             </ul>

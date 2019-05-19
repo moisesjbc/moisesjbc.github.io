@@ -9,6 +9,7 @@ import { HttpClient } from '@angular/common/http';
 export class ProjectSummaryComponent implements OnInit {
   @Input() public projectId : string;
   @Input() public projectsType: string;
+  @Input() public headersLevel: number = 2;
 
   private projectData : any = null;
   private projectHref : string = null;

@@ -1,5 +1,9 @@
 <div *ngIf="projectData" class="project-summary-div">
-    <h2>{{ projectData.title }}</h2>
+    <h2 *ngIf="headersLevel == 2">{{ projectData.title }}</h2>
+    <h3 *ngIf="headersLevel == 3">{{ projectData.title }}</h3>
+    <h4 *ngIf="headersLevel == 4">{{ projectData.title }}</h4>
+    <h5 *ngIf="headersLevel == 5">{{ projectData.title }}</h5>
+    <h6 *ngIf="headersLevel == 6">{{ projectData.title }}</h6>
     <div class="project-summary-body-div">
         <a *ngIf="projectData.img" [href]="projectHref"><img [src]="projectData.img" /></a>
         <p><markdown [data]="projectData.summary"></markdown></p>

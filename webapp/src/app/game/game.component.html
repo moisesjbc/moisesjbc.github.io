@@ -1,37 +1,37 @@
 <div *ngIf="gameData">
-    <h2>{{ gameData.title }}</h2>
+    <h1>{{ gameData.title }}</h1>
     <img [src]=gameData.img />
     <p><markdown [data]="gameData.summary"></markdown></p>
 
     <section *ngIf="gameData.background">
-        <h3>Trasfondo</h3>
+        <h2>Trasfondo</h2>
         <p><markdown [data]="gameData.background"></markdown></p>
     </section>
 
     <section *ngIf="gameData.mechanics">
-        <h3>Mecánicas</h3>
+        <h2>Mecánicas</h2>
         <p><markdown [data]="gameData.mechanics"></markdown></p>
     </section>
 
     <section *ngIf="gameData.controls">
-        <h3>Controles</h3>
+        <h2>Controles</h2>
         <ul>
             <li *ngFor="let control of gameData.controls">{{ control.key }}: {{ control.meaning }}</li>
         </ul>
     </section>
 
-    <h3>Créditos</h3>
+    <h2>Créditos</h2>
     <section *ngFor="let credits of gameData.credits.own">
-        <h4>{{ credits.title }}</h4>
+        <h3>{{ credits.title }}</h3>
         <ul>
             <li *ngFor="let person of credits.people">{{ person }}</li>
         </ul>
     </section>
 
     <section *ngIf="gameData.credits['third-party']">
-        <h3>Trabajo de terceros</h3>
+        <h2>Trabajo de terceros</h2>
         <section *ngFor="let credits of gameData.credits['third-party']">
-            <h4>{{ credits.title }}</h4>
+            <h3>{{ credits.title }}</h3>
             <p *ngIf="credits.body"><markdown [data]="credits.body"></markdown></p>
             <ul>
                 <li *ngFor="let resource of credits.resources">
@@ -44,13 +44,13 @@
     </section>
 
     <section *ngIf="gameData.credits.thanks">
-        <h3>Agradecimientos</h3>
+        <h2>Agradecimientos</h2>
         <ul>
             <li *ngFor="let thanks of gameData.credits.thanks">{{ thanks }}</li>
         </ul>
     </section>
 
-    <h3>Enlaces y descargas</h3>
+    <h2>Enlaces y descargas</h2>
     <ul>
         <li *ngFor="let link of gameData.links"><a [href]="link.href">{{ link.text }}</a> <span *ngIf="link.warning"> ({{ link.warning }})</span></li>
     </ul>

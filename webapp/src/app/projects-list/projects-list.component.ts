@@ -8,6 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class ProjectsListComponent implements OnInit {
   @Input() public projectIds: any[];
   @Input() public projectsType: string;
+  @Input() public headersLevel: number = 2;
   public rows : any[];
 
   constructor() {

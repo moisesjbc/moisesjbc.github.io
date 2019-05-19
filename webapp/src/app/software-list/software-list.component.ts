@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
 @Component({
-  selector: 'app-software',
-  templateUrl: './software.component.html',
-  styleUrls: ['./software.component.css']
+  selector: 'app-software-list',
+  templateUrl: './software-list.component.html',
+  styleUrls: ['./software-list.component.css']
 })
-export class SoftwareComponent implements OnInit {
+export class SoftwareListComponent implements OnInit {
   private softwareIds: string[] = null;
 
   constructor(private http: HttpClient) { }

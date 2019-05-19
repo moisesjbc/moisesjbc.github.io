@@ -8,7 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { GameDetailComponent } from './game-detail/game-detail.component';
 import { HttpClientModule } from '@angular/common/http';
 import { MarkdownModule } from 'ngx-markdown';
-import { SoftwareComponent } from './software/software.component';
+import { SoftwareListComponent } from './software-list/software-list.component';
 import { ProjectsListComponent } from './projects-list/projects-list.component';
 import { ProjectSummaryComponent } from './project-summary/project-summary.component';
 import { SoftwareProjectDetailComponent } from './software-project-detail/software-project-detail.component';
@@ -22,7 +22,7 @@ import { LinksListComponent } from './links-list/links-list.component';
     GamesListComponent,
     HomeComponent,
     GameDetailComponent,
-    SoftwareComponent,
+    SoftwareListComponent,
     ProjectsListComponent,
     ProjectSummaryComponent,
     SoftwareProjectDetailComponent,

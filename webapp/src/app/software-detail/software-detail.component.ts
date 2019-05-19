@@ -4,11 +4,11 @@ import { ActivatedRoute } from '@angular/router';
 import {BrowserModule, DomSanitizer} from '@angular/platform-browser'
 
 @Component({
-  selector: 'app-software-project-detail',
-  templateUrl: './software-project-detail.component.html',
-  styleUrls: ['./software-project-detail.component.css']
+  selector: 'app-software-detail',
+  templateUrl: './software-detail.component.html',
+  styleUrls: ['./software-detail.component.css']
 })
-export class SoftwareProjectDetailComponent implements OnInit {
+export class SoftwareDetailComponent implements OnInit {
 
   private softwareData: any;
 

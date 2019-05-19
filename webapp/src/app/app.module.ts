@@ -11,7 +11,7 @@ import { MarkdownModule } from 'ngx-markdown';
 import { SoftwareListComponent } from './software-list/software-list.component';
 import { ProjectsListComponent } from './projects-list/projects-list.component';
 import { ProjectSummaryComponent } from './project-summary/project-summary.component';
-import { SoftwareProjectDetailComponent } from './software-project-detail/software-project-detail.component';
+import { SoftwareDetailComponent } from './software-detail/software-detail.component';
 import { LiteratureListComponent } from './literature-list/literature-list.component';
 import { LiteratureDetailComponent } from './literature-detail/literature-detail.component';
 import { LinksListComponent } from './links-list/links-list.component';
@@ -25,7 +25,7 @@ import { LinksListComponent } from './links-list/links-list.component';
     SoftwareListComponent,
     ProjectsListComponent,
     ProjectSummaryComponent,
-    SoftwareProjectDetailComponent,
+    SoftwareDetailComponent,
     LiteratureListComponent,
     LiteratureDetailComponent,
     LinksListComponent

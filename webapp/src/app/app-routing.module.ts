@@ -4,7 +4,7 @@ import { GamesListComponent } from './games-list/games-list.component';
 import { GameDetailComponent } from './game-detail/game-detail.component';
 import { HomeComponent } from './home/home.component';
 import { SoftwareListComponent } from './software-list/software-list.component';
-import { SoftwareProjectDetailComponent } from './software-project-detail/software-project-detail.component'
+import { SoftwareDetailComponent } from './software-detail/software-detail.component'
 import { LiteratureListComponent } from './literature-list/literature-list.component'
 import { LiteratureDetailComponent } from './literature-detail/literature-detail.component'
 
@@ -13,7 +13,7 @@ const routes: Routes = [
     { path: 'games', component: GamesListComponent },
     { path: 'games/:id', component: GameDetailComponent },
     { path: 'software', component: SoftwareListComponent },
-    { path: 'software/:id', component: SoftwareProjectDetailComponent },
+    { path: 'software/:id', component: SoftwareDetailComponent },
     { path: 'literature', component: LiteratureListComponent },
     { path: 'literature/:id', component: LiteratureDetailComponent }
 ];

@@ -15,6 +15,7 @@ import { SoftwareDetailComponent } from './sections/software-detail/software-det
 import { LiteratureListComponent } from './sections/literature-list/literature-list.component';
 import { LiteratureDetailComponent } from './sections/literature-detail/literature-detail.component';
 import { LinksListComponent } from './lib/links-list/links-list.component';
+import { BreadcumbComponent } from './lib/breadcumb/breadcumb.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { LinksListComponent } from './lib/links-list/links-list.component';
     SoftwareDetailComponent,
     LiteratureListComponent,
     LiteratureDetailComponent,
-    LinksListComponent
+    LinksListComponent,
+    BreadcumbComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
 import { ActivatedRoute } from '@angular/router';
 import {BrowserModule, DomSanitizer} from '@angular/platform-browser'
+import { ProjectLoader } from '../../services/project-loader/project-loader.service';
 
 @Component({
   selector: 'app-software-detail',
@@ -12,11 +12,11 @@ export class SoftwareDetailComponent implements OnInit {
 
   private softwareData: any;
 
-  constructor(private http: HttpClient, private route: ActivatedRoute, private sanitizer: DomSanitizer) { }
+  constructor(private route: ActivatedRoute, private sanitizer: DomSanitizer, private projectLoader: ProjectLoader) { }
 
   ngOnInit() {
      const id = this.route.snapshot.paramMap.get('id');
-     this.http.get('./assets/db/software/' + id + '.json').subscribe(softwareData => {
+     this.projectLoader.loadProjectData('./assets/db/software/' + id + '.json').then(softwareData => {
         this.softwareData = softwareData;
      });
   }

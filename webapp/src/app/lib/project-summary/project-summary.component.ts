@@ -21,7 +21,7 @@ export class ProjectSummaryComponent implements OnInit {
   ngOnInit() {
     this.http.get('./assets/db/' + this.projectsType + '/' + this.projectId + '.json').subscribe(projectData => {
       this.projectData = projectData;
-      this.projectHref = this.projectsType + '/' + this.projectId;
+      this.projectHref = '/' + this.projectsType + '/' + this.projectId;
     });
   }
 }

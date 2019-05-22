@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
 import { ActivatedRoute } from '@angular/router';
+import { ProjectLoader } from '../../services/project-loader/project-loader.service';
 
 @Component({
   selector: 'app-game-detail',
@@ -11,9 +11,9 @@ export class GameDetailComponent implements OnInit {
 
     gameData : any;
 
-    constructor(private http: HttpClient, private route: ActivatedRoute) {
+    constructor(private route: ActivatedRoute, private projectLoader: ProjectLoader) {
         const id = this.route.snapshot.paramMap.get('id');
-        this.http.get('./assets/db/games/' + id + '.json').subscribe(gameData => {
+        this.projectLoader.loadProjectData('./assets/db/games/' + id + '.json').then(gameData => {
             this.gameData = gameData;
         });
     }

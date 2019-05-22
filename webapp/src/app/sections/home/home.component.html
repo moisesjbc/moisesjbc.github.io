@@ -1,5 +1,5 @@
 <div class="home">
     <h1>Home</h1>
     <h2>¡Bienvenido!</h2>
-    <div><markdown [data]="homeData.about_me"></markdown></div>
+    <div><markdown *ngIf="homeData" [data]="homeData.about_me"></markdown></div>
 </div>

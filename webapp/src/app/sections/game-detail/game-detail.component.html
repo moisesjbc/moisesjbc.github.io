@@ -1,6 +1,6 @@
 <div *ngIf="gameData">
     <h1>{{ gameData.title }}</h1>
-    <img [src]=gameData.img />
+    <div class="game-img"><img [src]=gameData.img /></div>
     <p><markdown [data]="gameData.summary"></markdown></p>
 
     <section *ngIf="gameData.background">

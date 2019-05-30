@@ -1,0 +1,14 @@
+img {
+    max-height: 800px;
+    width: 75%;
+    object-fit: contain;
+    margin: auto;
+    border: solid 1px black;
+    padding: 5px;
+}
+
+.game-img {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1em;
+}

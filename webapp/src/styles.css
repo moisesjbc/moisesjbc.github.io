@@ -9,4 +9,13 @@ body {
 
 h1 {
     margin-bottom: 30px;
+    color: #a87c0f;
+}
+
+h2 {
+     color: #aa7a00;
+}
+
+h3 {
+     color: #d69900;
 }

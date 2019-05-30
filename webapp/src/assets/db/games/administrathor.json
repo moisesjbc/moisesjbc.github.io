@@ -1,7 +1,7 @@
 {
     "img": "https://raw.githubusercontent.com/moisesjbc/island-jam-iii/master/img/administrathor.png",
     "title": "Administrathor",
-    "summary": "Juego de habilidad en el que el jugador debe hacer frente a la dura vida de oficina sin perder la paciencia. Desarrollado en equipo con Unity en la Island Jam Gran Canaria 3 para la Ludum Dare #41.",
+    "summary": "Juego de habilidad en el que el jugador debe hacer frente a la dura vida de oficina sin perder la paciencia. Desarrollado en equipo para la [Island Jam 3](https://itch.io/jam/island-jam-iii) / [Ludum Dare #41](https://ldjam.com/events/ludum-dare/41).",
     "background": "Eres Viggo, un poderoso guerrero vikingo sediento de sangre que recientemente ha comenzado a trabajar en una oficina. Cuida de tu lugar de trabajo mientras lidias con los molestos aviones de papel que lanzan tus compañeros. Y lo que es más importante, ¡intenta controlar tu ira!.",
     "mechanics": "Estás sentado frente a tu escritorio. El ordenador, la impresora y el teléfono reclamarán tu atención y tendrás que clicar sobre ellos y seguir la secuencia de teclas para mantenerlos bajo control.\nMientras esto ocurre, algunos aviones de papel pasarán volando y pondrán a prueba tu paciencia. ¡Derrívalos a tiempo!",
     "controls": [
@@ -47,7 +47,7 @@
     "links": [
         {
             "text": "Jugar a Administrathor online",
-            "href": "https://www.moisesjose.com/games/administrathor/play"
+            "href": "games/administrathor/play"
         },
         {
             "text": "Página de Administrathor en Ludum Dare #41",

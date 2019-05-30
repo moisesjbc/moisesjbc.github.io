@@ -16,6 +16,7 @@ import { LiteratureListComponent } from './sections/literature-list/literature-l
 import { LiteratureDetailComponent } from './sections/literature-detail/literature-detail.component';
 import { LinksListComponent } from './lib/links-list/links-list.component';
 import { BreadcumbComponent } from './lib/breadcumb/breadcumb.component';
+import { GamePlayComponent } from './sections/game-play/game-play.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { BreadcumbComponent } from './lib/breadcumb/breadcumb.component';
     LiteratureDetailComponent,
     LinksListComponent,
     BreadcumbComponent,
+    GamePlayComponent,
   ],
   imports: [
     BrowserModule,

@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { GamesListComponent } from './sections/games-list/games-list.component';
 import { GameDetailComponent } from './sections/game-detail/game-detail.component';
+import { GamePlayComponent } from './sections/game-play/game-play.component';
 import { HomeComponent } from './sections/home/home.component';
 import { SoftwareListComponent } from './sections/software-list/software-list.component';
 import { SoftwareDetailComponent } from './sections/software-detail/software-detail.component'
@@ -12,6 +13,7 @@ const routes: Routes = [
     { path: '', component: HomeComponent },
     { path: 'games', component: GamesListComponent },
     { path: 'games/:id', component: GameDetailComponent },
+    { path: 'games/:id/play', component: GamePlayComponent },
     { path: 'software', component: SoftwareListComponent },
     { path: 'software/:id', component: SoftwareDetailComponent },
     { path: 'literature', component: LiteratureListComponent },

@@ -2,7 +2,7 @@
     "img": "https://raw.githubusercontent.com/moisesjbc/conway-game-of-life/master/conway-game-of-life.png",
     "title": "Juego de la vida de Conway",
     "summary": "Implementación de [El juego de la vida de Conway](https://es.wikipedia.org/wiki/Juego_de_la_vida) realizada en Javascript usando [Phaser, un framework de código abierto de juegos HTML5](http://phaser.io/)", 
-    "mechanics": "Simplemente activa las células que desees y dale a \"step\" o \"play\".",
+    "mechanics": "Simplemente activa / desactiva las células que desees y dale a \"step\" o \"play\".",
     "controls": [
         {
             "key": "Botón izquierdo del ratón",
@@ -22,7 +22,7 @@
     "links": [
         {
             "text": "Jugar online",
-            "href": "https://rawgit.com/moisesjbc/conway-game-of-life/master/conway-game-of-life.html"
+            "href": "games/conway/play"
         },
         {
             "text": "Enlace al repositorio en Github",

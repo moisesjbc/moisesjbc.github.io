@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { DomSanitizer } from '@angular/platform-browser'
+import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser'
 
 @Component({
   selector: 'app-game-play',
@@ -8,7 +8,7 @@ import { DomSanitizer } from '@angular/platform-browser'
   styleUrls: ['./game-play.component.css']
 })
 export class GamePlayComponent implements OnInit {
-  private gameHref: number;
+  private gameHref: SafeResourceUrl;
 
   constructor(private route: ActivatedRoute, private sanitizer: DomSanitizer) {
     var gameId : string = this.route.snapshot.paramMap.get('id');

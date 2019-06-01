@@ -1,7 +1,7 @@
 {
     "img": "https://raw.githubusercontent.com/moisesjbc/games-factory-jam-8/master/img/piratinsul_screenshot.png",
     "title": "Piratinsul’",
-    "summary": "Juego de habilidad sobre una isla pirata que huye de la policía. Desarrollado para la Games Factory Jam 8 en [itch.io](https://itch.io/).",
+    "summary": "Juego de habilidad sobre una isla pirata que huye de la policía. Desarrollado con [Godot Engine](https://godotengine.org/) para la [Games Factory Jam 8](https://itch.io/jam/games-factory-8) en [itch.io](https://itch.io/).",
     "background": "¡La gran isla-robot-pirata Piratinsul’ acaba de robar una gran montaña de oro!\n\nPor desgracia, la policía le ha descubierto y Piratinsul’ está en plena huida. ¡Ayúdale!",
     "mechanics": "El personaje del jugador está volando lejos de la policía pero el cielo está lleno de otras islas robóticas. ¡Esquívalas todo el tiempo que puedas! (*)\n\nTen cuidado, moverte consume combustible, ¡así que úsalo bien!\n\n(*) Algunas islas, sin embargo, llevan visibles sus pilas de combustible. ¡Golpéalas para robar su energía",
     "controls": [
@@ -83,6 +83,10 @@
         ]
     },
     "links": [
+	{
+            "text": "Jugar online a Piratinsul' v1.0",
+            "href": "games/piratinsul/play"
+        },
         {
             "text": "Entrada de Piratinsul’ en la Games Factory Jam 8 (incluye descargas)",
             "href": "https://moisesjbc.itch.io/piratinsul"

@@ -1,7 +1,7 @@
 {
     "img": "https://raw.githubusercontent.com/Notnasiul/LDGC2015/master/SupessuAtakkuScreenshot.jpg",
     "title": "Superuatakku",
-    "summary": "FPS donde debemos destruir una nube que expulsa gatos que crecen al recibir daño. Desarrollado con Unity en la Ludum Dare Gran Canaria 2015 por el equipo «404» (no se nos ocurría un nombre ;-P).",
+    "summary": "FPS donde debemos destruir una nube que expulsa gatos que crecen al recibir daño. Desarrollado con Unity en la Ludum Dare Gran Canaria 2015 / [Ludum Dare #34](http://ludumdare.com/compo/ludum-dare-34) por el equipo «404» (no se nos ocurría un nombre ;-P).",
     "background": "Superuatakku, el nombre en clave de un experimento secreto de nuestro gobierto que intentaba acabar con el hambre creando ganado que creciera rápidamente. El gato del principal científico pulsó el botón equivocado y quedó atrapado en la subsecuente explosión, creando el cráter en el que te encuentras actualmente.\n\nLas creación de Superuatakku crecerá rápidamente, consumiento al mundo en dos minutos si no es detenido. La nube se defenderá con un ejército de malvados clones gatunos que también crecerán cuando les dispares… hasta que exploten. ¡Hazte camino hasta el núcleo y destruye Superuatakku!",
     "controls": [
         {

@@ -16,7 +16,8 @@
     "links": [
         {
             "text": "Descargar Moblok’ v1.0.0 para Ubuntu (x86_64) – Paquete DEB",
-            "href": "https://github.com/moisesjbc/moblok/releases/download/v1.0.0-deb_ubuntu_x86_64/moblok_1.0.0-1_x86_64.deb"
+            "href": "https://github.com/moisesjbc/moblok/releases/download/v1.0.0-deb_ubuntu_x86_64/moblok_1.0.0-1_x86_64.deb",
+            "warning": "La descarga no funciona en versiones actuales de Ubuntu"
         },
         {
             "text": "Repositorio de Moblok’ en Github",

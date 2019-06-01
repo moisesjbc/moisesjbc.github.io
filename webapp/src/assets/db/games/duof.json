@@ -1,7 +1,7 @@
 {
     "img": "https://raw.githubusercontent.com/moisesjbc/ludum-dare-43/master/multimedia/img/duof_gameplay.png",
     "title": "Duof",
-    "summary": "Juego de habilidad consistente en sobrevivir a un apocalipsis de magos zombies. Desarrollado en Godot Engine para la [Ludum Dare #43](https://ldjam.com/events/ludum-dare/43/)",
+    "summary": "Juego de habilidad consistente en sobrevivir a un apocalipsis de magos zombies. Desarrollado en [Godot Engine](https://godotengine.org/) para la [Ludum Dare #43](https://ldjam.com/events/ludum-dare/43/)",
     "mechanics": "¡El mundo de los magos está sufriendo un apocalipsis zombie!\n\nAyuda al gran mago Duof (*) a sobrevivir todo el tiempo posible mientras luchas contra hordas de zombies que intentarán drenar tu vida (magos rojos) o tu tiempo (magos verdes).\n\nUsa tu libro de conjuros para defenderte, pero ten cuidado: ¡los conjuros también consumirán tu vida o tiempo!\n\nUna última nota: algunas pociones curativas aparecerán aleatoriamente por el mapa. ¡Mantente en movimiento para encontrarlas y hacerte con ellas!\n\n(*) De «Du oferoj» («Dos sacrificios, en Esperanto).",
     "controls": [
         {
@@ -61,8 +61,8 @@
     },
     "links": [
         {
-            "text": "https://www.moisesjose.com/games/duof/play",
-            "href": "http://moisesjbc.github.io/games/duof/",
+            "text": "Jugar Duof v1.0.0 online",
+            "href": "games/duof/play",
             "warning": "Múltiples jugadores han reportado un error por el que al disparar se bloquea el juego, quedando no jugable"
         },
         {

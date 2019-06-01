@@ -17,6 +17,7 @@ import { LiteratureDetailComponent } from './sections/literature-detail/literatu
 import { LinksListComponent } from './lib/links-list/links-list.component';
 import { BreadcumbComponent } from './lib/breadcumb/breadcumb.component';
 import { GamePlayComponent } from './sections/game-play/game-play.component';
+import { NotFoundComponent } from './sections/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { GamePlayComponent } from './sections/game-play/game-play.component';
     LinksListComponent,
     BreadcumbComponent,
     GamePlayComponent,
+    NotFoundComponent,
   ],
   imports: [
     BrowserModule,

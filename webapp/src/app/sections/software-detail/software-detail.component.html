@@ -12,3 +12,7 @@
         <app-links-list [links]="softwareData.links"></app-links-list>
     </section>
 </div>
+<div *ngIf="!softwareData">
+    <p>El software buscado no existe o no pudo ser cargado.</p>
+    <p><a routerLink="/software">Volver a la lista de software</a></p>
+</div>

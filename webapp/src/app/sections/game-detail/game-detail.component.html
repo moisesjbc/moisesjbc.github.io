@@ -53,3 +53,7 @@
     <h2>Enlaces y descargas</h2>
     <app-links-list [links]="gameData.links"></app-links-list>
 </div>
+<div *ngIf="!gameData">
+    <p>El videojuego buscado no existe o no pudo ser cargado.</p>
+    <p><a routerLink="/games">Volver a la lista de videojuegos</a></p>
+</div>

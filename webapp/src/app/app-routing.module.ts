@@ -8,6 +8,7 @@ import { SoftwareListComponent } from './sections/software-list/software-list.co
 import { SoftwareDetailComponent } from './sections/software-detail/software-detail.component'
 import { LiteratureListComponent } from './sections/literature-list/literature-list.component'
 import { LiteratureDetailComponent } from './sections/literature-detail/literature-detail.component'
+import { NotFoundComponent } from './sections/not-found/not-found.component';
 
 const routes: Routes = [
     { path: '', component: HomeComponent },
@@ -17,7 +18,9 @@ const routes: Routes = [
     { path: 'software', component: SoftwareListComponent },
     { path: 'software/:id', component: SoftwareDetailComponent },
     { path: 'literature', component: LiteratureListComponent },
-    { path: 'literature/:id', component: LiteratureDetailComponent }
+    { path: 'literature/:id', component: LiteratureDetailComponent },
+    { path: '404', component: NotFoundComponent },
+    { path: '**', redirectTo: '/404' }
 ];
 
 @NgModule({

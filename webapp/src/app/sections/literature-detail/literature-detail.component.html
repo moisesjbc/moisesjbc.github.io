@@ -17,3 +17,7 @@
         <p><markdown [data]="literatureData.body"></markdown></p>
     </section>
 </div>
+<div *ngIf="!literatureData">
+    <p>El relato / libro buscado no existe o no pudo ser cargado.</p>
+    <p><a routerLink="/literature">Volver a la lista de literatura</a></p>
+</div>

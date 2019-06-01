@@ -40,7 +40,19 @@ export class BreadcumbComponent implements OnInit {
         };
       });
       if (projectName) {
-          routerTokens[routerTokens.length - 1].text = projectName;
+          // If a projectName has been received we could be at two different sections:
+          //
+          // <game-id> > play
+          // or
+          // <game-id>
+          //
+          // In both cases we replace <game-id> with its human readable name.
+          if (routerTokens[routerTokens.length - 1].text === 'play') {
+              routerTokens[routerTokens.length - 2].text = projectName;
+          } else {
+              routerTokens[routerTokens.length - 1].text = projectName;
+          }
+          
       }
 
       this.routeFragments = routerTokens;

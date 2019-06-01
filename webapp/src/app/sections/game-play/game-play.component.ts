@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser'
+import { ProjectLoader } from '../../services/project-loader/project-loader.service';
 
 @Component({
   selector: 'app-game-play',
@@ -10,11 +11,12 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser'
 export class GamePlayComponent implements OnInit {
   private gameHref: SafeResourceUrl;
 
-  constructor(private route: ActivatedRoute, private sanitizer: DomSanitizer) {
+  constructor(private route: ActivatedRoute, private sanitizer: DomSanitizer, private projectLoader: ProjectLoader) {
     var gameId : string = this.route.snapshot.paramMap.get('id');
     this.gameHref = sanitizer.bypassSecurityTrustResourceUrl('assets/games/' + gameId + '/index.html');
-    console.log('gameHref');
-    console.log(this.gameHref);
+
+    // Just trigger loading of project data for updating breadcumb.
+    this.projectLoader.loadProjectData('./assets/db/games/' + gameId + '.json');
   }
 
   ngOnInit() {

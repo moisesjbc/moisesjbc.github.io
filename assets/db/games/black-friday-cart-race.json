@@ -1,0 +1,90 @@
+{
+    "img": "https://raw.githubusercontent.com/moisesjbc/island-jam-ii/master/black-friday-cart-race.png",
+    "title": "Black Friday Cart Race",
+    "summary": "Juego de habilidad en el que el jugador debe comprar todo lo que pueda en un minuto. Desarrollado en equipo con [Unity](https://unity.com) en la [Island Jam Gran Canaria 2](https://www.spegc.org/formacion-y-eventos/ii-island-jam-gran-canaria-islandjamgc/) para la [Ludum Dare #40](https://ldjam.com/events/ludum-dare/40/)",
+    "mechanics": "¿Black Friday? ¿Hoy? ¡¿Ahora?! ¡Rápido! Coge tantas ofertas como puedas en un minuto asegurándote de pasar por caja para asegurar tu puntuación. ¡Pero cuidado! El resto de compradores no dudará en robar tus compras. ¿Conseguirás hacerte con todo?\n\nEvita al resto de compradores, así como los molestos charcos y toma los objetos repartidos por todo el supermercado en menos de un minuto. Pero recuerda: cuánto más tengas, peor (*). ¡Cuanto más objetos cargues más lento irás y más te costará ver la pantalla!\n\n(*) \"The more you have, the worse it is\". Tema de la Ludum Dare #40.",
+    "controls": [
+        {
+            "key": "Flechas",
+            "meaning": "mover al jugador"
+        },
+        {
+            "key": "Espacio",
+            "meaning": "sacudir el carro"
+        }
+    ],
+    "credits": {
+        "own": [
+            {
+                "title": "Arte",
+                "people": [
+                    "Eduardo Richelet López"
+                ]
+            },
+            {
+                "title": "Programación",
+                "people": [
+                    "Roberto González Suárez",
+                    "Irina Marrero Betancor",
+                    "Moisés J. Bonilla Caraballo"
+                ]
+            },
+            {
+                "title": "Música",
+                "people": [
+                    "Ángel Cortiñas Hidalgo"
+                ]
+            }
+        ],
+        "third-party": [
+            {
+                "title": "Música y sonidos",
+                "body": "Los siguientes sonidos y música fueron descargados de <a href=\"https://www.freesound.org\">freesound.org</a> y pertenecen a sus respectivos autores",
+                "resources": [
+                    {
+                        "author": "davidferoli",
+                        "name": "Agua_Chapoteo_Charco.wav"
+                    },
+                    {
+                        "author": "qubodup",
+                        "name": "US Military Soldier Shouting “Whoo!”"
+                    },
+                    {
+                        "author": "Tristan_Lohengrin",
+                        "name": "Drop armor and bag"
+                    },
+                    {
+                        "author": "FoolBoyMedia",
+                        "name": "Race Track"
+                    },
+                    {
+                        "author": "Reitanna",
+                        "name": "dumb what.wav"
+                    },
+                    {
+                        "author": "kiddpark",
+                        "name": "Cash Register"
+                    },
+                    {
+                        "author": "13F_Panská_Kettner_Filip",
+                        "name": "atmo small market.wav"
+                    }
+                ]
+            }
+        ]
+    },
+    "links": [
+        {
+            "text": "Jugar a Black Friday Cart Race online",
+            "href": "games/black-friday-cart-race/play"
+        },
+        {
+            "text": "Página de Black Friday Cart Race en Ludum Dare #40",
+            "href": "https://ldjam.com/events/ludum-dare/40/black-friday-cart-race"
+        },
+        {
+            "text": "Repositorio de Black Friday Cart Race en Github",
+            "href": "https://github.com/moisesjbc/island-jam-ii"
+        }
+    ]
+}

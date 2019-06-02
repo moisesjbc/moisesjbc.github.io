@@ -3,7 +3,7 @@
     <h2>¡Bienvenido!</h2>
     <div><markdown *ngIf="homeData" [data]="homeData.about_me"></markdown></div>
     <h2>Noticias</h2>
-    <ul>
+    <ul *ngIf="homeData.news">
         <li class="new" *ngFor="let new of homeData.news">[{{ new.date }}]:{{ new.body }}</li>
     </ul>
 </div>

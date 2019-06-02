@@ -9,7 +9,7 @@ import { ProjectLoader } from '../../services/project-loader/project-loader.serv
   styleUrls: ['./game-play.component.css']
 })
 export class GamePlayComponent implements OnInit {
-  private gameHref: SafeResourceUrl;
+  public gameHref: SafeResourceUrl;
 
   constructor(private route: ActivatedRoute, private sanitizer: DomSanitizer, private projectLoader: ProjectLoader) {
     var gameId : string = this.route.snapshot.paramMap.get('id');

@@ -9,7 +9,7 @@ import { ProjectLoader } from '../../services/project-loader/project-loader.serv
 })
 export class GameDetailComponent implements OnInit {
 
-    gameData : any;
+    public gameData : any;
 
     constructor(private route: ActivatedRoute, private projectLoader: ProjectLoader) {
         const id = this.route.snapshot.paramMap.get('id');

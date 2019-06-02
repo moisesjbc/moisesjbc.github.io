@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./software-list.component.css']
 })
 export class SoftwareListComponent implements OnInit {
-  private softwareIds: string[] = null;
+  public softwareIds: string[] = null;
 
   constructor(private http: HttpClient) { }
 

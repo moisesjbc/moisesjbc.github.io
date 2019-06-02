@@ -10,7 +10,7 @@ import { ProjectLoader } from '../../services/project-loader/project-loader.serv
 })
 export class SoftwareDetailComponent implements OnInit {
 
-  private softwareData: any;
+  public softwareData: any;
 
   constructor(private route: ActivatedRoute, private sanitizer: DomSanitizer, private projectLoader: ProjectLoader) { }
 

@@ -11,8 +11,8 @@ export class ProjectSummaryComponent implements OnInit {
   @Input() public projectsType: string;
   @Input() public headersLevel: number = 2;
 
-  private projectData : any = null;
-  private projectHref : string = null;
+  public projectData : any = null;
+  public projectHref : string = null;
 
   constructor(private http : HttpClient) {
     

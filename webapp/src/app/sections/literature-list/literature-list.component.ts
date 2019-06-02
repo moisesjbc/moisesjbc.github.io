@@ -8,8 +8,8 @@ import { HttpClient } from '@angular/common/http';
 })
 export class LiteratureListComponent implements OnInit {
 
-  private bookIds: string[];
-  private shortStoryIds: string[];
+  public bookIds: string[];
+  public shortStoryIds: string[];
 
   constructor(private http: HttpClient) { }
 

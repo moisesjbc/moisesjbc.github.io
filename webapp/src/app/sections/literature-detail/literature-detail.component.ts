@@ -10,7 +10,7 @@ import { ProjectLoader } from '../../services/project-loader/project-loader.serv
 })
 export class LiteratureDetailComponent implements OnInit {
 
-    private literatureData : any;
+    public literatureData : any;
 
     constructor(private http: HttpClient, private route: ActivatedRoute, private projectLoader: ProjectLoader) {
         const id = this.route.snapshot.paramMap.get('id');

@@ -13,6 +13,17 @@
         npm install
         ng serve --host 0.0.0.0
 
+## Deploying to Github Pages
 
-ng build --prod --base-href https://moisesjbc.github.io/personal-website/
-git subtree push --prefix webapp/dist/webapp origin gh-pages
+1. Run the following **inside Docker container**:
+
+        ng build --prod --base-href https://moisesjbc.github.io/personal-website/
+        cp dist/webapp/index.html dist/webapp/404.html
+        echo -e '---\npermalink: /404.html\n---' | cat - dist/webapp/404.html > /tmp/temp
+
+2. Commit changes
+
+3. Publish to `gh-pages` branch:
+
+        git subtree push --prefix webapp/dist/webapp origin gh-pages
+

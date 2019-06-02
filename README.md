@@ -12,3 +12,7 @@
 
         npm install
         ng serve --host 0.0.0.0
+
+
+ng build --prod --base-href https://moisesjbc.github.io/personal-website/
+git subtree push --prefix webapp/dist/webapp origin gh-pages

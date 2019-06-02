@@ -1,0 +1,99 @@
+{
+    "img": "https://raw.githubusercontent.com/moisesjbc/games-factory-jam-8/master/img/piratinsul_screenshot.png",
+    "title": "Piratinsul’",
+    "summary": "Juego de habilidad sobre una isla pirata que huye de la policía. Desarrollado con [Godot Engine](https://godotengine.org/) para la [Games Factory Jam 8](https://itch.io/jam/games-factory-8) en [itch.io](https://itch.io/).",
+    "background": "¡La gran isla-robot-pirata Piratinsul’ acaba de robar una gran montaña de oro!\n\nPor desgracia, la policía le ha descubierto y Piratinsul’ está en plena huida. ¡Ayúdale!",
+    "mechanics": "El personaje del jugador está volando lejos de la policía pero el cielo está lleno de otras islas robóticas. ¡Esquívalas todo el tiempo que puedas! (*)\n\nTen cuidado, moverte consume combustible, ¡así que úsalo bien!\n\n(*) Algunas islas, sin embargo, llevan visibles sus pilas de combustible. ¡Golpéalas para robar su energía",
+    "controls": [
+        {
+            "key": "Flechas izquierda / derecha",
+            "meaning": "movimiento lateral"
+        }
+    ],
+    "credits": {
+        "own": [
+            {
+                "title": "Idea, gráficos y programación",
+                "people": [
+                    "Moisés J. Bonilla Caraballo"
+                ]
+            }
+        ],
+        "third-party": [
+            {
+                "title": "Música y sonidos",
+                "body": "Todos los sonidos fueron descargados de <a href=\"https://www.freesound.org\">freesound.org</a> y pertenecen a sus respectivos autores.",
+                "resources": [
+                    {
+                        "author": "Timbre",
+                        "name": "Faster version of alphatone’s Freesound #385876.flac",
+                        "href": "https://freesound.org/people/Timbre/sounds/385882/",
+                        "note": "Música"
+                    },
+                    {
+                        "author": "CGEffex",
+                        "name": "Cans crash vers.2.mp3",
+                        "href": "https://freesound.org/people/CGEffex/sounds/92347/",
+                        "note": "Colisión con enemigos"
+                    },
+                    {
+                        "author": "sharesynth",
+                        "name": "Powerup05.wav",
+                        "href": "https://freesound.org/people/sharesynth/sounds/344522/",
+                        "note": "Recarga de batería"
+                    },
+                    {
+                        "author": "deleted_user_877451",
+                        "name": "Game_over.wav",
+                        "href": "https://freesound.org/people/deleted_user_877451/sounds/76376/",
+                        "note": "Game over"
+                    }
+                ]
+            },
+            {
+                "title": "Software",
+                "resources": [
+                    {
+                        "name": "Godot Engine",
+                        "href": "https://godotengine.org/"
+                    },
+                    {
+                        "name": "Gimp",
+                        "href": "https://www.gimp.org/"
+                    },
+                    {
+                        "name": "SimpleScan",
+                        "href": "https://gitlab.gnome.org/GNOME/simple-scan"
+                    },
+                    {
+                        "name": "dir2ogg",
+                        "href": "https://github.com/julian-klode/dir2ogg"
+                    }
+                 ]
+            },
+            {
+                "title": "Fuentes",
+                "resources": [
+                    {
+                        "name": "Ubuntu-B.ttf",
+                        "href": "https://design.ubuntu.com/font/"
+                    }
+                 ]
+            }
+        ]
+    },
+    "links": [
+	{
+            "text": "Jugar online a Piratinsul' v1.0",
+            "href": "games/piratinsul/play"
+        },
+        {
+            "text": "Entrada de Piratinsul’ en la Games Factory Jam 8 (incluye descargas)",
+            "href": "https://moisesjbc.itch.io/piratinsul"
+        },
+        {
+            "text": "Repositorio de Piratinsul’ en Github",
+            "href": "https://github.com/moisesjbc/games-factory-jam-8"
+        }
+    ]
+}

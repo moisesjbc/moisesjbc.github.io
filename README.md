@@ -17,7 +17,7 @@
 
 1. Run the following **inside Docker container**:
 
-        ng build --prod --base-href https://moisesjbc.github.io/personal-website/
+        ng build --prod --base-href /
         cp dist/webapp/index.html dist/webapp/404.html
         echo -e '---\npermalink: /404.html\n---' | cat - dist/webapp/404.html > /tmp/temp
 
@@ -27,3 +27,6 @@
 
         git subtree push --prefix webapp/dist/webapp origin gh-pages
 
+## Help
+
+- [Using custom donain for GitHub pages](https://medium.com/@hossainkhan/using-custom-domain-for-github-pages-86b303d3918a)

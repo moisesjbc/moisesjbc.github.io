@@ -19,7 +19,7 @@
 
         ng build --prod --base-href /
         cp dist/webapp/index.html dist/webapp/404.html
-        echo -e '---\npermalink: /404.html\n---' | cat - dist/webapp/404.html > /tmp/temp
+        echo -e '---\npermalink: /404.html\n---' | cat - dist/webapp/404.html > /tmp/temp && mv /tmp/temp dist/webapp/404.html
 
 2. Commit changes
 

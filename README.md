@@ -23,10 +23,11 @@
 
 2. Commit changes
 
-3. Publish to `gh-pages` branch:
+3. Publish to `master` branch:
 
-        git subtree push --prefix webapp/dist/webapp origin gh-pages
+        git subtree push --prefix webapp/dist/webapp origin master
 
 ## Help
 
 - [Using custom donain for GitHub pages](https://medium.com/@hossainkhan/using-custom-domain-for-github-pages-86b303d3918a)
+- [Github Pages — Setting up WWW subdomain with SSL (HTTPS) and avoiding ERR_CERT_COMMON_NAME_INVALID errors](https://medium.com/@monarchwadia/github-pages-setting-up-www-subdomain-with-ssl-https-aca9eca371d6)

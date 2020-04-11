@@ -26,6 +26,10 @@
 3. Publish to `master` branch:
 
         git subtree push --prefix webapp/dist/webapp origin master
+        
+        or, if fails
+
+        git push origin `git subtree split --prefix webapp/dist/webapp/`:master --force
 
 ## Help
 

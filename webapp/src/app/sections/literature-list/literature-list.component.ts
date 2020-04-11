@@ -10,6 +10,7 @@ export class LiteratureListComponent implements OnInit {
 
   public bookIds: string[];
   public shortStoryIds: string[];
+  public footer: string;
 
   constructor(private http: HttpClient) { }
 

@@ -6,12 +6,12 @@
 
         sudo apt install docker.io
         docker build --build-arg UID=$UID -t personal-website .
-        docker run -v `pwd`/webapp:/opt/web -p 4200:4200 -it personal-website
+        docker run -v `pwd`/webapp:/opt/web -p 3000:3000 -it personal-website
 
 2. (Inside container) Build app dependencies and run test server
 
         npm install
-        ng serve --host 0.0.0.0
+        npm run start
 
 ## Deploying to Github Pages
 

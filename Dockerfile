@@ -1,7 +1,7 @@
 FROM alpine:3.9.4
 MAINTAINER Moisés J. <moisesjbc@gmail.com>
 
-# Install Git, Node and NPM
+# Install dependencies
 RUN apk add git nodejs npm
 
 # Set working directory as the current user.
@@ -10,7 +10,7 @@ RUN adduser user user -u $UID -D
 RUN mkdir /opt/web && chown user:user /opt/web
 WORKDIR /opt/web
 
-# Expose default port for serving Angular apps.
-EXPOSE 4200
+# Expose default port for serving React apps.
+EXPOSE 3000
 
 ENTRYPOINT su user

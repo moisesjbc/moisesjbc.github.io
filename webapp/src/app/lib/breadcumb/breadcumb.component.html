@@ -1,9 +1,0 @@
-<div *ngIf="routeFragments" class="breadcumb">
-    <a *ngIf="routeFragments.length" href="/">{{ locale.home }}</a>
-
-    <span *ngFor="let routeFragment of routeFragments; let i = index">
-        &gt; 
-        <a *ngIf="i < this.routeFragments.length - 1" [href]="routeFragment.url">{{ this.routeFragment.text }}</a>
-        <span *ngIf="i >= routeFragments.length - 1">{{ routeFragment.text }}</span>
-    </span>
-</div>

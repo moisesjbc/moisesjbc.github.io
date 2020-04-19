@@ -1,9 +1,8 @@
 FROM alpine:3.9.4
 MAINTAINER Moisés J. <moisesjbc@gmail.com>
 
-# Install Git, Node, NPM and Angular
+# Install Git, Node and NPM
 RUN apk add git nodejs npm
-RUN npm install -g @angular/cli
 
 # Set working directory as the current user.
 ARG UID

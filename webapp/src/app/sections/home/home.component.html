@@ -1,9 +1,0 @@
-<div class="home" *ngIf="homeData">
-    <h1>Home</h1>
-    <h2>¡Bienvenido!</h2>
-    <div><markdown [data]="homeData.about_me"></markdown></div>
-    <h2>Noticias</h2>
-    <ul>
-        <li class="new" *ngFor="let new of homeData.news">[{{ new.date }}]: <markdown [data]="new.body"></markdown></li>
-    </ul>
-</div>

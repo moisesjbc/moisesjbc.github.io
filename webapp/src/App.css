@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    background-color: #fff2dd;
+}
+
+#navigation {
+    display: flex;
+    padding: 15px 15px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#content {
+    width: 75vw;
+    height: 100vh;
+    margin: auto;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    overflow-y: hidden;
+    background-color: white;
+}
+
+#header {
+    text-align: center;
+}
+
+#navigation a {
+    text-align: center;
+    flex: 1 1;
+}
+

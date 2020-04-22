@@ -13,4 +13,8 @@ WORKDIR /opt/web
 # Expose default port for serving React apps.
 EXPOSE 3000
 
+# Enable hot reloading while developing
+# Source: <https://github.com/facebook/create-react-app/issues/3969>
+ENV CHOKIDAR_USEPOLLING=true
+
 ENTRYPOINT su user

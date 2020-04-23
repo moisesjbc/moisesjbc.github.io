@@ -1,20 +1,33 @@
 import React from 'react';
 import './App.css';
+import { Route, NavLink, BrowserRouter } from 'react-router-dom';
+import Home from './sections/home/Home';
+import Games from './sections/games/Games';
+import Software from './sections/software/Software';
+import Literature from './sections/literature/Literature';
 
 function App() {
   return (
     <div className="App">
-        <div id="content">
-            <header id="header" className="App-header">
-                <h1>moisesjose.com</h1>
-            </header>
-            <nav id="navigation">
-                <a href="/">Home</a>
-                <a href="/games">Videjuegos</a>
-                <a href="/software">Software</a>
-                <a href="/literature">Literatura</a>
-            </nav>
-        </div>
+        <BrowserRouter>
+            <div id="body">
+                <header id="header" className="App-header">
+                    <h1>moisesjose.com</h1>
+                </header>
+                <nav id="navigation">
+                    <NavLink to="/">Home</NavLink>
+                    <NavLink to="/games">Videjuegos</NavLink>
+                    <NavLink to="/software">Software</NavLink>
+                    <NavLink to="/literature">Literatura</NavLink>
+                </nav>
+                <div id="content">
+                    <Route path="/" exact component={Home} />
+                    <Route path="/games" exact component={Games} />
+                    <Route path="/software" exact component={Software} />
+                    <Route path="/literature" exact component={Literature} />
+                </div>
+            </div>
+        </BrowserRouter>
     </div>
   );
 }

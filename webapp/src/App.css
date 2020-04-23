@@ -3,14 +3,7 @@ body {
     background-color: #fff2dd;
 }
 
-#navigation {
-    display: flex;
-    padding: 15px 15px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-}
-
-#content {
+#body {
     width: 75vw;
     height: 100vh;
     margin: auto;
@@ -24,8 +17,18 @@ body {
     text-align: center;
 }
 
+#navigation {
+    display: flex;
+    padding: 15px 15px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
 #navigation a {
     text-align: center;
     flex: 1 1;
 }
 
+#content {
+    padding: 0px 20px;
+}

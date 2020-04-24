@@ -1,0 +1,89 @@
+{
+    "img": "https://raw.githubusercontent.com/moisesjbc/island-jam-5/master/img/screenshot.png",
+    "title": "Elf hunting",
+    "summary": "Juego de habilidad sobre una elfa cazando criaturas y combinándolas para obtener mejoras. Realizado en equipo para la <a target=\"_blank\" href=\"https://itch.io/jam/island-jam-v\">Island Jam V</a>.",
+    "mechanics": "-     ¡Intenta cazar al mayor numero de objetivos sin que ellos te cacen a tí!\n-Cuanto más caces mejor puntuación. ¡No te confies! ¡El tiempo corre en contra tuya!\n-Para mejorar tu puntuación combina los enemigos cazados. ¡Puedes combinarlos entre ellos para crear platos nuevos que pueden beneficiarte! ¡Cuidado con lo que combinas, no todo los platos son buenos!",
+    "controls": [
+        {
+            "key": "A, S, D, W",
+            "meaning": "Movimiento"
+        },
+        {
+            "key": "Movimiento del ratón",
+            "meaning": "Apuntar"
+        },
+        {
+            "key": "Click izquierdo",
+            "meaning": "Disparar y agarrar / soltar cadáver."
+        }
+    ],
+    "credits": {
+        "own": [
+            {
+                "title": "Diseño",
+                "people": [
+                    "Moises.J Bonilla Caraballo",
+                    "Yaiza Bonilla Fernández",
+                    "Oscar Lindenborn Bordona"
+                ]
+            },
+            {
+                "title": "Programación",
+                "people": [
+                    "Moises.J Bonilla Caraballo"
+                ]
+            },
+            {
+                "title": "Arte conceptual",
+                "people": [
+                    "Yaiza Bonilla Fernández"
+                ]
+            }
+        ],
+        "third-party": [
+            {
+                "title": "Original soundtrack from FreeSounds",
+                "resources": [
+                    {
+                        "author": "cheira",
+                        "name": "020 Grito de mujer-glued.wav"
+                    },
+                    {
+                        "author": "ecfike",
+                        "name": "Dude Pack » Ugh! 2.wav"
+                    },
+                    {
+                        "author": "Deathscyp",
+                        "name": "Deathscyp Factory » Damage-1.wav "
+                    },
+                    {
+                        "author": "EverHeat",
+                        "name": "Sound Effects » Backpack1.wav"
+                    },
+                    {
+                        "author": "Chewing",
+                        "name": "Breadstick » Chewing, Breadstick, Single, C.wav"
+                    }
+                ]
+            }
+        ]
+    },
+    "links": [
+        {
+            "text": "Jugar a «Elf hunting» online",
+            "href": "games/elf-hunting/play"
+        },
+        {
+            "text": "Descargar «Elf hunting» v1.1 para Windows",
+            "href": "https://github.com/moisesjbc/island-jam-5/releases/download/v1.1/elf-hunting_windows_v1.1.zip"
+        },
+        {
+            "text": "Descargar «Elf hunting» v1.1 para Linux",
+            "href": "https://github.com/moisesjbc/island-jam-5/releases/download/v1.1/elf-hunting_linux_v1.1.zip"
+        },
+        {
+            "text": "Repositorio de «Elf hunting» en Github",
+            "href": "https://github.com/moisesjbc/island-jam-5/"
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "img": "https://raw.githubusercontent.com/moisesjbc/sandwiches-game/master/img/jdb.jpg",
+    "title": "El Juego De los Bocadillos (JDB)",
+    "summary": "Juego de habilidad 2D cuyo objetivo consiste en eliminar los peligros que viajan sobre unos deliciosos bocadillos.",
+    "controls": [
+        {
+            "key": "1, 2, 3, 4",
+            "meaning": "seleccionar herramienta"
+        },
+        {
+            "key": "Movimiento del ratón",
+            "meaning": "apuntar"
+        },
+        {
+            "key": "Botón izquierdo del ratón",
+            "meaning": "usar herramienta"
+        }
+    ],
+    "credits": {
+        "own": [
+            {
+                "title": "Idea, programación y gráficos",
+                "people": [
+                    "Moisés J. Bonilla Caraballo"
+                ]
+            }
+        ],
+        "third-party": [
+            {
+                "title": "Música y sonidos",
+                "body": "Los sonidos y la música se ha descargado de <a href=\"https://www.freesound.org\">freesound.org</a> y otras fuentes libres."
+            }
+        ]
+    },
+    "links": [
+        {
+            "text": "Descargar «El Juego De los Bocadillos» v1.1 para Ubuntu 14.04 o superior (x86_64)",
+            "href": "https://github.com/moisesjbc/sandwiches-game/releases/download/v1.1.0/sandwiches-game-1.1.0-Linux.deb",
+            "warning": "Paquete obsoleto para versiones posteriores de Ubuntu - pe. 18.04 -"
+        },
+        {
+            "text": "Descargar «El Juego De los Bocadillos» v1.1 para Windows (32 bits – i686)",
+            "href": "https://github.com/moisesjbc/sandwiches-game/releases/download/v1.1.0/sandwiches-game-1.1.0-win32.zip"
+        },
+        {
+            "text": "Repositorio de «El Juego De los Bocadillos» en Github",
+            "href": "https://github.com/moisesjbc/sandwiches-game"
+        }
+    ]
+}

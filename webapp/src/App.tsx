@@ -8,7 +8,7 @@ import Literature from './sections/literature/Literature';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container-fluid">
         <BrowserRouter>
             <div id="body">
                 <header id="header" className="App-header">

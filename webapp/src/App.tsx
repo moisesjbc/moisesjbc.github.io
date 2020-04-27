@@ -3,6 +3,7 @@ import './App.css';
 import { Route, NavLink, BrowserRouter } from 'react-router-dom';
 import Home from './sections/home/Home';
 import Games from './sections/games/Games';
+import GameDetail from './sections/game.detail/GameDetail';
 import Software from './sections/software/Software';
 import Literature from './sections/literature/Literature';
 
@@ -23,6 +24,7 @@ function App() {
                 <div id="content">
                     <Route path="/" exact component={Home} />
                     <Route path="/games" exact component={Games} />
+                    <Route path="/games/:id" component={GameDetail} />
                     <Route path="/software" exact component={Software} />
                     <Route path="/literature" exact component={Literature} />
                 </div>

@@ -10,11 +10,11 @@ function ProjectSummary(props: any) {
         <div className="project-summary-div col-3">
              <h2>{ projectData['title'] }</h2>
              <div className="project-summary-body-div">
-                { Boolean(projectData['img']) && <NavLink to={`games/${projectData['id']}`}><img src={projectData['img']} /></NavLink> }
+                { Boolean(projectData['img']) && <NavLink to={`/games/${projectData['id']}`}><img src={projectData['img']} alt={`Captura de pantalla del juego '${projectData['title']}'`} /></NavLink> }
                 <ReactMarkdown source={projectData['summary']}/>
             </div>
             <div className="project-summary-footer-div">
-                <NavLink to={`games/${projectData['id']}`}>Ir a página de {projectData['title']}</NavLink>
+                <NavLink to={`/games/${projectData['id']}`}>Ir a página de {projectData['title']}</NavLink>
             </div>
         </div>
     )

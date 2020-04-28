@@ -5,6 +5,7 @@ import Home from './sections/home/Home';
 import Games from './sections/games/Games';
 import GameDetail from './sections/game.detail/GameDetail';
 import Software from './sections/software/Software';
+import SoftwareDetail from './sections/software.detail/SoftwareDetail';
 import Literature from './sections/literature/Literature';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
                     <Route path="/games" exact component={Games} />
                     <Route path="/games/:id" component={GameDetail} />
                     <Route path="/software" exact component={Software} />
+                    <Route path="/software/:id" component={SoftwareDetail} />
                     <Route path="/literature" exact component={Literature} />
                 </div>
             </div>

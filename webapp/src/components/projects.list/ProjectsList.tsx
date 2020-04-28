@@ -19,7 +19,7 @@ function ProjectsList(props: any) {
     return (
         <>
             {projectsData.map((projectData, index) => (
-                <ProjectSummary key={index} projectData={projectData} />
+                <ProjectSummary key={index} projectSubDir={projectsType} projectData={projectData} />
             ))}
         </>
     );

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink, useParams } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
+import LinksList from '../../components/links.list/LinksList';
 
 function GameDetail() {
     let { id } = useParams();
@@ -14,20 +15,6 @@ function GameDetail() {
             setGameData(null);
         }
     }, [id]);
-
-    const linksList = (links: Array<any>) => (
-        <ul>
-            {links.map((link, index) => (
-                <li key={index}>
-                    {link.href.startsWith('http') ?
-                        <a target="_blank" rel="noopener noreferrer" href={ link.href }>{ link.text }</a>
-                        : <a href={link.hre}>{ link.text }</a>
-                    }
-                    {link.warning && <span> ({ link.warning })</span>}
-                </li>
-            ))}
-        </ul>
-    );
 
     const renderLinkWithoutAuthor = (resource: any) => {
         if (resource.href) {
@@ -106,7 +93,7 @@ function GameDetail() {
                     </section>}
 
                     <h2>Enlaces y descargas</h2>
-                    {linksList(gameData.links)}
+                    <LinksList links={gameData.links} />
                 </div>
                 : <div>
                     <p>El videojuego buscado no existe o no pudo ser cargado.</p>

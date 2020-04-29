@@ -17,11 +17,11 @@ function ProjectsList(props: any) {
     }, [projectsType, projectIds]);
 
     return (
-        <>
+        <div className="row">
             {projectsData.map((projectData, index) => (
                 <ProjectSummary key={index} projectSubDir={projectsType} projectData={projectData} />
             ))}
-        </>
+        </div>
     );
 }
 

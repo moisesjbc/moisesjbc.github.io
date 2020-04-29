@@ -6,13 +6,13 @@ function Literature() {
     return (
         <>
             <h2>Libros</h2>
-            <ProjectsList projectsType="literature" projectIds={index['books']} />
+            <ProjectsList projectsType="literature" projectIds={index['books']} headersLevel={3} />
 
             <h2>Relatos cortos</h2>
             {index['short-stories'].map((periodShortStories: any, index: number) => (
                 <section key={`''+${index}`}>
                     <h3>{ periodShortStories.year }</h3>
-                    <ProjectsList projectsType="literature" projectIds={periodShortStories['short-stories']} />
+                    <ProjectsList projectsType="literature" projectIds={periodShortStories['short-stories']} headersLevel={4} />
                 </section>
             ))}
         </>

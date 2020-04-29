@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ProjectSummary from '../../components/project.summary/ProjectSummary';
 
 function ProjectsList(props: any) {
-    let {projectsType, projectIds} = props;
+    let {projectsType, projectIds, headersLevel = 2} = props;
     let [projectsData, setProjectsData] = useState<Array<any>>([]);
 
     useEffect(() => {
@@ -19,7 +19,7 @@ function ProjectsList(props: any) {
     return (
         <div className="row">
             {projectsData.map((projectData, index) => (
-                <ProjectSummary key={index} projectSubDir={projectsType} projectData={projectData} />
+                <ProjectSummary key={index} projectSubDir={projectsType} projectData={projectData} headerLevel={headersLevel} />
             ))}
         </div>
     );

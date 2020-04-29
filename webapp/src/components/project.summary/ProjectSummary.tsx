@@ -4,11 +4,15 @@ import { NavLink } from 'react-router-dom';
 import './ProjectSummary.css';
 
 function ProjectSummary(props: any) {
-    let {projectSubDir, projectData} = props;
+    let {projectSubDir, projectData, headerLevel = 2} = props;
+
+    const projectHeader = (projectTitle: string, headerLevel: number) => {
+        return React.createElement(`h${headerLevel}`, null, projectTitle);
+    };
 
     return (
         <div className="project-summary-div col-3">
-             <h2>{ projectData['title'] }</h2>
+             { projectHeader(projectData['title'], headerLevel) }
              <div className="project-summary-body-div">
                 { Boolean(projectData['img']) && <NavLink to={`/${projectSubDir}/${projectData['id']}`}><img src={projectData['img']} alt={`Captura de pantalla del juego '${projectData['title']}'`} /></NavLink> }
                 <ReactMarkdown source={projectData['summary']}/>

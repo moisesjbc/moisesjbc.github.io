@@ -7,6 +7,7 @@ import GameDetail from './sections/game.detail/GameDetail';
 import Software from './sections/software/Software';
 import SoftwareDetail from './sections/software.detail/SoftwareDetail';
 import Literature from './sections/literature/Literature';
+import LiteratureDetail from './sections/literature.detail/LiteratureDetail';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
                     <Route path="/software" exact component={Software} />
                     <Route path="/software/:id" component={SoftwareDetail} />
                     <Route path="/literature" exact component={Literature} />
+                    <Route path="/literature/:id" component={LiteratureDetail} />
                 </div>
             </div>
         </BrowserRouter>

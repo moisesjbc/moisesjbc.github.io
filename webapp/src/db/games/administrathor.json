@@ -47,7 +47,7 @@
     "links": [
         {
             "text": "Jugar a Administrathor online",
-            "href": "games/administrathor/play"
+            "href": "/games/administrathor/play"
         },
         {
             "text": "Página de Administrathor en Ludum Dare #41",

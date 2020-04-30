@@ -21,7 +21,7 @@
     "links": [
         {
             "text": "Jugar a SnakeJS online",
-            "href": "games/snakejs/play"
+            "href": "/games/snakejs/play"
         },
         {
             "text": "Repositorio de SnakeJS en Github",

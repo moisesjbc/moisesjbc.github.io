@@ -4,6 +4,7 @@ import { Route, NavLink, BrowserRouter } from 'react-router-dom';
 import Home from './sections/home/Home';
 import Games from './sections/games/Games';
 import GameDetail from './sections/game.detail/GameDetail';
+import GamePlay from './sections/game.play/GamePlay';
 import Software from './sections/software/Software';
 import SoftwareDetail from './sections/software.detail/SoftwareDetail';
 import Literature from './sections/literature/Literature';
@@ -26,11 +27,12 @@ function App() {
                 <div id="content">
                     <Route path="/" exact component={Home} />
                     <Route path="/games" exact component={Games} />
-                    <Route path="/games/:id" component={GameDetail} />
+                    <Route path="/games/:id" exact component={GameDetail} />
+                    <Route path="/games/:id/play" exact component={GamePlay} />
                     <Route path="/software" exact component={Software} />
-                    <Route path="/software/:id" component={SoftwareDetail} />
+                    <Route path="/software/:id" exact component={SoftwareDetail} />
                     <Route path="/literature" exact component={Literature} />
-                    <Route path="/literature/:id" component={LiteratureDetail} />
+                    <Route path="/literature/:id" exact component={LiteratureDetail} />
                 </div>
             </div>
         </BrowserRouter>

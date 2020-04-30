@@ -8,7 +8,7 @@ function LinksList(props: any) {
                 <li key={index}>
                     {link.href.startsWith('http') ?
                         <a target="_blank" rel="noopener noreferrer" href={ link.href }>{ link.text }</a>
-                        : <a href={link.hre}>{ link.text }</a>
+                        : <a rel="noopener noreferrer" href={link.href}>{ link.text }</a>
                     }
                     {link.warning && <span> ({ link.warning })</span>}
                 </li>

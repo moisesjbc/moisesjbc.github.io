@@ -62,7 +62,7 @@
     "links": [
         {
             "text": "Jugar Duof v1.0.0 online",
-            "href": "games/duof/play",
+            "href": "/games/duof/play",
             "warning": "Múltiples jugadores han reportado un error por el que al disparar se bloquea el juego, quedando no jugable"
         },
         {

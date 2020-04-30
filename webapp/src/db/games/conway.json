@@ -22,7 +22,7 @@
     "links": [
         {
             "text": "Jugar online",
-            "href": "games/conway/play"
+            "href": "/games/conway/play"
         },
         {
             "text": "Enlace al repositorio en Github",

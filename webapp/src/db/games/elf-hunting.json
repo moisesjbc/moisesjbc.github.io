@@ -1,7 +1,7 @@
 {
     "img": "https://raw.githubusercontent.com/moisesjbc/island-jam-5/master/img/screenshot.png",
     "title": "Elf hunting",
-    "summary": "Juego de habilidad sobre una elfa cazando criaturas y combinándolas para obtener mejoras. Realizado en equipo para la <a target=\"_blank\" href=\"https://itch.io/jam/island-jam-v\">Island Jam V</a>.",
+    "summary": "Juego de habilidad sobre una elfa cazando criaturas y combinándolas para obtener mejoras. Realizado en equipo para la [Island Jam V](https://itch.io/jam/island-jam-v).",
     "mechanics": "-     ¡Intenta cazar al mayor numero de objetivos sin que ellos te cacen a tí!\n-Cuanto más caces mejor puntuación. ¡No te confies! ¡El tiempo corre en contra tuya!\n-Para mejorar tu puntuación combina los enemigos cazados. ¡Puedes combinarlos entre ellos para crear platos nuevos que pueden beneficiarte! ¡Cuidado con lo que combinas, no todo los platos son buenos!",
     "controls": [
         {

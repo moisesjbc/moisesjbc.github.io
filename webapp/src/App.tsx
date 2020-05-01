@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Route, NavLink, BrowserRouter } from 'react-router-dom';
+import { Route, NavLink, BrowserRouter, Switch } from 'react-router-dom';
 import Home from './sections/home/Home';
 import Games from './sections/games/Games';
 import GameDetail from './sections/game.detail/GameDetail';
@@ -9,6 +9,7 @@ import Software from './sections/software/Software';
 import SoftwareDetail from './sections/software.detail/SoftwareDetail';
 import Literature from './sections/literature/Literature';
 import LiteratureDetail from './sections/literature.detail/LiteratureDetail';
+import NotFound from './sections/not.found/NotFound';
 
 function App() {
   return (
@@ -25,14 +26,17 @@ function App() {
                     <NavLink to="/literature">Literatura</NavLink>
                 </nav>
                 <div id="content">
-                    <Route path="/" exact component={Home} />
-                    <Route path="/games" exact component={Games} />
-                    <Route path="/games/:id" exact component={GameDetail} />
-                    <Route path="/games/:id/play" exact component={GamePlay} />
-                    <Route path="/software" exact component={Software} />
-                    <Route path="/software/:id" exact component={SoftwareDetail} />
-                    <Route path="/literature" exact component={Literature} />
-                    <Route path="/literature/:id" exact component={LiteratureDetail} />
+                    <Switch>
+                        <Route path="/" exact component={Home} />
+                        <Route path="/games" exact component={Games} />
+                        <Route path="/games/:id" exact component={GameDetail} />
+                        <Route path="/games/:id/play" exact component={GamePlay} />
+                        <Route path="/software" exact component={Software} />
+                        <Route path="/software/:id" exact component={SoftwareDetail} />
+                        <Route path="/literature" exact component={Literature} />
+                        <Route path="/literature/:id" exact component={LiteratureDetail} />
+                        <Route exact component={NotFound} />
+                    </Switch>
                 </div>
             </div>
         </BrowserRouter>

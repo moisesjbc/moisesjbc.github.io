@@ -46,5 +46,6 @@
             "text": "Repositorio de «El Juego De los Bocadillos» en Github",
             "href": "https://github.com/moisesjbc/sandwiches-game"
         }
-    ]
+    ],
+    "tags": ["c++", "sfml", "alone", "linux", "windows"]
 }

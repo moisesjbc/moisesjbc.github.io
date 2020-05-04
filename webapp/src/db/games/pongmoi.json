@@ -45,5 +45,6 @@
             "text": "Repositorio de Pongmoi en Github",
             "href": "https://github.com/moisesjbc/pongmoi"
         }
-    ]
+    ],
+    "tags": ["javascript", "phaser", "alone", "browser"]
 }

@@ -7,5 +7,6 @@
             "text": "Repositorio de RAP en Github",
             "href": "https://github.com/moisesjbc/rap"
         }
-    ]
+    ],
+    "tags": ["web", "php", "mysql"]
 }

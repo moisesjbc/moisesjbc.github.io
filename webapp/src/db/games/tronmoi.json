@@ -21,5 +21,6 @@
             "text": "Enlace al repositorio en Github",
             "href": "https://github.com/moisesjbc/tronmoi"
         }
-    ]
+    ],
+    "tags": ["c++", "sdl", "alone", "linux"]
 }

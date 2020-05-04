@@ -1,0 +1,18 @@
+{
+  "tags": {
+    "unity": "Unity",
+    "jam": "Hecho en una jam",
+    "team": "En equipo",
+    "alone": "En solitario",
+    "browser": "Navegador",
+    "windows": "Windows",
+    "javascript": "Javascript",
+    "phaser": "Phaser",
+    "godot": "Godot",
+    "linux": "GNU/Linux",
+    "c++": "C++",
+    "sfml": "SFML",
+    "sdl": "SDL",
+    "easeljs": "EaselJS"
+  }
+}

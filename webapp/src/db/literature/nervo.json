@@ -3,5 +3,6 @@
     "title": "Nervo",
     "summary": "Los malos pensamientos pueden atacar en cualquier momento.",
     "src": "https://raw.githubusercontent.com/moisesjbc/relatos-cortos/master/2019/nervo.md",
-    "year": "2019"
+    "year": "2019",
+    "tags": ["fiction", "browser"]
 }

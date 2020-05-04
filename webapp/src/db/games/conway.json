@@ -28,5 +28,6 @@
             "text": "Enlace al repositorio en Github",
             "href": "https://github.com/moisesjbc/conway-game-of-life"
         }
-    ]
+    ],
+    "tags": ["javascript", "phaser", "browser"]
 }

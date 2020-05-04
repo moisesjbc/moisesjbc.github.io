@@ -23,5 +23,6 @@
             "text": "Repositorio de Moblok’ en Github",
             "href": "https://github.com/moisesjbc/moblok"
         }
-    ]
+    ],
+    "tags": ["c++", "sdl", "alone", "linux"]
 }

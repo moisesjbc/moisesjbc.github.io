@@ -95,5 +95,6 @@
             "text": "Repositorio de Piratinsul’ en Github",
             "href": "https://github.com/moisesjbc/games-factory-jam-8"
         }
-    ]
+    ],
+    "tags": ["godot", "jam", "alone", "browser", "linux", "windows"]
 }

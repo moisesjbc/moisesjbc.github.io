@@ -1,0 +1,15 @@
+
+.tags {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.tag {
+    margin: 5px;
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid black;
+    user-select: none;
+    border-radius: 10px;
+}

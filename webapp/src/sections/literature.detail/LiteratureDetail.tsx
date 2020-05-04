@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { NavLink, useParams } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import LinksList from '../../components/links.list/LinksList';
+import TagsList from '../../components/tags.list/TagsList';
 
 function LiteratureDetail() {
     let { id } = useParams();
@@ -44,12 +45,17 @@ function LiteratureDetail() {
                 <h2>Enlaces y descargas</h2>
                 <LinksList links={literatureData.links} />
             </section>}
+
+            <h2>Tags</h2>
+            <TagsList projectsType='literature' tagIds={literatureData.tags} />
         </div>
     )
 
     const renderShortStory = () => (
         <div>
             <ReactMarkdown source={literatureData.body} />
+            <h2>Tags</h2>
+            <TagsList projectsType='literature' tagIds={literatureData.tags} />
         </div>
     )
 

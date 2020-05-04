@@ -70,5 +70,6 @@
             "text": "Repositorio en Github",
             "href": "https://github.com/moisesjbc/ludum-dare-44"
         }
-    ]
+    ],
+    "tags": ["godot", "jam", "alone", "browser", "linux", "windows"]
 }

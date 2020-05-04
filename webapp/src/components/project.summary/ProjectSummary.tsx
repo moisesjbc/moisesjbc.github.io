@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import { NavLink } from 'react-router-dom';
+import TagsList from '../tags.list/TagsList';
 import './ProjectSummary.css';
 
 function ProjectSummary(props: any) {
@@ -20,6 +21,7 @@ function ProjectSummary(props: any) {
             <div className="project-summary-footer-div">
                 <NavLink to={`/${projectSubDir}/${projectData['id']}`}>Ir a página de {projectData['title']}</NavLink>
             </div>
+            <TagsList projectsType={projectSubDir} tagIds={projectData['tags']} />
         </div>
     )
 }

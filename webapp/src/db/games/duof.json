@@ -77,5 +77,6 @@
             "text": "Repositorio de Duof en Github",
             "href": "https://github.com/moisesjbc/ludum-dare-43"
         }
-    ]
+    ],
+    "tags": ["godot", "linux", "jam", "browser", "alone"]
 }

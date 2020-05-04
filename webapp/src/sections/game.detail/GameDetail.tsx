@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { NavLink, useParams } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import LinksList from '../../components/links.list/LinksList';
+import TagsList from '../../components/tags.list/TagsList';
 
 function GameDetail() {
     let { id } = useParams();
@@ -94,6 +95,9 @@ function GameDetail() {
 
                     <h2>Enlaces y descargas</h2>
                     <LinksList links={gameData.links} />
+
+                    <h2>Tags</h2>
+                    <TagsList projectsType='games' tagIds={gameData.tags} />
                 </div>
                 : <div>
                     <p>El videojuego buscado no existe o no pudo ser cargado.</p>

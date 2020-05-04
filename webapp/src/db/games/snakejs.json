@@ -27,5 +27,6 @@
             "text": "Repositorio de SnakeJS en Github",
             "href": "https://github.com/moisesjbc/snakejs"
         }
-    ]
+    ],
+    "tags": ["javascript", "easeljs", "alone", "browser"]
 }

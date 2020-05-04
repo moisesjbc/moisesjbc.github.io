@@ -12,5 +12,6 @@
             "text": "Repositorio de COMO en Github",
             "href": "https://github.com/moisesjbc/como"
         }
-    ]
+    ],
+    "tags": ["c++", "qt", "desktop"]
 }

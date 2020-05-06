@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import ProjectSummary from '../../components/project.summary/ProjectSummary';
+import TagsLink from '../../components/tags.list/TagsList';
 
 function ProjectsList(props: any) {
     let {projectsType, projectIds, headersLevel = 2} = props;
     let [projectsData, setProjectsData] = useState<Array<any>>([]);
+    let [tagIds, setTagsIds] = useState<Array<string>>([]);
+    let [selectedTagIds, setSelectedTagIds] = useState<Array<string>>([]);
 
     useEffect(() => {
         let data: Array<any> = [];
@@ -14,14 +17,27 @@ function ProjectsList(props: any) {
             });
         });
         setProjectsData(data);
+
+        let tags = require(`../../db/${projectsType}/tags.json`)['tags'];
+        setTagsIds(Object.keys(tags));
     }, [projectsType, projectIds]);
 
+
+
     return (
-        <div className="row">
-            {projectsData.map((projectData, index) => (
-                <ProjectSummary key={index} projectSubDir={projectsType} projectData={projectData} headerLevel={headersLevel} />
-            ))}
-        </div>
+        <>
+            <div className="row">
+                <p>Filtrar por etiquetas</p>
+                <TagsLink projectsType={projectsType} tagIds={tagIds} selectedTagIds={selectedTagIds} setSelectedTagIds={setSelectedTagIds} />
+            </div>
+            <div className="row">
+                {projectsData
+                    .filter((projectData) => !selectedTagIds.length || selectedTagIds.every(selectedTagId => projectData.tags.includes(selectedTagId)))
+                    .map((projectData, index) => (
+                        <ProjectSummary key={index} projectSubDir={projectsType} projectData={projectData} headerLevel={headersLevel} />
+                    ))}
+            </div>
+        </>
     );
 }
 

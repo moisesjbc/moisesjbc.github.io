@@ -12,4 +12,9 @@
     border: 1px solid black;
     user-select: none;
     border-radius: 10px;
+    background-color: #fffaed;
+}
+
+.selected {
+    background-color: #ffe39c;
 }

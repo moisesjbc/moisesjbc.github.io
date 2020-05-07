@@ -3,6 +3,7 @@ import { NavLink, useParams } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import LinksList from '../../components/links.list/LinksList';
 import TagsList from '../../components/tags.list/TagsList';
+import Breadcrumb from '../../components/breadcrumb/Breadcrumb';
 
 function GameDetail() {
     let { id } = useParams();
@@ -29,6 +30,8 @@ function GameDetail() {
         <div className="row">
             {gameData ?
                 <div>
+                    <Breadcrumb path={[['home'], ['games'], [id, gameData.title]]} />
+
                     <h1>{ gameData.title }</h1>
                     <div className="game-img"><img src={gameData.img} alt={`Captura de pantalla del juego '${gameData.title}'`} /></div>
                     <ReactMarkdown source={gameData.summary}/>

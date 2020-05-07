@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ProjectSummary from '../../components/project.summary/ProjectSummary';
 import TagsLink from '../../components/tags.list/TagsList';
+import Breadcrumb from '../../components/breadcrumb/Breadcrumb';
 
 function ProjectsList(props: any) {
     let {projectsType, projectIds, headersLevel = 2} = props;
@@ -22,10 +23,9 @@ function ProjectsList(props: any) {
         setTagsIds(Object.keys(tags));
     }, [projectsType, projectIds]);
 
-
-
     return (
         <>
+            <Breadcrumb path={[['home'], [projectsType]]} />
             <div className="row">
                 <p>Filtrar por etiquetas</p>
                 <TagsLink projectsType={projectsType} tagIds={tagIds} selectedTagIds={selectedTagIds} setSelectedTagIds={setSelectedTagIds} />

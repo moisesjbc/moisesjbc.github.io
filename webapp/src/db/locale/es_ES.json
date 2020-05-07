@@ -1,6 +1,9 @@
 {
-    "home": "Home",
-    "games": "Videojuegos",
-    "software": "Software",
-    "literature": "Literatura"
+    "breadcrumb": {
+        "home": "Home",
+        "games": "Videojuegos",
+        "software": "Software",
+        "literature": "Literatura",
+        "play": "Jugar online"
+    }
 }

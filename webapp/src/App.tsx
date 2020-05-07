@@ -28,6 +28,7 @@ function App() {
                 <div id="content">
                     <Switch>
                         <Route path="/" exact component={Home} />
+                        <Route path="/home" exact component={Home} />
                         <Route path="/games" exact component={Games} />
                         <Route path="/games/:id" exact component={GameDetail} />
                         <Route path="/games/:id/play" exact component={GamePlay} />

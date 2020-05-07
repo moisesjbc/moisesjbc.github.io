@@ -3,6 +3,7 @@ import { NavLink, useParams } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import LinksList from '../../components/links.list/LinksList';
 import TagsList from '../../components/tags.list/TagsList';
+import Breadcrumb from '../../components/breadcrumb/Breadcrumb';
 
 function SoftwareDetail() {
     let { id } = useParams();
@@ -21,6 +22,8 @@ function SoftwareDetail() {
         <div className="row">
             {softwareData ?
                 <div>
+                    <Breadcrumb path={[['home'], ['software'], [id, softwareData.title]]} />
+
                     <h1>{ softwareData.title }</h1>
                     <img src={softwareData.img} alt={`Captura de pantalla de '${softwareData.title}'`} />
                     <ReactMarkdown source={softwareData.summary} />

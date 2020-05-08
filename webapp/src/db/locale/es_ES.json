@@ -5,5 +5,12 @@
         "software": "Software",
         "literature": "Literatura",
         "play": "Jugar online"
+    },
+    "titles": {
+        "home": "Home",
+        "games": "Videojuegos",
+        "software": "Software",
+        "literature": "Literatura",
+        "play": "Jugar online a"
     }
 }

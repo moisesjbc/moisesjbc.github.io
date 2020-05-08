@@ -3,7 +3,7 @@ import { NavLink, useParams } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import LinksList from '../../components/links.list/LinksList';
 import TagsList from '../../components/tags.list/TagsList';
-import Breadcrumb from '../../components/breadcrumb/Breadcrumb';
+import ContentHeader from '../../components/content.header/ContentHeader';
 
 function LiteratureDetail() {
     let { id } = useParams();
@@ -31,9 +31,8 @@ function LiteratureDetail() {
 
     const renderBook = () => (
         <div>
-            <Breadcrumb path={[['home'], ['literature'], [id, literatureData.title]]} />
+            <ContentHeader path={[['home'], ['literature'], [id, literatureData.title]]} />
 
-            <h1>{ literatureData.title }</h1>
             <img src={literatureData.img} alt={`Captura de pantalla de '${literatureData.title}'`} />
             <ReactMarkdown source={literatureData.summary} />
 
@@ -56,7 +55,7 @@ function LiteratureDetail() {
 
     const renderShortStory = () => (
         <div>
-            <Breadcrumb path={[['home'], ['literature'], [id, literatureData.title]]} />
+            <ContentHeader path={[['home'], ['literature'], [id, literatureData.title]]} displayTitle={false} />
 
             <ReactMarkdown source={literatureData.body} />
             <h2>Tags</h2>

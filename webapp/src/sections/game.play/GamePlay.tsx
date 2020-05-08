@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import Breadcrumb from '../../components/breadcrumb/Breadcrumb';
+import ContentHeader from '../../components/content.header/ContentHeader';
 
 function GamePlay() {
     let { id } = useParams();
@@ -8,7 +8,7 @@ function GamePlay() {
 
     return (
         <>
-            <Breadcrumb path={[['home'], ['games'], [`games/${id}`, gameData.title], ['play']]} />
+            <ContentHeader path={[['home'], ['games'], [`games/${id}`, gameData.title], ['play']]} />
 
             <div className="row">
                 <iframe title={id} width="100%" height="768px" src={`/play/${id}/index.html`} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>

@@ -1,7 +1,10 @@
 {
   "tags": {
+    "novel": "Novela",
+    "short-story": "Relato corto",
     "fiction": "Ficción",
     "dystopia": "Distopía",
+    "critic": "Crítica",
     "browser": "Leer online",
     "pdf": "PDF",
     "epub": "Epub"

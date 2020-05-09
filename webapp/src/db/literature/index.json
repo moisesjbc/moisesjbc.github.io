@@ -1,47 +1,20 @@
 {
-    "books": [
-        "cuarto-poder"
-    ],
-    "short-stories": [
-        {
-            "year": "2019",
-            "short-stories": [
-                "nervo"
-            ]
-        },
-        {
-            "year": "2016",
-            "short-stories": [
-                "microrelatos",
-                "de-visita",
-                "la-chica-de-la-parada"
-            ]
-        },
-        {
-            "year": "2015",
-            "short-stories": [
-                "el-chico",
-                "el-elemental",
-                "fragmentos-de-vida"
-            ]
-        },
-        {
-            "year": "2013",
-            "short-stories": [
-                "patentes-y-ruedas",
-                "la-ejecucion",
-                "la-escultora"
-            ]
-        },
-        {
-            "year": "Anterior a 2013",
-            "short-stories": [
-                "el-cocinero",
-                "el-heroe",
-                "el-sueño",
-                "la-presencia"
-            ]
-        }
+    "literature": [
+        "cuarto-poder",
+        "nervo",
+        "microrelatos",
+        "de-visita",
+        "la-chica-de-la-parada",
+        "el-chico",
+         "el-elemental",
+        "fragmentos-de-vida",
+        "patentes-y-ruedas",
+        "la-ejecucion",
+        "la-escultora",
+        "el-cocinero",
+        "el-heroe",
+        "el-sueño",
+        "la-presencia"
     ],
     "footer": "La imagen del lápiz ha sido descargada desde [Wikimedia Commons](https://commons.wikimedia.org/) ([enlace directo](https://commons.wikimedia.org/wiki/File:Circle-icons-pencil_2.svg)) y pertenece a su autor"
 }

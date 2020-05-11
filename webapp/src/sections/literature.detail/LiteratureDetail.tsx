@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink, useParams } from 'react-router-dom';
-import ReactMarkdown from 'react-markdown';
+import Markdown from '../../components/markdown/Markdown';
 import LinksList from '../../components/links.list/LinksList';
 import TagsList from '../../components/tags.list/TagsList';
 import ContentHeader from '../../components/content.header/ContentHeader';
@@ -34,7 +34,7 @@ function LiteratureDetail() {
             <ContentHeader path={[['home'], ['literature'], [id, literatureData.title]]} />
 
             <img src={literatureData.img} alt={`Captura de pantalla de '${literatureData.title}'`} />
-            <ReactMarkdown source={literatureData.summary} />
+            <Markdown source={literatureData.summary} />
 
             {literatureData.multimedia && <section>
                 <h2>Multimedia</h2>
@@ -57,7 +57,7 @@ function LiteratureDetail() {
         <div>
             <ContentHeader path={[['home'], ['literature'], [id, literatureData.title]]} displayTitle={false} />
 
-            <ReactMarkdown source={literatureData.body} />
+            <Markdown source={literatureData.body} />
             <h2>Tags</h2>
             <TagsList projectsType='literature' tagIds={literatureData.tags} />
         </div>

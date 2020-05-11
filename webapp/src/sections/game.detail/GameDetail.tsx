@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink, useParams } from 'react-router-dom';
-import ReactMarkdown from 'react-markdown';
+import Markdown from '../../components/markdown/Markdown';
 import LinksList from '../../components/links.list/LinksList';
 import TagsList from '../../components/tags.list/TagsList';
 import ContentHeader from '../../components/content.header/ContentHeader';
@@ -33,16 +33,16 @@ function GameDetail() {
                     <ContentHeader path={[['home'], ['games'], [id, gameData.title]]} />
 
                     <div className="game-img"><img src={gameData.img} alt={`Captura de pantalla del juego '${gameData.title}'`} /></div>
-                    <ReactMarkdown source={gameData.summary}/>
+                    <Markdown source={gameData.summary}/>
 
                     {gameData.background && <section>
                         <h2>Trasfondo</h2>
-                        <ReactMarkdown source={gameData.background} />
+                        <Markdown source={gameData.background} />
                     </section>}
 
                     {gameData.mechanics && <section>
                         <h2>Mecánicas</h2>
-                        <ReactMarkdown source={gameData.mechanics} />
+                        <Markdown source={gameData.mechanics} />
                     </section>}
 
                     {gameData.controls && <section>
@@ -71,7 +71,7 @@ function GameDetail() {
                         {gameData.credits['third-party'].map((credits: any, index: number) => (
                             <section key={index}>
                                 <h3>{ credits.title }</h3>
-                                {credits.body && <ReactMarkdown source={credits.body} />}
+                                {credits.body && <Markdown source={credits.body} />}
                                 {credits.resources && <ul>
                                     {credits.resources.map((resource: any, index: number) => (
                                         <li key={index}>

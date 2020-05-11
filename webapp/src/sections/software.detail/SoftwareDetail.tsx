@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink, useParams } from 'react-router-dom';
-import ReactMarkdown from 'react-markdown';
+import Markdown from '../../components/markdown/Markdown';
 import LinksList from '../../components/links.list/LinksList';
 import TagsList from '../../components/tags.list/TagsList';
 import ContentHeader from '../../components/content.header/ContentHeader';
@@ -25,7 +25,7 @@ function SoftwareDetail() {
                     <ContentHeader path={[['home'], ['software'], [id, softwareData.title]]} />
 
                     <img src={softwareData.img} alt={`Captura de pantalla de '${softwareData.title}'`} />
-                    <ReactMarkdown source={softwareData.summary} />
+                    <Markdown source={softwareData.summary} />
 
                     {softwareData.multimedia && <section>
                         <h2>Multimedia</h2>

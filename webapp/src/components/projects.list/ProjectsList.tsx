@@ -31,8 +31,6 @@ function ProjectsList(props: any) {
         });
         setProjectsData(data);
 
-        console.log('data', data);
-
         let tags = require(`../../db/${projectsType}/tags.json`)['tags'];
         setTagsIds(Object.keys(tags));
     }, [projectsType, projectIds]);

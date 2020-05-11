@@ -14,7 +14,6 @@ function LiteratureDetail() {
             const data: any = require(`../../db/literature/${id}.json`);
 
             if (data.src) {
-                console.log('fetching', data.src)
                 fetch(data.src).then((result) => result.text()).then((responseBody) => {
                     data.body = responseBody;
                     setLiteratureData(data);

@@ -1,5 +1,6 @@
 {
     "starred": true,
+    "year": 2017,
     "img": "https://raw.githubusercontent.com/moisesjbc/island-jam-ii/master/black-friday-cart-race.png",
     "title": "Black Friday Cart Race",
     "summary": "Juego de habilidad en el que el jugador debe comprar todo lo que pueda en un minuto. Desarrollado en equipo con [Unity](https://unity.com) en la [Island Jam Gran Canaria 2](https://www.spegc.org/formacion-y-eventos/ii-island-jam-gran-canaria-islandjamgc/) para la [Ludum Dare #40](https://ldjam.com/events/ludum-dare/40/)",

@@ -1,5 +1,6 @@
 {
     "img": "https://raw.githubusercontent.com/moisesjbc/ldgc_37/master/img/escupitajulus_insanis.png",
+    "year": 2018,
     "title": "Escupitajulus Insanis",
     "summary": "Juego de habilidad en el que debes escupir al mayor número de guardias posible. Desarrollado en equipo con [Unity](https://unity.com/) para la [Ludum Dare Gran Canaria #37](https://itch.io/jam/ldgc37)",
     "mechanics": "Apunta y escupe a tantos guardias como puedas. ¡Pero cuidado! Hay dos personas a las que no te conviene escupir:\n\n- Si escupes al jefazo eres hombre muerto (game over).\n\n- Si escupes al amable guardia que te trae una botella de agua, no podrás convertir el preciado líquido en munición.",

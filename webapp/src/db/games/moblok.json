@@ -1,5 +1,6 @@
 {
     "img": "https://raw.githubusercontent.com/moisesjbc/moblok/master/img/moblok.png",
+    "year": 2015,
     "title": "Moblok'",
     "summary": "Clon del tetris realizado en C++ usando la librería [SDL2](https://www.libsdl.org/download-2.0.php)", 
     "mechanics": "¿Necesita explicación? ;-)",

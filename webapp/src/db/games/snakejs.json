@@ -1,5 +1,6 @@
 {
     "img": "https://raw.githubusercontent.com/moisesjbc/snakejs/master/img/snakejs.png",
+    "year": 2015,
     "title": "SnakeJS",
     "summary": "Juego de la Serpiente realizado en JavaScript.",
     "controls": [

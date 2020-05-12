@@ -1,5 +1,6 @@
 {
     "img": "https://raw.githubusercontent.com/moisesjbc/rap/master/img/rap.png",
+    "year": 2015,
     "title": "RAP – Real Academia de las Perlas",
     "summary": "Portal privado donde los usuarios pueden subir “perlas” (anécdotas en texto y/o imágenes), así como comentar y votar las perlas subidas.\n\n**NOTA: el estado del proyecto funcional pero NO listo para producción.**",
     "links": [

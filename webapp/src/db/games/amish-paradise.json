@@ -1,5 +1,6 @@
 {
     "img": "https://raw.githubusercontent.com/moisesjbc/ludum-dare-36/master/img/amish_paradise_screenshot.jpg",
+    "year": 2018,
     "title": "Amish Paradise",
     "summary": "Juego de habilidad en el que debes defender un planeta Amish de la tecnología del exterior. Desarrollado en equipo con [Unity](https://unity.com/) para la Ludum Dare #36 / [Ludum Dare Gran Canaria #36](https://itch.io/jam/ldgc36)",
     "mechanics": "Protege el planeta de los peligros del espacio exterior rotando la nave alrededor del mismo e interceptando los proyectiles. El planeta Amish también se defenderá a si mismo disparando rocas, vacas… incluso personas.",

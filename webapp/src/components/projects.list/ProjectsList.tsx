@@ -28,6 +28,10 @@ function ProjectsList(props: any) {
             } else {
                 data.others.push(projectData);
             }
+
+            const compareProjects = (projectA: any, projectB: any) => projectB.year - projectA.year;
+            data.starred = data.starred.sort(compareProjects);
+            data.others = data.others.sort(compareProjects);
         });
         setProjectsData(data);
 

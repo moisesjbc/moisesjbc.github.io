@@ -1,5 +1,6 @@
 {
     "img": "https://raw.githubusercontent.com/moisesjbc/pongmoi/master/pongmoi.png",
+    "year": 2016,
     "title": "Pongmoi",
     "summary": "Pong para dos jugadores que permite a los oponentes intercambiar posiciones",
     "controls": [

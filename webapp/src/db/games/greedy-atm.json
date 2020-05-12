@@ -1,5 +1,6 @@
 {
     "img": "https://raw.githubusercontent.com/moisesjbc/ludum-dare-44/master/img/screenshot.png",
+    "year": 2019,
     "title": "The greedy ATM",
     "summary": "Juego de azar / habilidad en el que el jugador asume el papel de un cajero automático sin escrúpulos. Desarrollado con [Godot Engine](https://godotengine.org/) para la [Ludum Dare #44](https://ldjam.com/events/ludum-dare/44).",
     "mechanics": "Cada cierto tiempo un cliente se acercará a ti para cobrar un cheque. En este punto podrás decidir con el ratón cuánto dinero del total le devolverás.\n\nSi no le devuelves todo el dinero, el cliente podrá enfadarse y golpearte para recuperar su dinero. En este momento se iniciará un «Quick time event» en el que deberás pulsar sobre las exclamaciones con la suficiente rapidez para no recibir el golpe.",

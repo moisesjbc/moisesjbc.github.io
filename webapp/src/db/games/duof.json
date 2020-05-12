@@ -1,5 +1,6 @@
 {
     "starred": true,
+    "year": 2018,
     "img": "https://raw.githubusercontent.com/moisesjbc/ludum-dare-43/master/multimedia/img/duof_gameplay.png",
     "title": "Duof",
     "summary": "Juego de habilidad consistente en sobrevivir a un apocalipsis de magos zombies. Desarrollado en [Godot Engine](https://godotengine.org/) para la [Ludum Dare #43](https://ldjam.com/events/ludum-dare/43/)",

@@ -1,5 +1,6 @@
 {
     "img": "https://raw.githubusercontent.com/moisesjbc/tronmoi/master/img/tronmoi.png",
+    "year": "2015",
     "title": "Tronmoi",
     "summary": "Clon del juego Tron para dos jugadores realizado en C++ y usando la librería SDL.",
     "credits": {

@@ -7,7 +7,7 @@ import ContentHeader from '../../components/content.header/ContentHeader';
 function Home() {
     return (
         <>
-            <ContentHeader path={[['home']]} />
+            <ContentHeader path={[['home']]} displayBreadcrumb={false} />
             <Markdown source={data['about_me']}/>
             <ul id="news">
             {data['news'].map((siteNew, index) => (

@@ -15,9 +15,10 @@ function App() {
   return (
     <div className="App container-fluid">
         <BrowserRouter>
-            <div id="body">
-                <header id="header" className="App-header">
-                    <h1>moisesjose.com</h1>
+            <div id="header">
+                <header className="App-header">
+                    <h1>Moisés José</h1>
+                    <p id="page-subtitle">Desarrollador software y escritor</p>
                 </header>
                 <nav id="navigation">
                     <NavLink to="/">Home</NavLink>
@@ -25,6 +26,8 @@ function App() {
                     <NavLink to="/software">Software</NavLink>
                     <NavLink to="/literature">Literatura</NavLink>
                 </nav>
+            </div>
+            <div id="body">
                 <div id="content">
                     <Switch>
                         <Route path="/" exact component={Home} />

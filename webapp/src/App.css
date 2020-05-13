@@ -1,32 +1,30 @@
 body {
     margin: 0;
-    background-color: #fff2dd;
 }
 
-#body {
-    width: 75vw;
-    height: 100vh;
-    margin: auto;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
-    overflow-y: auto;
-    background-color: white;
+#page-subtitle {
+    font-size: 25px;
+    margin-bottom: 0;
 }
 
 #header {
     text-align: center;
+    background-color: white;
 }
 
 #navigation {
-    display: flex;
     padding: 15px 15px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
 }
 
 #navigation a {
     text-align: center;
-    flex: 1 1;
+    font-size: 20px;
+    padding: 0px 20px;
+
+}
+
+#navigation a:not(:last-child) {
+    border-right: 1px solid black;
 }
 
 #content {

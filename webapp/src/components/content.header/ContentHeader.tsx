@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import './ContentHeader.css';
 
 function ContentHeader(props: any) {
     let {path = [], displayBreadcrumb = true, displayTitle = true} = props;
@@ -18,7 +19,9 @@ function ContentHeader(props: any) {
                 <span>{ printPathDir(path[path.length -1]) }</span>
             </span>}
 
-            {displayTitle && <h1>{ path[path.length - 1][0] === 'play' ? `${locale.titles['play']} "${path[path.length - 2][1]}"` : printPathDir(path[path.length -1], locale.titles) }</h1>}
+            <div id="section-title-div">
+                {displayTitle && <h1>{ path[path.length - 1][0] === 'play' ? `${locale.titles['play']} "${path[path.length - 2][1]}"` : printPathDir(path[path.length -1], locale.titles) }</h1>}
+            </div>
         </div>
     );
 };

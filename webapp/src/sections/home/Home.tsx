@@ -8,15 +8,24 @@ function Home() {
     return (
         <>
             <ContentHeader path={[['home']]} displayBreadcrumb={false} />
-            <Markdown source={data['about_me']}/>
-            <ul id="news">
-            {data['news'].map((siteNew, index) => (
-                <li key={index}>
-                    <strong>{siteNew['date']}: </strong>
-                    <Markdown source={siteNew['body']} />
-                </li>
-            ))}
-            </ul>
+
+            <div className="center-box">
+                <Markdown source={data['about_me']}/>
+
+                <div id="news-header">
+                    <h2>Últimas noticias</h2>
+                </div>
+                <div>
+                    <ul id="news">
+                        {data['news'].map((siteNew, index) => (
+                            <li key={index}>
+                                <strong>{siteNew['date']}: </strong>
+                                <Markdown source={siteNew['body']} />
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+            </div>
         </>
     );
 }

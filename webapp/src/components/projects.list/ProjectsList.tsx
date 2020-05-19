@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import ProjectSummary from '../../components/project.summary/ProjectSummary';
-import TagsLink from '../../components/tags.list/TagsList';
+import TagsList from '../../components/tags.list/TagsList';
 import ContentHeader from '../../components/content.header/ContentHeader';
+import './ProjectsList.css';
 
 function ProjectsList(props: any) {
     let {projectsType, projectIds, headersLevel = 2} = props;
@@ -41,8 +42,8 @@ function ProjectsList(props: any) {
 
     const displayProjects = (title: string, projects: Array<any>) => (
         <>
-            <h2>{ title }</h2>
-            <div className="row">
+            <h2 className="list-title">{ title }</h2>
+            <div className="row projects-list">
                 {projects
                     .filter((projectData) => !selectedTagIds.length || selectedTagIds.every(selectedTagId => projectData.tags.includes(selectedTagId)))
                     .map((projectData, index) => (
@@ -55,11 +56,8 @@ function ProjectsList(props: any) {
     return (
         <>
             <ContentHeader path={[['home'], [projectsType]]} />
-            <div className="row">
-                <p>Filtrar por etiquetas</p>
-                <TagsLink projectsType={projectsType} tagIds={tagIds} selectedTagIds={selectedTagIds} setSelectedTagIds={setSelectedTagIds} />
-            </div>
-            { displayProjects('Descatados', projectsData.starred) }
+            <TagsList projectsType={projectsType} tagIds={tagIds} selectedTagIds={selectedTagIds} setSelectedTagIds={setSelectedTagIds} />
+            { displayProjects('Destacados', projectsData.starred) }
             { displayProjects('Otros', projectsData.others) }
         </>
     );

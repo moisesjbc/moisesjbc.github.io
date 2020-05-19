@@ -18,9 +18,11 @@ function ProjectSummary(props: any) {
                 { Boolean(projectData['img']) && <NavLink to={`/${projectSubDir}/${projectData['id']}`}><img src={projectData['img']} alt={`Captura de pantalla del juego '${projectData['title']}'`} /></NavLink> }
                 <Markdown source={projectData['summary']}/>
             </div>
+
             <div className="project-summary-footer-div">
                 <NavLink to={`/${projectSubDir}/${projectData['id']}`}>Ir a página de {projectData['title']}</NavLink>
             </div>
+
             <TagsList projectsType={projectSubDir} tagIds={projectData['tags']} />
         </div>
     )

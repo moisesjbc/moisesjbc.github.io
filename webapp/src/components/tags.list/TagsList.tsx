@@ -20,8 +20,10 @@ function TagsList(props: any) {
     }
 
     return (
-        <div>
-            <ul className="tags">
+        <div className={`${setSelectedTagIds ? 'tags-filter-container' : ''}`}>
+            {setSelectedTagIds && <p>Filtrar por etiquetas</p>}
+
+            <ul className={`tags ${setSelectedTagIds ? 'tags-filter' : ''}`}>
                 {tagLabels.map((tagLabel: string, index: number) => (
                     <li key={index} className={`tag ${selectedTagIds.includes(tagIds[index]) ? 'selected' : undefined}`} onClick={setSelectedTagIds ? toggleTag(index) : undefined}>
                         { tagLabel }

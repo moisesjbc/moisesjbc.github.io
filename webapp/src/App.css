@@ -26,7 +26,3 @@ body {
 #navigation a:not(:last-child) {
     border-right: 1px solid black;
 }
-
-#content {
-    padding: 20px;
-}

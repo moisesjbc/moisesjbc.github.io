@@ -5,6 +5,25 @@
     margin-top: 10px;
 }
 
+.tags-filter-container {
+    text-align: center;
+}
+
+.tags-filter-container p {
+    margin-bottom: 0;
+}
+
+.tags-filter {
+    margin: auto;
+    width: max-content;
+    display: block;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 2px 0px;
+}
+
+
+
 .tag {
     margin: 5px;
     display: inline-block;

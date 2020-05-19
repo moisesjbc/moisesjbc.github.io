@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import './ContentHeader.css';
 
 function ContentHeader(props: any) {
-    let {path = [], displayBreadcrumb = true, displayTitle = true} = props;
+    let {path = [], displayBreadcrumb = false, displayTitle = true} = props;
     const locale = require(`../../db/locale/es_ES.json`);
 
     const printPathDir = (pathDir: Array<string>, localeDict = locale.breadcrumb) => {

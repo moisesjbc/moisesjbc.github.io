@@ -1,8 +1,24 @@
 
 .project-summary-div img {
     height: 300px;
+    padding: 5px;
+    border-top: 2px solid #b0751c;
+    border-bottom: 2px solid #b0751c;
 }
 
 .project-summary-footer-div {
     text-align: right;
+}
+
+.project-summary-body-div p {
+    margin-top: 10px;
+    min-height: 70px;
+}
+
+.starred {
+    background-color: #b0751c;
+    vertical-align: super;
+    font-size: 16px;
+    padding: 5px;
+    color: white;
 }

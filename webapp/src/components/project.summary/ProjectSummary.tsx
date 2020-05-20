@@ -5,15 +5,21 @@ import TagsList from '../tags.list/TagsList';
 import './ProjectSummary.css';
 
 function ProjectSummary(props: any) {
-    let {projectSubDir, projectData, headerLevel = 2} = props;
+    let {projectSubDir, projectData} = props;
 
-    const projectHeader = (projectTitle: string, year: string, headerLevel: number) => {
-        return React.createElement(`h${headerLevel}`, null, `${projectTitle} (${year})`);
+    const locale = require(`../../db/locale/es_ES.json`);
+
+    const projectHeader = (projectTitle: string, year: string, starred: boolean) => {
+        return (
+            <h2>
+                {projectTitle} ({year}) {starred && <span className="starred">{ locale.starred }</span>}
+            </h2>
+        );
     };
 
     return (
         <div className="project-summary-div col-3">
-             { projectHeader(projectData['title'], projectData['year'], headerLevel) }
+             { projectHeader(projectData['title'], projectData['year'], projectData['starred']) }
              <div className="project-summary-body-div">
                 { Boolean(projectData['img']) && <NavLink to={`/${projectSubDir}/${projectData['id']}`}><img src={projectData['img']} alt={`Captura de pantalla del juego '${projectData['title']}'`} /></NavLink> }
                 <Markdown source={projectData['summary']}/>

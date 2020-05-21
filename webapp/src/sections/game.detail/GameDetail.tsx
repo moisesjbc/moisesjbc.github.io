@@ -27,12 +27,12 @@ function GameDetail() {
     };
 
     return (
-        <div className="row">
+        <div className="project-details">
             {gameData ?
                 <div>
                     <ContentHeader path={[['home'], ['games'], [id, gameData.title]]} />
 
-                    <div className="game-img"><img src={gameData.img} alt={`Captura de pantalla del juego '${gameData.title}'`} /></div>
+                    <div className="project-details-img"><img src={gameData.img} alt={`Captura de pantalla del juego '${gameData.title}'`} /></div>
                     <Markdown source={gameData.summary}/>
 
                     {gameData.background && <section>

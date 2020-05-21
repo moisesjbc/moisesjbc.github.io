@@ -88,5 +88,9 @@
             "href": "https://github.com/moisesjbc/island-jam-5/"
         }
     ],
+    "dimensions": {
+        "width": "1500px",
+        "height": "850px"
+    },
     "tags": ["godot", "team", "jam", "browser", "linux", "windows"]
 }

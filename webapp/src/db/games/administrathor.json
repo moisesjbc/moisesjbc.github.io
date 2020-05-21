@@ -59,5 +59,9 @@
             "href": "https://github.com/moisesjbc/island-jam-iii"
         }
     ],
+    "dimensions": {
+        "width": "1300px",
+        "height": "840px"
+    },
     "tags": ["unity", "jam", "team", "browser"]
 }

@@ -69,5 +69,9 @@
             "href": "https://github.com/moisesjbc/ldgc_37"
         }
     ],
+    "dimensions": {
+        "width": "1000px",
+        "height": "740px"
+    },
     "tags": ["unity", "jam", "team", "browser", "linux", "windows"]
 }

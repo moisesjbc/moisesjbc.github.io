@@ -97,5 +97,9 @@
             "href": "https://github.com/moisesjbc/games-factory-jam-8"
         }
     ],
+    "dimensions": {
+        "width": "1040px",
+        "height": "790px"
+    },
     "tags": ["godot", "jam", "alone", "browser", "linux", "windows"]
 }

@@ -80,5 +80,9 @@
             "href": "https://github.com/moisesjbc/ludum-dare-43"
         }
     ],
+    "dimensions": {
+        "width": "1100px",
+        "height": "615px"
+    },
     "tags": ["godot", "linux", "jam", "browser", "alone"]
 }

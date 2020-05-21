@@ -32,7 +32,7 @@ function GameDetail() {
                 <div>
                     <ContentHeader path={[['home'], ['games'], [id, gameData.title]]} />
 
-                    <div className="project-details-img"><img src={gameData.img} alt={`Captura de pantalla del juego '${gameData.title}'`} /></div>
+                    <div className="project-details-img frame"><img src={gameData.img} alt={`Captura de pantalla del juego '${gameData.title}'`} /></div>
                     <Markdown source={gameData.summary}/>
 
                     {gameData.background && <section>

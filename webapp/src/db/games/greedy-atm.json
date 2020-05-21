@@ -53,7 +53,7 @@
     "links": [
         {
             "text": "Jugar a «The Greedy ATM» online",
-            "href": "/games/the-greedy-atm/play"
+            "href": "/games/greedy-atm/play"
         },
         {
             "text": "Descargar «The Greedy ATM» v1.0.1 para Windows",
@@ -72,5 +72,9 @@
             "href": "https://github.com/moisesjbc/ludum-dare-44"
         }
     ],
+    "dimensions": {
+        "width": "1035px",
+        "height": "615px"
+    },
     "tags": ["godot", "jam", "alone", "browser", "linux", "windows"]
 }

@@ -29,5 +29,9 @@
             "href": "https://github.com/moisesjbc/snakejs"
         }
     ],
+    "dimensions": {
+        "width": "440px",
+        "height": "415px"
+    },
     "tags": ["javascript", "easeljs", "alone", "browser"]
 }

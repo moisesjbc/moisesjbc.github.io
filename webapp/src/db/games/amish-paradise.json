@@ -56,5 +56,9 @@
             "href": "https://github.com/moisesjbc/ludum-dare-36"
         }
     ],
+    "dimensions": {
+        "width": "1000px",
+        "height": "740px"
+    },
     "tags": ["unity", "jam", "team", "browser", "windows"]
 }

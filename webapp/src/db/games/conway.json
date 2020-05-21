@@ -30,5 +30,9 @@
             "href": "https://github.com/moisesjbc/conway-game-of-life"
         }
     ],
+    "dimensions": {
+        "width": "1040px",
+        "height": "1050px"
+    },
     "tags": ["javascript", "phaser", "browser"]
 }

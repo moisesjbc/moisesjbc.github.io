@@ -47,5 +47,9 @@
             "href": "https://github.com/moisesjbc/pongmoi"
         }
     ],
+    "dimensions": {
+        "width": "900px",
+        "height": "700px"
+    },
     "tags": ["javascript", "phaser", "alone", "browser"]
 }

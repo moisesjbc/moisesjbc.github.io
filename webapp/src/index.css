@@ -14,8 +14,11 @@ h1, h2, h3, h4, h5, h6, h7 {
 }
 
 .project-details-img img {
+    width: 100%;
+}
+
+.frame {
     border-top: 2px solid #b0751c;
     border-bottom: 2px solid #b0751c;
-    width: 100%;
     padding: 5px;
 }

@@ -4,6 +4,7 @@ import Markdown from '../../components/markdown/Markdown';
 import LinksList from '../../components/links.list/LinksList';
 import TagsList from '../../components/tags.list/TagsList';
 import ContentHeader from '../../components/content.header/ContentHeader';
+import './SoftwareDetail.css';
 
 function SoftwareDetail() {
     let { id } = useParams();
@@ -19,18 +20,20 @@ function SoftwareDetail() {
     }, [id]);
 
     return (
-        <div className="row">
+        <div className="project-details">
             {softwareData ?
                 <div>
                     <ContentHeader path={[['home'], ['software'], [id, softwareData.title]]} />
 
-                    <img src={softwareData.img} alt={`Captura de pantalla de '${softwareData.title}'`} />
+                    <div className="project-details-img frame"><img src={softwareData.img} alt={`Captura de pantalla de '${softwareData.title}'`} /></div>
                     <Markdown source={softwareData.summary} />
 
                     {softwareData.multimedia && <section>
                         <h2>Multimedia</h2>
                         {softwareData.multimedia.videos.map((video: any, index: number) => (
-                            <iframe key={index} title={''+index} width="560" height="315" src={video} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                            <div className="multimedia">
+                                <iframe key={index} title={''+index} className="frame" width="560" height="315" src={video} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                            </div>
                         ))};
                     </section>}
 

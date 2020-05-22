@@ -1,0 +1,20 @@
+/* Source for list bullets being hyphens: https://stackoverflow.com/a/9807702 */
+
+
+.li-dashed {
+}
+
+.li-dashed ul {
+    list-style-type: none !important;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.li-dashed li {
+  text-indent: -40px;
+}
+
+.li-dashed li:before {
+  content: "– ";
+  text-indent: -5px;
+}

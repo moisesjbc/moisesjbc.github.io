@@ -4,6 +4,7 @@ import Markdown from '../../components/markdown/Markdown';
 import LinksList from '../../components/links.list/LinksList';
 import TagsList from '../../components/tags.list/TagsList';
 import ContentHeader from '../../components/content.header/ContentHeader';
+import './LiteratureDetail.css';
 
 function LiteratureDetail() {
     let { id } = useParams();
@@ -29,10 +30,9 @@ function LiteratureDetail() {
     }, [id]);
 
     const renderBook = () => (
-        <div>
+        <div className="project-details">
             <ContentHeader path={[['home'], ['literature'], [id, literatureData.title]]} />
 
-            <img src={literatureData.img} alt={`Captura de pantalla de '${literatureData.title}'`} />
             <Markdown source={literatureData.summary} />
 
             {literatureData.multimedia && <section>
@@ -53,10 +53,12 @@ function LiteratureDetail() {
     )
 
     const renderShortStory = () => (
-        <div>
+        <div className="project-details">
             <ContentHeader path={[['home'], ['literature'], [id, literatureData.title]]} displayTitle={false} />
 
-            <Markdown source={literatureData.body} />
+            <div className="li-dashed">
+                <Markdown source={literatureData.body} />
+            </div>
             <h2>Tags</h2>
             <TagsList projectsType='literature' tagIds={literatureData.tags} />
         </div>

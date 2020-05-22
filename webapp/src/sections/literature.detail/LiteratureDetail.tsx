@@ -35,6 +35,11 @@ function LiteratureDetail() {
 
             <Markdown source={literatureData.summary} />
 
+            {literatureData.synopsis && <section>
+                <h2>Sinopsis</h2>
+                <Markdown source={literatureData.synopsis} />
+            </section>}
+
             {literatureData.multimedia && <section>
                 <h2>Multimedia</h2>
                 {literatureData.multimedia.videos.map((video: any, index: number) => (

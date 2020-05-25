@@ -1,0 +1,86 @@
+{
+    "year": 2020,
+    "img": "https://raw.githubusercontent.com/moisesjbc/rgb-pong/master/img/rgb-pong.png",
+    "title": "RGB Pong",
+    "summary": "Pong con mecánicas de color. Desarrollado en [Godot Engine](https://godotengine.org/) para el [1º Reto GameDev](https://itch.io/jam/1-retogamedev)",
+    "mechanics": "En este clon del Pong el jugador debe cambiar el color de su pala para coincidir con el color de la bola si quiere devolverla. La bola a su vez adquidirá el color de la pared con la que rebote, obligando al jugador a predecir su color en el momento de golpearla.\n\nDisponible para uno o dos jugadores. ¡El primer jugador que llegue a 3 puntos gana!",
+    "controls": [
+        {
+            "key": "W, S",
+            "meaning": "movimiento de la pala (jugador 1)"
+        },
+        {
+            "key": "G, H, J",
+            "meaning": "cambio de color (jugador 1)"
+        },
+        {
+            "key": "Flecha arriba / abajo",
+            "meaning": "movimiento de la pala (jugador 2)"
+        },
+        {
+            "key": "1, 2, 3 (teclado numérico)",
+            "meaning": "cambio de color (jugador 2)"
+        }
+    ],
+    "credits": {
+        "own": [
+            {
+                "title": "Idea, programación, gráficos y sonido",
+                "people": [
+                    "Moisés J. Bonilla Caraballo"
+                ]
+            }
+        ],
+        "third-party": [
+            {
+                "title": "Software",
+                "resources": [
+                    {
+                        "name": "Godot Engine",
+                        "href": "https://godotengine.org/"
+                    },
+                    {
+                        "name": "Gimp",
+                        "href": "https://www.gimp.org/"
+                    }
+                ]
+            },
+            {
+                "title": "Fuentes",
+                "resources": [
+                    {
+                        "name": "Ubuntu-B.ttf ",
+                        "href": "https://design.ubuntu.com/font/"
+                    }
+                ]
+            }
+        ]
+    },
+    "links": [
+        {
+            "text": "Jugar RGB Pong v1.1 online",
+            "href": "/games/rgb-pong/play"
+        },
+        {
+            "text": "Descargar RGB Pong v1.1 para Linux",
+            "href": "https://github.com/moisesjbc/rgb-pong/releases/download/v1.1/rgb-pong_linux_v1.1.zip"
+        },
+        {
+            "text": "Descargar RGB Pong v1.1 para Windows",
+            "href": "https://github.com/moisesjbc/rgb-pong/releases/download/v1.1/rgb-pong_windows_v1.1.zip"
+        },
+        {
+            "text": "Repositorio de RGB Pong en Github",
+            "href": "https://github.com/moisesjbc/rgb-pong"
+        },
+        {
+            "text": "Entrada de RGB Pong en la página de la Jam",
+            "href": "https://itch.io/jam/1-retogamedev/rate/646695"
+        }
+    ],
+    "dimensions": {
+        "width": "1100px",
+        "height": "615px"
+    },
+    "tags": ["godot", "linux", "jam", "browser", "alone"]
+}

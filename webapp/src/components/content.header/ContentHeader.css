@@ -2,3 +2,8 @@
 #section-title-div {
     text-align: center;
 }
+
+#section-breadcrumb-div {
+    margin-bottom: 10px;
+    text-align: left;
+}

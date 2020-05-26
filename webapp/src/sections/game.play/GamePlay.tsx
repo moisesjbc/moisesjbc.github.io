@@ -12,9 +12,9 @@ function GamePlay() {
 
     return (
         <>
-            <ContentHeader path={[['home'], ['games'], [`games/${id}`, gameData.title], ['play']]} />
+            <div className="game-play-div" style={{width}}>
+                <ContentHeader path={[['home'], ['games'], [`games/${id}`, gameData.title], ['play']]} />
 
-            <div className="game-play-div">
                 <iframe title={id} className="frame" width={width} height={height} src={`/play/${id}/index.html`} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </div>
         </>

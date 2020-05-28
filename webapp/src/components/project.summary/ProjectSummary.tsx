@@ -18,7 +18,7 @@ function ProjectSummary(props: any) {
     };
 
     return (
-        <div className="project-summary-div col-3">
+        <div className="project-summary-div col-12 col-sm-3">
              { projectHeader(projectData['title'], projectData['year'], projectData['starred']) }
              <div className="project-summary-body-div">
                 { Boolean(projectData['img']) && <NavLink to={`/${projectSubDir}/${projectData['id']}`}><img src={projectData['img']} alt={`Captura de pantalla del juego '${projectData['title']}'`} /></NavLink> }

@@ -1,15 +1,27 @@
 
 .project-summary-div img {
-    height: 300px;
     padding: 5px;
     border-top: 2px solid #b0751c;
     border-bottom: 2px solid #b0751c;
+    margin-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+    .project-summary-div img {
+        height: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .project-summary-div img {
+        width: 100%;
+    }
 }
 
 .project-summary-footer-div {
     text-align: right;
 }
-
+q
 .project-summary-body-div p {
     margin-top: 10px;
     min-height: 70px;

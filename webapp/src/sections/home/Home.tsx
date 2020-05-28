@@ -9,7 +9,7 @@ function Home() {
         <>
             <ContentHeader path={[['home']]} displayBreadcrumb={false} />
 
-            <div className="center-box">
+            <div className="center-box box-border-top">
                 <Markdown source={data['about_me']}/>
 
                 <div id="news-header">

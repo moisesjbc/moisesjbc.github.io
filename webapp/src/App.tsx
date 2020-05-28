@@ -20,11 +20,19 @@ function App() {
                     <h1>Moisés José</h1>
                     <p id="page-subtitle">Desarrollador software y escritor</p>
                 </header>
-                <nav id="navigation">
-                    <NavLink to="/">Home</NavLink>
-                    <NavLink to="/games">Videjuegos</NavLink>
-                    <NavLink to="/software">Software</NavLink>
-                    <NavLink to="/literature">Literatura</NavLink>
+                <nav id="navigation" className="row center-box">
+                    <div className="col-12 col-sm-3">
+                        <NavLink to="/">Home</NavLink>
+                    </div>
+                    <div className="col-12 col-sm-3">
+                        <NavLink to="/games">Videjuegos</NavLink>
+                    </div>
+                    <div className="col-12 col-sm-3">
+                        <NavLink to="/software">Software</NavLink>
+                    </div>
+                    <div className="col-12 col-sm-3">
+                        <NavLink to="/literature">Literatura</NavLink>
+                    </div>
                 </nav>
             </div>
             <div id="body">

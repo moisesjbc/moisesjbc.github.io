@@ -57,8 +57,8 @@
         }
     ],
     "dimensions": {
-        "width": "1000px",
-        "height": "740px"
+        "width": 1000,
+        "height": 740
     },
     "tags": ["unity", "jam", "team", "browser", "windows"]
 }

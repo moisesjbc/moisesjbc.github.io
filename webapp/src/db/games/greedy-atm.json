@@ -73,8 +73,8 @@
         }
     ],
     "dimensions": {
-        "width": "1035px",
-        "height": "615px"
+        "width": 1035,
+        "height": 615
     },
     "tags": ["godot", "jam", "alone", "browser", "linux", "windows"]
 }

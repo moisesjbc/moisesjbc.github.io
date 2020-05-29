@@ -7,15 +7,17 @@ function GamePlay() {
     let { id } = useParams();
     const gameData: any = require(`../../db/games/${id}.json`);
 
-    const width: string = gameData['dimensions'] ? gameData['dimensions']['width'] : "100%";
-    const height: string = gameData['dimensions'] ? gameData['dimensions']['height']: "768px";
+    const displayGame: boolean = (gameData['dimensions'] && (gameData['dimensions']['width'] < window.innerWidth)) &&
+        (gameData['dimensions'] && (gameData['dimensions']['height'] < window.innerHeight));
 
     return (
         <>
-            <div className="game-play-div" style={{width}}>
+            <div className="game-play-div" style={displayGame ? {width: gameData['dimensions']['width']} : {}}>
                 <ContentHeader path={[['home'], ['games'], [`games/${id}`, gameData.title], ['play']]} />
 
-                <iframe title={id} className="frame" width={width} height={height} src={`/play/${id}/index.html`} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                {displayGame ?
+                    <iframe title={id} className="frame" width={`${gameData['dimensions']['width']}px`} height={`${gameData['dimensions']['height']}px`} src={`/play/${id}/index.html`} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    : <span>Juego no preparado para este tamaño de pantalla / dispositivo móvil</span>}
             </div>
         </>
     );

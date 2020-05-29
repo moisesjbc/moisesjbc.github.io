@@ -60,8 +60,8 @@
         }
     ],
     "dimensions": {
-        "width": "1300px",
-        "height": "840px"
+        "width": 1300,
+        "height": 840
     },
     "tags": ["unity", "jam", "team", "browser"]
 }

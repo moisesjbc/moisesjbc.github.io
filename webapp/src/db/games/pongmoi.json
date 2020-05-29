@@ -48,8 +48,8 @@
         }
     ],
     "dimensions": {
-        "width": "900px",
-        "height": "700px"
+        "width": 900,
+        "height": 700
     },
     "tags": ["javascript", "phaser", "alone", "browser"]
 }

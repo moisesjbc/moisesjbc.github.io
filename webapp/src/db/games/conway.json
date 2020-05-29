@@ -31,8 +31,8 @@
         }
     ],
     "dimensions": {
-        "width": "1040px",
-        "height": "1050px"
+        "width": 1040,
+        "height": 1050
     },
     "tags": ["javascript", "phaser", "browser"]
 }

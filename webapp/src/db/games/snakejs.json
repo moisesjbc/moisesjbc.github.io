@@ -30,8 +30,8 @@
         }
     ],
     "dimensions": {
-        "width": "440px",
-        "height": "415px"
+        "width": 440,
+        "height": 415
     },
     "tags": ["javascript", "easeljs", "alone", "browser"]
 }

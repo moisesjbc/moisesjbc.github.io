@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+    .play-online-link, .play-online-link:hover {
+        text-decoration: line-through;
+    }
+
+    .play-online-notice::after {
+        content: ' - No preparado para móvil'
+    }
+}

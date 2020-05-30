@@ -19,19 +19,22 @@ Personal website developed using [React](https://reactjs.org/). Visit it at <htt
 
 1. Run the following **inside Docker container**:
 
-        ng build --prod --base-href /
-        cp dist/webapp/index.html dist/webapp/404.html
-        echo -e '---\npermalink: /404.html\n---' | cat - dist/webapp/404.html > /tmp/temp && mv /tmp/temp dist/webapp/404.html
+        npm run-script build
+        cp build/index.html  build/404.html
+        echo -e '---\npermalink: /404.html\n---' | cat - build/404.html > /tmp/temp && mv /tmp/temp build/404.html
 
 2. Commit changes
 
+        git add webapp/build/ -f
+        git commit
+
 3. Publish to `master` branch:
 
-        git subtree push --prefix webapp/dist/webapp origin master
+        git subtree push --prefix webapp/build origin master
         
         or, if fails
 
-        git push origin `git subtree split --prefix webapp/dist/webapp/`:master --force
+        git push origin `git subtree split --prefix webapp/build/`:master --force
 
 ## Help
 

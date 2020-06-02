@@ -36,6 +36,7 @@ body {
     color: #b0751c;
     background-color: white;
     border: 1px solid #b0751c;
+    cursor: pointer;
 }
 
 .backTop:hover {

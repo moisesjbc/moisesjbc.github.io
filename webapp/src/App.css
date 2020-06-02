@@ -27,3 +27,17 @@ body {
         border-right: 1px solid black;
     }
 }
+
+.backTop {
+    position: fixed;
+    bottom: 2px;
+    right: 2px;
+    padding: 10px;
+    color: #b0751c;
+    background-color: white;
+    border: 1px solid #b0751c;
+}
+
+.backTop:hover {
+    background-color: #ffc369;
+}

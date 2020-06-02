@@ -12,6 +12,11 @@ import LiteratureDetail from './sections/literature.detail/LiteratureDetail';
 import NotFound from './sections/not.found/NotFound';
 
 function App() {
+  const goToTop = (ev: any) => {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  };
+
   return (
     <div className="App container-fluid">
         <BrowserRouter>
@@ -49,6 +54,7 @@ function App() {
                         <Route path="/literature/:id" exact component={LiteratureDetail} />
                         <Route exact component={NotFound} />
                     </Switch>
+                    <div className="backTop" onClick={goToTop} >&#9650;</div>
                 </div>
             </div>
         </BrowserRouter>

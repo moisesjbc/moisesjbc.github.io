@@ -36,6 +36,8 @@ Personal website developed using [React](https://reactjs.org/). Visit it at <htt
 
         git push origin `git subtree split --prefix webapp/build/`:master --force
 
+4. Update `Custom domain` in repo settings.
+
 ## Help
 
 - [Using custom domain for GitHub pages](https://medium.com/@hossainkhan/using-custom-domain-for-github-pages-86b303d3918a)

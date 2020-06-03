@@ -22,7 +22,7 @@ function App() {
         <BrowserRouter>
             <div id="header">
                 <header className="App-header">
-                    <h1>Moisés José</h1>
+                    <h1 id="siteTitle"><NavLink to="/">Moisés José</NavLink></h1>
                     <p id="page-subtitle">Desarrollador software y escritor</p>
                 </header>
                 <nav id="navigation" className="row center-box">

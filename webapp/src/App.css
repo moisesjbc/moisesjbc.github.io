@@ -42,3 +42,8 @@ body {
 .backTop:hover {
     background-color: #ffc369;
 }
+
+#siteTitle > a {
+    cursor: pointer;
+    color: #b0751c;
+}

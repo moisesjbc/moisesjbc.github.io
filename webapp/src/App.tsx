@@ -17,6 +17,7 @@ function App() {
     document.documentElement.scrollTop = 0;
   };
 
+
   return (
     <div className="App container-fluid">
         <BrowserRouter>

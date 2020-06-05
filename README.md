@@ -21,7 +21,7 @@ Personal website developed using [React](https://reactjs.org/). Visit it at <htt
 
         npm run-script build
         cp build/index.html  build/404.html
-        echo -e '---\npermalink: /404.html\n---' | cat - build/index.html > /tmp/temp && mv /tmp/temp build/404.html
+        echo -e '---\npermalink: /404.html\n---' | cat - build/404.html > /tmp/temp && mv /tmp/temp build/404.html
         echo "moisesjose.com" > build/CNAME
 
 2. Commit changes

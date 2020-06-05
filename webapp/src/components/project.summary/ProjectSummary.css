@@ -6,16 +6,9 @@
     margin-bottom: 15px;
 }
 
-@media (min-width: 768px) {
-    .project-summary-div img {
-        height: 300px;
-    }
-}
-
-@media (max-width: 768px) {
-    .project-summary-div img {
-        width: 100%;
-    }
+.project-summary-div img {
+    height: 300px;
+    max-width: 100%;
 }
 
 .project-summary-footer-div {

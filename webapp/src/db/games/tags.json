@@ -13,6 +13,8 @@
     "c++": "C++",
     "sfml": "SFML",
     "sdl": "SDL",
-    "easeljs": "EaselJS"
+    "easeljs": "EaselJS",
+    "renpy": "Ren'Py",
+    "mac": "MacOS"
   }
 }

@@ -1,0 +1,54 @@
+{
+    "img": "https://raw.githubusercontent.com/moisesjbc/one-of-you-is-a-magical-dog/master/one-of-you-is-a-magical-dog.png",
+    "year": 2020,
+    "title": "One of you is a magical dog!",
+    "summary": "Novela visual donde el jugador deberá resolver un misterio relativo a sus perros. Desarrollado en solitario para la [Happy Jam](https://itch.io/jam/happy-gamejam).",
+    "background": "Uno o más de tus perros ha robado tu posesión más valiosa usando magia. ¡Descubre al culpable!",
+    "mechanics": "Interroga a los perros y busca pistas usando únicamente el ratón",
+    "controls": [
+        {
+            "key": "Movimiento y teclas del ratón",
+            "meaning": "seleccionar diálogo / objeto."
+        }
+    ],
+    "credits": {
+        "own": [
+            {
+                "title": "Idea, programación, gráficos y música",
+                "people": [
+                    "Moisés J. Bonilla Caraballo"
+                ]
+            }
+        ],
+        "third-party": [
+            {
+                "title": "Software",
+                "resources": [
+                    {
+                        "name": "Ren'Py",
+                        "href": "https://www.renpy.org/"
+                    },
+                    {
+                        "name": "GIMP",
+                        "href": "https://www.gimp.org/"
+                    },
+                    {
+                        "name": "LMMS",
+                        "href": "https://lmms.io"
+                    }
+                ]
+            }
+        ]
+    },
+    "links": [
+        {
+            "text": "Página de \"One of you is magical dog!\" en página de la jam",
+            "href": "https://itch.io/jam/happy-gamejam/rate/731147"
+        },
+        {
+            "text": "Repositorio de \"One of you is magical dog!\" en Github",
+            "href": "https://github.com/moisesjbc/one-of-you-is-a-magical-dog"
+        }
+    ],
+    "tags": ["renpy", "jam", "alone", "windows", "linux", "mac"]
+}

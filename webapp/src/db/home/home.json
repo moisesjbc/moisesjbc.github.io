@@ -4,6 +4,10 @@
         {
             "date": "30/05/2020",
             "body": "Web rehecha con [React](https://reactjs.org) y adaptada a móvil."
+        },
+        {
+            "date": "02/09/2020",
+            "body": "Añadida página del juego [\"One of you is a magical dog!\"](games/one-of-you-is-a-magical-dog)"
         }
     ]
 }

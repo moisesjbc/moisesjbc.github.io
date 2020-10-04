@@ -1,0 +1,18 @@
+{
+    "img": "https://raw.githubusercontent.com/moisesjbc/ufo-taxi/main/multimedia/screnshoot.png",
+    "year": 2020,
+    "title": "UFO taxi!",
+    "summary": "<En desarrollo>",
+    "background": "<En desarrollo>",
+    "mechanics": "<En desarrollo>",
+    "controls": [],
+    "credits": {
+        "own": []
+    },
+    "links": [],
+    "dimensions": {
+        "width": 1300,
+        "height": 840
+    },
+    "tags": ["godot", "jam", "alone", "browser"]
+}

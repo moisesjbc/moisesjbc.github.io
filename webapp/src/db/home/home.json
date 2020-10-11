@@ -8,6 +8,10 @@
         {
             "date": "02/09/2020",
             "body": "Añadida página del juego [\"One of you is a magical dog!\"](games/one-of-you-is-a-magical-dog)"
+        },
+        {
+            "date": "11/10/2020",
+            "body": "Añadidas páginas de los juegos [\"Cinco etapas\"](games/cinco-etapas) y [\"UFO taxi!\"](games/ufo-taxi)"
         }
     ]
 }

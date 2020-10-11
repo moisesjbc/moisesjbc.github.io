@@ -2,17 +2,86 @@
     "img": "https://raw.githubusercontent.com/moisesjbc/ufo-taxi/main/multimedia/screnshoot.png",
     "year": 2020,
     "title": "UFO taxi!",
-    "summary": "<En desarrollo>",
-    "background": "<En desarrollo>",
-    "mechanics": "<En desarrollo>",
-    "controls": [],
+    "summary": "Juego de puzzles en el que debes llevar vacas a un festival modificando la ruta prefijada. Desarrollado en [Godot](https://godotengine.org/) para la [Ludum Dare #47](https://ldjam.com/events/ludum-dare/47).",
+    "background": "¡Es el gran COW FESTIVAL y todas las vacas de la región quieren asistir!\n\n Como empleado de la compañía \"UFO Taxi!\" (Ovni taxi), tu deber es llevarlas de manera segura hasta el festival. Sin embargo, tu vehículo tiene una ruta prefijada de la que no puede salirse y que no cubre las granjas de las vacas. Por suerte, la ruta puede modificarse...",
+    "mechanics": "- Clica en una arista y arrastra para crear un nuevo vértice.\n\n- Clica en un vértice y confirma para borrarlo",
+    "controls": [
+        {
+            "key": "Botón izquierdo del ratón",
+            "meaning": "Seleccionar vértice / arista. Confirmar / cancelar selección."
+        }
+    ],
     "credits": {
-        "own": []
+        "own": [
+            {
+                "title": "Idea, programación, gráficos y sonido",
+                "people": [
+                    "Moisés J. Bonilla Caraballo"
+                ]
+            }
+        ],
+        "third-party": [
+            {
+                "title": "Software",
+                "resources": [
+                    {
+                        "name": "Godot Engine",
+                        "href": "https://godotengine.org/"
+                    },
+                    {
+                        "name": "GIMP",
+                        "href": "https://www.gimp.org/"
+                    },
+                    {
+                        "name": "sfxr",
+                        "href": "https://www.drpetter.se/project_sfxr.html"
+                    },
+                    {
+                        "name": "LMMS",
+                        "href": "https://lmms.io/"
+                    }
+                ]
+            },
+            {
+                "title": "Fuentes",
+                "resources": [
+                    {
+                        "name": "Ubuntu-B.ttf",
+                        "href": "https://design.ubuntu.com/font/"
+                    }
+                ]
+            }
+        ]
     },
-    "links": [],
+    "links": [
+        {
+            "text": "Jugar a «UFO Taxi!» online",
+            "href": "/games/ufo-taxi/play"
+        },
+        {
+            "text": "Descargar «UFO Taxi!» v0.2 para Windows",
+            "href": "https://github.com/moisesjbc/ufo-taxi/releases/download/v0.2/ufo-taxi_windows_v0.2.zip"
+        },
+        {
+            "text": "Descargar «UFO Taxi!» v0.2 para GNU/Linux",
+            "href": "https://github.com/moisesjbc/ufo-taxi/releases/download/v0.2/ufo-taxi_linux_v0.2.zip"
+        },
+        {
+            "text": "Entrada de «UFO Taxi!» en la página de la Ludum Dare #47",
+            "href": "https://ldjam.com/events/ludum-dare/47/ufo-taxi"
+        },
+        {
+            "text": "Página de «UFO Taxi!» en itch.io",
+            "href": "https://moisesjbc.itch.io/ufo-taxi"
+        },
+        {
+            "text": "Repositorio en Github",
+            "href": "https://github.com/moisesjbc/ufo-taxi"
+        }
+    ],
     "dimensions": {
-        "width": 1300,
-        "height": 840
+        "width": 1024,
+        "height": 768
     },
-    "tags": ["godot", "jam", "alone", "browser"]
+    "tags": ["godot", "jam", "alone", "browser", "windows", "linux"]
 }

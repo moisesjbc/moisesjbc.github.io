@@ -31,7 +31,7 @@ function App() {
                         <NavLink to="/">Home</NavLink>
                     </div>
                     <div className="col-12 col-sm-3">
-                        <NavLink to="/games">Videjuegos</NavLink>
+                        <NavLink to="/games">Videojuegos</NavLink>
                     </div>
                     <div className="col-12 col-sm-3">
                         <NavLink to="/software">Software</NavLink>

@@ -3,8 +3,8 @@
     "year": 2017,
     "img": "https://raw.githubusercontent.com/moisesjbc/island-jam-ii/master/black-friday-cart-race.png",
     "title": "Black Friday Cart Race",
-    "summary": "Juego de habilidad en el que el jugador debe comprar todo lo que pueda en un minuto. Desarrollado en equipo con [Unity](https://unity.com) en la [Island Jam Gran Canaria 2](https://www.spegc.org/formacion-y-eventos/ii-island-jam-gran-canaria-islandjamgc/) para la [Ludum Dare #40](https://ldjam.com/events/ludum-dare/40/)",
-    "mechanics": "¿Black Friday? ¿Hoy? ¡¿Ahora?! ¡Rápido! Coge tantas ofertas como puedas en un minuto asegurándote de pasar por caja para asegurar tu puntuación. ¡Pero cuidado! El resto de compradores no dudará en robar tus compras. ¿Conseguirás hacerte con todo?\n\nEvita al resto de compradores, así como los molestos charcos y toma los objetos repartidos por todo el supermercado en menos de un minuto. Pero recuerda: cuánto más tengas, peor (*). ¡Cuanto más objetos cargues más lento irás y más te costará ver la pantalla!\n\n(*) \"The more you have, the worse it is\". Tema de la Ludum Dare #40.",
+    "summary": "Juego de habilidad en el que el jugador debe comprar todo lo que pueda en un minuto. Desarrollado en equipo con [Unity](https://unity.com) para la [Island Jam Gran Canaria 2](https://www.spegc.org/formacion-y-eventos/ii-island-jam-gran-canaria-islandjamgc/) / [Ludum Dare #40](https://ldjam.com/events/ludum-dare/40/)",
+    "mechanics": "Hazte con tantas ofertas como puedas en un minuto asegurándote de pasar por caja para asegurar tu puntuación. ¡Pero cuidado! El resto de compradores no dudará en robar tus compras. ¿Conseguirás hacerte con todo?\n\nEvita al resto de compradores, así como los molestos charcos, y toma los objetos repartidos por todo el supermercado en menos de un minuto. Pero recuerda: cuánto más tengas, peor (*). ¡Cuanto más objetos cargues más lento irás y más te costará ver la pantalla!\n\n(*) \"The more you have, the worse it is\". Tema de la Ludum Dare #40.",
     "controls": [
         {
             "key": "Flechas",
@@ -45,31 +45,45 @@
                 "resources": [
                     {
                         "author": "davidferoli",
-                        "name": "Agua_Chapoteo_Charco.wav"
+                        "author_href": "https://freesound.org/people/davidferoli/",
+                        "name": "Agua_Chapoteo_Charco.wav",
+                        "href": "https://freesound.org/people/davidferoli/sounds/190656/"
                     },
                     {
                         "author": "qubodup",
-                        "name": "US Military Soldier Shouting “Whoo!”"
+                        "author_href": "https://freesound.org/people/qubodup/",
+                        "name": "US Military Soldier Shouting “Whoo!”",
+                        "href": "https://freesound.org/people/qubodup/sounds/161340/"
                     },
                     {
-                        "author": "Tristan_Lohengrin",
-                        "name": "Drop armor and bag"
+                        "author": "Tristan_Lohengrin (deleted user)",
+                        "author_href": "https://freesound.org/people/Tristan_Lohengrin/",
+                        "name": "Drop armor and bag",
+                        "href": "https://freesound.org/people/Tristan_Lohengrin/sounds/241635/"
                     },
                     {
                         "author": "FoolBoyMedia",
-                        "name": "Race Track"
+                        "author_href": "https://freesound.org/people/FoolBoyMedia/",
+                        "name": "Race Track",
+                        "href": "https://freesound.org/people/FoolBoyMedia/sounds/237089/"
                     },
                     {
                         "author": "Reitanna",
-                        "name": "dumb what.wav"
+                        "author_href": "https://freesound.org/people/Reitanna/",
+                        "name": "dumb what.wav",
+                        "href": "https://freesound.org/people/Reitanna/sounds/242611/"
                     },
                     {
                         "author": "kiddpark",
-                        "name": "Cash Register"
+                        "author_href": "https://freesound.org/people/kiddpark/",
+                        "name": "Cash Register",
+                        "href": "https://freesound.org/people/kiddpark/sounds/201159/"
                     },
                     {
                         "author": "13F_Panská_Kettner_Filip",
-                        "name": "atmo small market.wav"
+                        "author_href": "https://freesound.org/people/13F_Pansk%C3%A1_Kettner_Filip/",
+                        "name": "atmo small market.wav",
+                        "href": "https://freesound.org/people/13F_Pansk%C3%A1_Kettner_Filip/sounds/378801/"
                     }
                 ]
             }

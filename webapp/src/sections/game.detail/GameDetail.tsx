@@ -76,7 +76,13 @@ function GameDetail() {
                                     {credits.resources.map((resource: any, index: number) => (
                                         <li key={index}>
                                             { resource.author ?
-                                                <span>"{ resource.name }" - { resource.author }</span>
+                                                <span>"{ resource.href ?
+                                                    <a href={resource.href}>{ resource.name }</a>
+                                                    : resource.name }"
+                                                - { resource.author_href ?
+                                                    <a href={resource.author_href}>{ resource.author }</a>
+                                                    : resource.author }
+                                                </span>
                                                 : renderLinkWithoutAuthor(resource)
                                             }
                                         </li>

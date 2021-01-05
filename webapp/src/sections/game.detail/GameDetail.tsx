@@ -40,6 +40,15 @@ function GameDetail() {
                         <Markdown source={gameData.background} />
                     </section>}
 
+                    {gameData.multimedia && <section>
+                        <h2>Multimedia</h2>
+                        {gameData.multimedia.videos.map((video: any, index: number) => (
+                            <div className="multimedia">
+                                <iframe key={index} title={''+index} className="frame" width={""+Math.min(560, window.innerWidth - 30)} height="315" src={video} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                            </div>
+                        ))};
+                    </section>}
+
                     {gameData.mechanics && <section>
                         <h2>Mecánicas</h2>
                         <Markdown source={gameData.mechanics} />

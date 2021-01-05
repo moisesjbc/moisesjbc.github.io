@@ -2,7 +2,7 @@
     "year": 2016,
     "img": "https://raw.githubusercontent.com/moisesjbc/sandwiches-game/master/img/jdb.jpg",
     "title": "El Juego De los Bocadillos (JDB)",
-    "summary": "Juego de habilidad 2D cuyo objetivo consiste en eliminar los peligros que viajan sobre unos deliciosos bocadillos.",
+    "summary": "Juego de habilidad 2D cuyo objetivo consiste en eliminar los peligros que viajan sobre unos deliciosos bocadillos. Programado en C++ con la librería [SFML](https://www.sfml-dev.org/)",
     "controls": [
         {
             "key": "1, 2, 3, 4",
@@ -30,6 +30,39 @@
             {
                 "title": "Música y sonidos",
                 "body": "Los sonidos y la música se ha descargado de [freesound.org](https://www.freesound.org) y otras fuentes libres."
+            },
+            {
+                "title": "Librerías",
+                "resources": [
+                    {
+                        "name": "Boost",
+                        "href": "https://www.boost.org/"
+                    },
+                    {
+                        "name": "tinyxml2",
+                        "href": "http://www.grinninglizard.com/tinyxml2/"
+                    },
+                    {
+                        "name": "JSON for modern C++",
+                        "href": "https://github.com/nlohmann/json"
+                    },
+                    {
+                        "name": "SFML",
+                        "href": "http://www.sfml-dev.org/"
+                    },
+                    {
+                        "name": "TGUI",
+                        "href": "https://tgui.eu/"
+                    },
+                    {
+                        "name": "CMake",
+                        "href": "https://cmake.org/"
+                    },
+                    {
+                        "name": "Easylogging++",
+                        "href": "https://github.com/easylogging/easyloggingpp"
+                    }
+                ]
             }
         ]
     },

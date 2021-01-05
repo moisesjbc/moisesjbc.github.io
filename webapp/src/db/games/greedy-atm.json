@@ -41,7 +41,8 @@
                 "title": "Fuentes",
                 "resources": [
                     {
-                        "name": "Ubuntu-B.ttf"
+                        "name": "Ubuntu-B.ttf",
+                        "href": "https://design.ubuntu.com/font/"
                     }
                 ]
             }

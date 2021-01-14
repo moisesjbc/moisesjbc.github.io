@@ -84,12 +84,20 @@
         ]
     },
     "links": [
-	{
-            "text": "Jugar online a Piratinsul' v1.0",
+	    {
+            "text": "Jugar online a Piratinsul' v1.1",
             "href": "/games/piratinsul/play"
         },
         {
-            "text": "Entrada de Piratinsul’ en la Games Factory Jam 8 (incluye descargas)",
+            "text": "Descargar Piratinsul' v1.1 para Windows",
+            "href": "https://github.com/moisesjbc/games-factory-jam-8/releases/download/v1.1/piratinsul_windows_v1.1.zip"
+        },
+        {
+            "text": "Descargar Piratinsul' v1.1 para GNU/Linux",
+            "href": "https://github.com/moisesjbc/games-factory-jam-8/releases/download/v1.1/piratinsul_linux_v1.1.zip"
+        },
+        {
+            "text": "Entrada de Piratinsul’ en la Games Factory Jam 8",
             "href": "https://moisesjbc.itch.io/piratinsul"
         },
         {
@@ -98,8 +106,8 @@
         }
     ],
     "dimensions": {
-        "width": 1040,
-        "height": 790
+        "width": 1030,
+        "height": 780
     },
     "tags": ["godot", "jam", "alone", "browser", "linux", "windows"]
 }

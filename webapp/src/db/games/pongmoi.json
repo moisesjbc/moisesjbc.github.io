@@ -6,7 +6,7 @@
     "controls": [
         {
             "key": "W, S",
-            "meaning": "movimiento jugador 1"
+            "meaning": "mover jugador 1"
         },
         {
             "key": "Espacio",
@@ -14,7 +14,7 @@
         },
         {
             "key": "Flechas arriba / abajo",
-            "meaning": "movimiento jugador 2"
+            "meaning": "mover jugador 2"
         },
         {
             "key": "Número 0 del teclado numérico",

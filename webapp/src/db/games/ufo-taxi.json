@@ -9,7 +9,7 @@
     "controls": [
         {
             "key": "Botón izquierdo del ratón",
-            "meaning": "Seleccionar vértice / arista. Confirmar / cancelar selección."
+            "meaning": "seleccionar vértice / arista. Confirmar / cancelar selección."
         }
     ],
     "credits": {

@@ -4,11 +4,11 @@
     "title": "Cinco etapas",
     "summary": "Juego de acción sobre un doloroso aprendizaje. Desarrollado en [Godot](https://godotengine.org/) para la [Spain Game Devs Jam II](https://itch.io/jam/spain-game-devs-jam-ii/).",
     "background": "Tu otra mitad ha sido separada de ti. ¿Hasta dónde llegarás para recuperarla?",
-    "mechanics": "Dispara y esquiva obstáculos obstáculos",
+    "mechanics": "Dispara y esquiva obstáculos",
     "controls": [
         {
             "key": "A, S, D, W",
-            "meaning": "movimiento"
+            "meaning": "mover personaje"
         },
         {
             "key": "Movimiento del ratón",
@@ -67,11 +67,11 @@
             "href": "/games/cinco-etapas/play"
         },
         {
-            "text": "Descargar «Cinco etapas» v0.1 para Windows",
+            "text": "Descargar «Cinco etapas» v1.1 para Windows",
             "href": "https://github.com/moisesjbc/cinco-etapas/releases/download/v1.0/cinco-etapas_windows_v1.0.zip"
         },
         {
-            "text": "Descargar «Cinco etapas» v0.1 para GNU/Linux",
+            "text": "Descargar «Cinco etapas» v1.1 para GNU/Linux",
             "href": "https://github.com/moisesjbc/cinco-etapas/releases/download/v1.0/cinco-etapas_linux_v1.0.zip"
         },
         {

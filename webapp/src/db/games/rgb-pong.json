@@ -7,19 +7,19 @@
     "controls": [
         {
             "key": "W, S",
-            "meaning": "movimiento de la pala (jugador 1)"
+            "meaning": "mover pala (jugador 1)"
         },
         {
             "key": "G, H, J",
-            "meaning": "cambio de color (jugador 1)"
+            "meaning": "cambiar color de la pala (jugador 1)"
         },
         {
             "key": "Flecha arriba / abajo",
-            "meaning": "movimiento de la pala (jugador 2)"
+            "meaning": "mover pala (jugador 2)"
         },
         {
             "key": "1, 2, 3 (teclado numérico)",
-            "meaning": "cambio de color (jugador 2)"
+            "meaning": "cambiar color de la pala (jugador 2)"
         }
     ],
     "credits": {

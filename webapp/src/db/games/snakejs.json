@@ -6,13 +6,13 @@
     "controls": [
         {
             "key": "Flechas",
-            "meaning": "movimiento"
+            "meaning": "mover serpiente"
         }
     ],
     "credits": {
         "own": [
             {
-                "title": "Idea, gráficos y programación",
+                "title": "Gráficos y programación",
                 "people": [
                     "Moisés J. Bonilla Caraballo"
                 ]

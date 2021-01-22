@@ -4,6 +4,7 @@
     "img": "https://raw.githubusercontent.com/moisesjbc/como/master/img/como.png",
     "title": "COMO – Modelador 3D colaborativo",
     "summary": "**COMO (Cooperative Modeller) es un modelador 3D colaborativo**. Permite que múltiples usuarios se conecten a través de la red y trabajen sobre la misma escena 3D en tiempo real.",
+    "features": "COMO permite a los usuarios:\n\n- Crear escenas compartidas o unirse a una ya creada.\n- Añadir mallas cargadas desde ficheros OBJ.\n- Crear primitivas (cubos, conos, cilindros y esferas).\n- Crear luces direccionales.\n- Transformar múltiples objetos a la vez (traslaciones, rotaciones y escalados).\n- Editar el material asociado a cada malla.",
     "multimedia": {
         "videos": [
             "https://www.youtube.com/embed/tDLQiroS3Lc"

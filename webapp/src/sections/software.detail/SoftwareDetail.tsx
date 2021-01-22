@@ -28,6 +28,11 @@ function SoftwareDetail() {
                     <div className="project-details-img frame"><img src={softwareData.img} alt={`Captura de pantalla de '${softwareData.title}'`} /></div>
                     <Markdown source={softwareData.summary} />
 
+                    {softwareData.features && <section>
+                        <h2>Características</h2>
+                        <Markdown source={softwareData.features} />
+                    </section>}
+
                     {softwareData.multimedia && <section>
                         <h2>Multimedia</h2>
                         {softwareData.multimedia.videos.map((video: any, index: number) => (

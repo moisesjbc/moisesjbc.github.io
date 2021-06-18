@@ -5,6 +5,7 @@
     "qt": "Qt",
     "mysql": "MySQL",
     "web": "Web",
-    "desktop": "Escritorio"
+    "desktop": "Escritorio",
+    "python": "Python"
   }
 }

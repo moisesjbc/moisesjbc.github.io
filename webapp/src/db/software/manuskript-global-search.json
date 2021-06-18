@@ -1,0 +1,23 @@
+{
+    "starred": true,
+    "year": 2021,
+    "img": "http://www.theologeek.ch/manuskript/wp-content/uploads/2021/04/Manuskript-Search.png",
+    "title": "[Contribución] Manuskript - Búsqueda global",
+    "summary": "**Manuskript** es un software open source para escritores que estoy usando para escribir la segunda parte de [mi novela](/literature/cuarto-poder). Mi aportación fue mejorar la función de búsqueda para hacerla global y con más características.",
+    "features": "La nueva búsqueda global de Manuskript permite:\n\n- Buscar en todo el proyecto, incluyendo fichas de personaje, del mundo, etc.\n- Buscar por palabras completas.\n- Buscar por expresión regular.\n- Previsualizar resultados pasando el ratón sobre los mismos.",
+    "links": [
+        {
+            "text": "Repositorio de Manuskript en Github",
+            "href": "https://github.com/olivierkes/manuskript"
+        },
+        {
+            "text": "Manuskript 0.12.0 (anuncio donde se menciona mi aportación)",
+            "href": "http://www.theologeek.ch/manuskript/2021/04/30/manuskript-0-12-0/"
+        },
+        {
+            "text": "Manuskript - Global Search - Pull request",
+            "href": "https://github.com/olivierkes/manuskript/pull/717"
+        }
+    ],
+    "tags": ["python", "qt", "desktop"]
+}

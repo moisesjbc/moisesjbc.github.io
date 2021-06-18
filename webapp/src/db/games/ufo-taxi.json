@@ -1,6 +1,6 @@
 {
     "starred": true,
-    "img": "https://raw.githubusercontent.com/moisesjbc/ufo-taxi/main/multimedia/screnshoot.png",
+    "img": "https://raw.githubusercontent.com/moisesjbc/ufo-taxi/main/multimedia/screenshot.png",
     "year": 2020,
     "title": "UFO taxi!",
     "summary": "Juego de puzzles en el que debes llevar vacas a un festival modificando la ruta prefijada. Desarrollado en [Godot](https://godotengine.org/) para la [Ludum Dare #47](https://ldjam.com/events/ludum-dare/47).",

@@ -15,8 +15,21 @@
     "credits": {
         "own": [
             {
-                "title": "Idea, programación, gráficos y sonido",
+                "title": "Idea y programación y gráficos",
                 "people": [
+                    "Moisés J. Bonilla Caraballo"
+                ]
+            },
+            {
+                "title": "Música",
+                "people": [
+                    "Alejandro Sánchez Medina"
+                ]
+            },
+            {
+                "title": "Sonido",
+                "people": [
+                    "Alejandro Sánchez Medina",
                     "Moisés J. Bonilla Caraballo"
                 ]
             }
@@ -40,6 +53,14 @@
                     {
                         "name": "LMMS",
                         "href": "https://lmms.io/"
+                    },
+                    {
+                        "name": "FoxDot",
+                        "href": "https://foxdot.org/"
+                    },
+                    {
+                        "name": "REAPER",
+                        "href": "https://www.reaper.fm"
                     }
                 ]
             },
@@ -60,12 +81,12 @@
             "href": "/games/ufo-taxi/play"
         },
         {
-            "text": "Descargar «UFO Taxi!» v0.3.1 para Windows",
-            "href": "https://github.com/moisesjbc/ufo-taxi/releases/download/v0.3.1/ufo-taxi_windows_v0.3.1.zip"
+            "text": "Descargar «UFO Taxi!» v0.4 para Windows",
+            "href": "https://github.com/moisesjbc/ufo-taxi/releases/download/v0.4/ufo-taxi_windows_v0.4.zip"
         },
         {
-            "text": "Descargar «UFO Taxi!» v0.3.1 para GNU/Linux",
-            "href": "https://github.com/moisesjbc/ufo-taxi/releases/download/v0.3.1/ufo-taxi_linux_v0.3.1.zip"
+            "text": "Descargar «UFO Taxi!» v0.4 para GNU/Linux",
+            "href": "https://github.com/moisesjbc/ufo-taxi/releases/download/v0.4/ufo-taxi_linux_v0.4.zip"
         },
         {
             "text": "Entrada de «UFO Taxi!» en la página de la Ludum Dare #47",
@@ -81,8 +102,8 @@
         }
     ],
     "dimensions": {
-        "width": 1024,
-        "height": 768
+        "width": 1280,
+        "height": 720
     },
-    "tags": ["godot", "jam", "alone", "browser", "windows", "linux"]
+    "tags": ["godot", "jam", "browser", "windows", "linux"]
 }

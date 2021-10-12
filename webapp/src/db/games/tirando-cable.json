@@ -1,0 +1,108 @@
+{
+    "starred": false,
+    "img": "https://raw.githubusercontent.com/moisesjbc/tirando-cable/main/multimedia/screenshot.png",
+    "year": 2021,
+    "title": "Tirando cable",
+    "summary": "Juego de supervivencia formando una red eléctrica. Desarrollado en [Godot](https://godotengine.org/) para la [Spain Game Devs Jam III](https://itch.io/jam/spain-game-devs-jam-iii).",
+    "background": "¡Hay una invasión de fantasmas! Los científicos están investigando cómo acabar con ellos, ¡pero la red eléctrica está caída! Si únicamente hubiera un electricista dispuesto a arriesgarse para arreglar la red...",
+    "mechanics": "- Mantén el edificio de investigación conectado (¿o debería decir \"unido\"?) a la red eléctrica para que los científicos puedan concluir su investigación.\n- Sobrevive a las oleadas de fantasmas conectando torretas a la red eléctrica.\n\n**El juego dispone de tutorial integrado.**",
+    "controls": [
+        {
+            "key": "Botón izquierdo del ratón",
+            "meaning": "seleccionar vértice / arista. Confirmar / cancelar selección."
+        }
+    ],
+    "credits": {
+        "own": [
+            {
+                "title": "Idea y diseño",
+                "people": [
+                    "Moisés J. Bonilla Caraballo"
+                ]
+            },
+            {
+                "title": "Programación",
+                "people": [
+                    "Moisés J. Bonilla Caraballo"
+                ],
+                "license": "GPL v3"
+            },
+            {
+                "title": "Arte",
+                "people": [
+                    "Moisés J. Bonilla Caraballo"
+                ],
+                "license": "Attribution-NonCommercial-ShareAlike 4.0 International"
+            },
+            {
+                "title": "SFX",
+                "people": [
+                    "Moisés J. Bonilla Caraballo"
+                ],
+                "license": "Attribution-NonCommercial-ShareAlike 4.0 International"
+            }
+        ],
+        "third-party": [
+            {
+                "title": "Software",
+                "resources": [
+                    {
+                        "name": "Godot Engine",
+                        "href": "https://godotengine.org/"
+                    },
+                    {
+                        "name": "GIMP",
+                        "href": "https://www.gimp.org/"
+                    },
+                    {
+                        "name": "sfxr",
+                        "href": "https://www.drpetter.se/project_sfxr.html"
+                    }
+                ]
+            },
+            {
+                "title": "Fuentes",
+                "resources": [
+                    {
+                        "name": "Ubuntu-B.ttf",
+                        "href": "https://design.ubuntu.com/font/"
+                    }
+                ]
+            }
+        ],
+        "thanks": [
+            "A los organizadores de la [Spain Game Devs Jam III](https://itch.io/jam/spain-game-devs-jam-iii)"
+        ]
+    },
+    "links": [
+        {
+            "text": "Jugar a «Tirando cable» online",
+            "href": "/games/tirando-cable/play"
+        },
+        {
+            "text": "Descargar «Tirando cable» v1.0 para Windows",
+            "href": "https://github.com/moisesjbc/tirando-cable/releases/download/v1.0.0/tirando-cable_windows_v1.0.0.zip"
+        },
+        {
+            "text": "Descargar «Tirando cable» v1.0 para GNU/Linux",
+            "href": "https://github.com/moisesjbc/tirando-cable/releases/download/v1.0.0/tirando-cable_linux_v1.0.0.zip"
+        },
+        {
+            "text": "Entrada de «Tirando cable» en la página de la Spain Game Devs Jam III",
+            "href": "https://itch.io/jam/spain-game-devs-jam-iii/rate/1211394"
+        },
+        {
+            "text": "Página de «Tirando cable» en itch.io",
+            "href": "https://moisesjbc.itch.io/tirando-cable"
+        },
+        {
+            "text": "Repositorio en Github",
+            "href": "https://github.com/moisesjbc/tirando-cable"
+        }
+    ],
+    "dimensions": {
+        "width": 1024,
+        "height": 600
+    },
+    "tags": ["godot", "jam", "browser", "windows", "linux", "alone"]
+}

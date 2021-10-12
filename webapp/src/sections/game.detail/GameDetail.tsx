@@ -72,6 +72,7 @@ function GameDetail() {
                                     <li key={index}>{ person }</li>
                                 ))}
                             </ul>
+                            { credits.license && <p><strong>Licencia:</strong> {credits.license}</p> }
                         </section>
                     ))}
 
@@ -105,7 +106,7 @@ function GameDetail() {
                         <h2>Agradecimientos</h2>
                         <ul>
                             {gameData.credits.thanks.map((thanks: any, index: number) => (
-                                <li key={index}>{ thanks }</li>
+                                <li key={index}><Markdown source={thanks} /></li>
                             ))}
                         </ul>
                     </section>}

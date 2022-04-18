@@ -1,0 +1,94 @@
+{
+    "starred": false,
+    "img": "https://raw.githubusercontent.com/moisesjbc/hold-it/main/multimedia/screenshot.jpg",
+    "year": 2022,
+    "title": "Hold it!",
+    "summary": "Juego de acción en el que debes trocear comida dentro de un estómago bastante irreal. Desarrollado en [Godot](https://godotengine.org/) para la [Ludum Dare #50](https://ldjam.com/events/ludum-dare/50) y la [Island Jam VIII](https://itch.io/jam/island-jam-viii).",
+    "background": "¡Bienvenido a la peor representación de un estomágo jamás hecha!\n\nParte la comida que cae para reducir las ganas de evacuar del anfitrión, pero recuerda: sólo estás retrasando lo inevitable",
+    "mechanics": "- Clica para volar hacia una dirección\n\n- Rebota entre las comidas para dividirlas.",
+    "controls": [
+        {
+            "key": "Botón izquierdo del ratón",
+            "meaning": "Volar hacia la dirección indicada."
+        }
+    ],
+    "credits": {
+        "own": [
+            {
+                "title": "Idea y programación y gráficos",
+                "people": [
+                    "Moisés J. Bonilla Caraballo"
+                ]
+            },
+            {
+                "title": "Sonido",
+                "people": [
+                    "Moisés J. Bonilla Caraballo"
+                ]
+            }
+        ],
+        "third-party": [
+            {
+                "title": "Software",
+                "resources": [
+                    {
+                        "name": "Godot Engine",
+                        "href": "https://godotengine.org/"
+                    },
+                    {
+                        "name": "GIMP",
+                        "href": "https://www.gimp.org/"
+                    },
+                    {
+                        "name": "sfxr",
+                        "href": "https://www.drpetter.se/project_sfxr.html"
+                    }
+                ]
+            },
+            {
+                "title": "Fuentes",
+                "resources": [
+                    {
+                        "name": "Ubuntu-B.ttf",
+                        "href": "https://design.ubuntu.com/font/"
+                    }
+                ]
+            }
+        ]
+    },
+    "links": [
+        {
+            "text": "Jugar a «Hold it!» online",
+            "href": "/games/hold-it/play"
+        },
+        {
+            "text": "Descargar «Hold it!» v0.2 para Windows",
+            "href": "https://github.com/moisesjbc/hold-it/releases/download/v0.2/hold-it_windows_v0.2.zip"
+        },
+        {
+            "text": "Descargar «Hold it!» v0.2 para GNU/Linux",
+            "href": "https://github.com/moisesjbc/hold-it/releases/download/v0.2/hold-it_linux_v0.2.zip"
+        },
+        {
+            "text": "Entrada de «Hold it!» en la página de la Ludum Dare #50",
+            "href": "https://ldjam.com/events/ludum-dare/50/hold-it"
+        },
+        {
+            "text": "Entrada de «Hold it!» en la página de la Island Jam VIII",
+            "href": "https://itch.io/jam/island-jam-viii/rate/1468695"
+        },
+        {
+            "text": "Página de «Hold it!» en itch.io",
+            "href": "https://moisesjbc.itch.io/hold-it"
+        },
+        {
+            "text": "Repositorio en Github",
+            "href": "https://github.com/moisesjbc/hold-it"
+        }
+    ],
+    "dimensions": {
+        "width": 1280,
+        "height": 720
+    },
+    "tags": ["godot", "jam", "browser", "windows", "linux", "alone"]
+}

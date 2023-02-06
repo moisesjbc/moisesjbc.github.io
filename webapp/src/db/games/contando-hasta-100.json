@@ -1,0 +1,97 @@
+{
+    "starred": false,
+    "img": "https://raw.githubusercontent.com/moisesjbc/contando-hasta-100/main/multimedia/screenshot.png",
+    "year": 2022,
+    "title": "Contando hasta 100",
+    "summary": "Un juego en el que tienes que contar hasta 100. ¿Qué tan complicado puede ser? Desarrollado para la [Indie Spain Jam](https://itch.io/jam/indie-spain-jam).",
+    "mechanics": "Clica en el número correcto. Simple.",
+    "controls": [
+        {
+            "key": "Botón izquierdo del ratón",
+            "meaning": "seleccionar número"
+        }
+    ],
+    "credits": {
+        "own": [
+            {
+                "title": "Idea, programación, gráficos y sonidos",
+                "people": [
+                    "Moisés J. Bonilla Caraballo"
+                ]
+            },
+            {
+                "title": "Música",
+                "people": [
+                    "Alejandro Sánchez Medina"
+                ]
+            }
+        ],
+        "third-party": [
+            {
+                "title": "Software",
+                "resources": [
+                    {
+                        "name": "Godot Engine",
+                        "href": "https://godotengine.org/"
+                    },
+                    {
+                        "name": "GIMP",
+                        "href": "https://www.gimp.org/"
+                    },
+                    {
+                        "name": "sfxr",
+                        "href": "https://www.drpetter.se/project_sfxr.html"
+                    },
+                    {
+                        "name": "Coolors",
+                        "href": "https://coolors.co/"
+                    },
+                    {
+                        "name": "Strudel",
+                        "href": "https://strudel.tidalcycles.org/"
+                    },
+                    {
+                        "name": "OBS",
+                        "href": "https://obsproject.com/"
+                    },
+                    {
+                        "name": "Blender",
+                        "href": "https://www.blender.org/"
+                    }
+                ]
+            },
+            {
+                "title": "Fuentes",
+                "resources": [
+                    {
+                        "name": "Ubuntu-B.ttf",
+                        "href": "https://design.ubuntu.com/font/"
+                    }
+                ]
+            }
+        ]
+    },
+    "links": [
+        {
+            "text": "Jugar a «Contando hasta 100» online",
+            "href": "/games/contando-hasta-100/play"
+        },
+        {
+            "text": "Entrada de «Contando hasta 100» en la página de la Indie Spain Jam",
+            "href": "https://itch.io/jam/indie-spain-jam/rate/1716993"
+        },
+        {
+            "text": "Página de «Contando hasta 100» en itch.io (incluye descargas para Windows y GNU/Linux",
+            "href": "https://moisesjbc.itch.io/contando-hasta-100"
+        },
+        {
+            "text": "Repositorio en Github",
+            "href": "https://github.com/moisesjbc/contando-hasta-100"
+        }
+    ],
+    "dimensions": {
+        "width": 1280,
+        "height": 720
+    },
+    "tags": ["godot", "jam", "browser", "windows", "linux"]
+}

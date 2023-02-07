@@ -1,0 +1,83 @@
+{
+    "starred": false,
+    "img": "https://raw.githubusercontent.com/moisesjbc/info-harvest/main/multimedia/screenshot.png",
+    "year": 2023,
+    "title": "Info harvest",
+    "summary": "Tower defense en el que los enemigos son *fake news*. Desarrollado en [Godot](https://godotengine.org/) para la [Ludum Dare #52](https://ldjam.com/events/ludum-dare/52).",
+    "mechanics": "- Coloca torres (*fact checkers*) en cualquier lugar del mapa\n\n- Clica en las torres para ver posibles mejores\n\n- Los puntos se consiguen cuando las noticias veraces alcanzan el otro extremo del mapa.",
+    "controls": [
+        {
+            "key": "Botón izquierdo del ratón",
+            "meaning": "Colocar torre / seleccionar mejora"
+        }
+    ],
+    "credits": {
+        "own": [
+            {
+                "title": "Idea y desarrollo",
+                "people": [
+                    "Moisés J. Bonilla Caraballo"
+                ]
+            }
+        ],
+        "third-party": [
+            {
+                "title": "Software",
+                "resources": [
+                    {
+                        "name": "Godot Engine",
+                        "href": "https://godotengine.org/"
+                    },
+                    {
+                        "name": "GIMP",
+                        "href": "https://www.gimp.org/"
+                    },
+                    {
+                        "name": "sfxr",
+                        "href": "https://www.drpetter.se/project_sfxr.html"
+                    }
+                ]
+            },
+            {
+                "title": "Fuentes",
+                "resources": [
+                    {
+                        "name": "Ubuntu-B.ttf",
+                        "href": "https://design.ubuntu.com/font/"
+                    }
+                ]
+            }
+        ]
+    },
+    "links": [
+        {
+            "text": "Jugar a «Info harvest» online",
+            "href": "/games/info-harvest/play"
+        },
+        {
+            "text": "Descargar «Info harvest» v0.1 para Windows",
+            "href": "https://github.com/moisesjbc/info-harvest/releases/download/v0.1/info-harvest_windows_v0.1.zip"
+        },
+        {
+            "text": "Descargar «INfo harvest» v0.1 para GNU/Linux",
+            "href": "https://github.com/moisesjbc/info-harvest/releases/download/v0.1/info-harvest_linux_v0.1.zip"
+        },
+        {
+            "text": "Entrada de «Info harvest» en la página de la Ludum Dare #52",
+            "href": "https://ldjam.com/events/ludum-dare/52/info-harvest"
+        },
+        {
+            "text": "Página de «Info harvest» en itch.io",
+            "href": "https://moisesjbc.itch.io/info-harvest"
+        },
+        {
+            "text": "Repositorio en Github",
+            "href": "https://github.com/moisesjbc/info-harvest"
+        }
+    ],
+    "dimensions": {
+        "width": 1280,
+        "height": 720
+    },
+    "tags": ["godot", "jam", "browser", "windows", "linux", "alone"]
+}

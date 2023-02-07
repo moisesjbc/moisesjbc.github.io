@@ -2,6 +2,10 @@
     "about_me": "Soy un desarrollador software residente en la isla de Gran Canaria (España). A principios de 2015 terminé la carrera de Ingeniería Informática en la [Escuela de Ingeniería Informática de la ULPGC](https://www.eii.ulpgc.es).\n\nActualmente me encuentro trabajando como desarrollador Full Stack para [Ericsson](https://www.ericsson.com) a través de [Edosoft](https://edosoft.es/).\n\nEn mi tiempo libre aprovecho para desarrollar [software libre](/software) y [videojuegos](/games). También me gusta escribir [novelas y relatos cortos](/literature).\n\nBienvenido/a a mi humilde escaparate personal. Siéntete libre de escribirme a [mi correo](mailto:moisesjbc@gmail.com) y husmear mi [Github](https://www.github.com/moisesjbc).",
     "news": [
         {
+            "date": "07/02/2023",
+            "body": "Publicada versión 0.1 de [\"Info harvest\"](games/info-harvest)"
+        },
+        {
             "date": "06/02/2023",
             "body": "Publicada versión 0.4 de [\"Contando hasta 100\"](games/contando-hasta-100)"
         },

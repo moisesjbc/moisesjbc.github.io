@@ -1,0 +1,107 @@
+{
+    "starred": true,
+    "img": "https://github.com/moisesjbc/identity-thief/blob/main/screenshot.png?raw=true",
+    "year": 2023,
+    "title": "Identity thief",
+    "summary": "¡Roba la mayor cantidad de bancos posibles intercambiando identidades!. Desarrollado en equipo para la [Gran Canaria Game Island Jam](https://www.spegc.org/formacion-y-eventos/gran-canaria-game-island-2023/).",
+    "mechanics": "- Choca con un personaje para intercambiar tu identidad con la suya\n\n- Toca la caja fuerte con la identidad correcta para pasar al siguiente nivel",
+    "controls": [
+        {
+            "key": "ASDW o flechas",
+            "meaning": "mover personaje."
+        }
+    ],
+    "credits": {
+        "own": [
+            {
+                "title": "Diseño",
+                "people": [
+                    "Sara Miana Ponce"
+                ]
+            },
+            {
+                "title": "Desarrollo",
+                "people": [
+                    "Moisés J. Bonilla Caraballo",
+                    "Adriel Arocha Oronoz"
+                ]
+            },
+            {
+                "title": "Arte",
+                "people": [
+                    "Ayoze Pérez Guerra",
+                    "Sara Miana Ponce"
+                ]
+            },
+            {
+                "title": "Música",
+                "people": [
+                    "Jonatan Aka Artitsynth"
+                ]
+            }
+        ],
+        "third-party": [
+            {
+                "title": "Software",
+                "resources": [
+                    {
+                        "name": "Godot Engine",
+                        "href": "https://godotengine.org/"
+                    },
+                    {
+                        "name": "Herramientas usadas por el resto del equipo - PENDIENTE"
+                    }
+                ]
+            },
+            {
+                "title": "Fuentes",
+                "resources": [
+                    {
+                        "name": "Bankso Sapi",
+                        "href": "https://www.dafont.com/bakso-sapi.font"
+                    }
+                ]
+            },
+            {
+                "title": "Sonidos",
+                "resources": [
+                    {
+                        "name": "La mayoría de sonidos son CC0 descargados de Freesound",
+                        "href": "https://freesound.org/"
+                    }
+                ]
+            }
+        ]
+    },
+    "links": [
+        {
+            "text": "Jugar a «Identity thief» online",
+            "href": "/games/identity-thief/play"
+        },
+        {
+            "text": "Descargar «Identity thief» v0.4 para Windows",
+            "href": "https://github.com/moisesjbc/identity-thief/releases/download/v0.4/identity-thief_windows_v0.4.zip"
+        },
+        {
+            "text": "Descargar «Identity thief» v0.4 para GNU/Linux",
+            "href": "https://github.com/moisesjbc/identity-thief/releases/download/v0.4/identity-thief_linux_v0.4.zip"
+        },
+        {
+            "text": "Colección (incompleta) de juegos de la jam",
+            "href": "https://itch.io/c/3265973/gran-canaria-game-island"
+        },
+        {
+            "text": "Página de «Identity thief» en itch.io",
+            "href": "https://moisesjbc.itch.io/identity-thief"
+        },
+        {
+            "text": "Repositorio en Github",
+            "href": "https://github.com/moisesjbc/identity-thief"
+        }
+    ],
+    "dimensions": {
+        "width": 1600,
+        "height": 900
+    },
+    "tags": ["godot", "jam", "browser", "windows", "linux"]
+}

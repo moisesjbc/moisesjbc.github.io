@@ -3,6 +3,10 @@
     "news": [
         {
             "date": "18/06/2023",
+            "body": "Publicada versión 0.2.1 de [\"Zero gravity delivery\"](games/zero-gravity-delivery)"
+        },
+        {
+            "date": "18/06/2023",
             "body": "Publicada versión 0.4 de [\"Identity thief\"](games/identity-thief)"
         },
         {

@@ -1,0 +1,88 @@
+{
+    "starred": false,
+    "img": "https://raw.githubusercontent.com/moisesjbc/zero-gravity-delivery/main/screenshot.png",
+    "year": 2023,
+    "title": "Zero gravity delivery",
+    "summary": "Juego de habilidad en el que debes apilar cajas del mismo color. Desarrollado en [Godot](https://godotengine.org/) para la [Ludum Dare #53](https://ldjam.com/events/ludum-dare/53).",
+    "background": "Parecía un día más en la estación espacial de reparto, ¡pero ha habido un problema con el sistema de gravedad artificial y las cajas han salido volando!",
+    "mechanics": "- Apila cajas del mismo color.\n\n- Cambia de color para atrapar las cajas del mismo color.\n\n- ¡Evita las cajas del color contrario!",
+    "controls": [
+        {
+            "key": "A/D o flechas izquierda/derecha",
+            "meaning": "mover plataforma"
+        },
+        {
+            "key": "Espacio",
+            "meaning": "cambiar de color"
+        }
+    ],
+    "credits": {
+        "own": [
+            {
+                "title": "Idea y desarrollo",
+                "people": [
+                    "Moisés J. Bonilla Caraballo"
+                ]
+            }
+        ],
+        "third-party": [
+            {
+                "title": "Software",
+                "resources": [
+                    {
+                        "name": "Godot Engine",
+                        "href": "https://godotengine.org/"
+                    },
+                    {
+                        "name": "GIMP",
+                        "href": "https://www.gimp.org/"
+                    },
+                    {
+                        "name": "sfxr",
+                        "href": "https://www.drpetter.se/project_sfxr.html"
+                    }
+                ]
+            },
+            {
+                "title": "Fuentes",
+                "resources": [
+                    {
+                        "name": "Ubuntu-B.ttf",
+                        "href": "https://design.ubuntu.com/font/"
+                    }
+                ]
+            }
+        ]
+    },
+    "links": [
+        {
+            "text": "Jugar a «Zero gravity delivery!» online",
+            "href": "/games/zero-gravity-delivery/play"
+        },
+        {
+            "text": "Descargar «Zero gravity delivery» v0.2.1 para Windows",
+            "href": "https://github.com/moisesjbc/zero-gravity-delivery/releases/download/v0.2.1/zero-gravity-delivery_windows_v0.2.1.zip"
+        },
+        {
+            "text": "Descargar «Zero gravity delivery!» v0.2.1 para GNU/Linux",
+            "href": "https://github.com/moisesjbc/zero-gravity-delivery/releases/download/v0.2.1/zero-gravity-delivery_linux_v0.2.1.zip"
+        },
+        {
+            "text": "Entrada de «Zero gravity delivery!» en la página de la Ludum Dare #47",
+            "href": "https://ldjam.com/events/ludum-dare/53/zero-gravity-delivery"
+        },
+        {
+            "text": "Página de «Zero gravity delivery» en itch.io",
+            "href": "https://moisesjbc.itch.io/zero-gravity-delivery"
+        },
+        {
+            "text": "Repositorio en Github",
+            "href": "https://github.com/moisesjbc/zero-gravity-delivery"
+        }
+    ],
+    "dimensions": {
+        "width": 1280,
+        "height": 720
+    },
+    "tags": ["godot", "jam", "browser", "windows", "linux", "alone"]
+}

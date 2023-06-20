@@ -40,7 +40,8 @@
     "links": [
         {
             "text": "Jugar a Pongmoi v1 online",
-            "href": "/games/pongmoi/play"
+            "href": "/games/pongmoi/play",
+            "warning": "PC"
         },
         {
             "text": "Repositorio de Pongmoi en Github",

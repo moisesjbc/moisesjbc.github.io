@@ -59,7 +59,8 @@
     "links": [
         {
             "text": "Jugar a «Hold it!» online",
-            "href": "/games/hold-it/play"
+            "href": "/games/hold-it/play",
+            "warning": "PC"
         },
         {
             "text": "Descargar «Hold it!» v0.2 para Windows",

@@ -77,7 +77,8 @@
     "links": [
         {
             "text": "Jugar a «Tirando cable» online",
-            "href": "/games/tirando-cable/play"
+            "href": "/games/tirando-cable/play",
+            "warning": "PC"
         },
         {
             "text": "Descargar «Tirando cable» v1.0 para Windows",

@@ -59,7 +59,8 @@
     "links": [
         {
             "text": "Jugar RGB Pong v1.1 online",
-            "href": "/games/rgb-pong/play"
+            "href": "/games/rgb-pong/play",
+            "warning": "PC"
         },
         {
             "text": "Descargar RGB Pong v1.1 para Linux",

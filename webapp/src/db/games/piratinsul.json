@@ -86,7 +86,8 @@
     "links": [
 	    {
             "text": "Jugar online a Piratinsul' v1.1",
-            "href": "/games/piratinsul/play"
+            "href": "/games/piratinsul/play",
+            "warning": "PC"
         },
         {
             "text": "Descargar Piratinsul' v1.1 para Windows",

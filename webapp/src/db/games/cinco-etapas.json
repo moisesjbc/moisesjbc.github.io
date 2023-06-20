@@ -64,7 +64,8 @@
     "links": [
         {
             "text": "Jugar a «Cinco etapas» online",
-            "href": "/games/cinco-etapas/play"
+            "href": "/games/cinco-etapas/play",
+            "warning": "PC"
         },
         {
             "text": "Descargar «Cinco etapas» v1.1 para Windows",

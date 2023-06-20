@@ -52,7 +52,8 @@
     "links": [
         {
             "text": "Jugar a «Info harvest» online",
-            "href": "/games/info-harvest/play"
+            "href": "/games/info-harvest/play",
+            "warning": "PC"
         },
         {
             "text": "Descargar «Info harvest» v0.1 para Windows",

@@ -54,7 +54,8 @@
     "links": [
         {
             "text": "Jugar a «The Greedy ATM» online",
-            "href": "/games/greedy-atm/play"
+            "href": "/games/greedy-atm/play",
+            "warning": "PC"
         },
         {
             "text": "Descargar «The Greedy ATM» v1.0.1 para Windows",

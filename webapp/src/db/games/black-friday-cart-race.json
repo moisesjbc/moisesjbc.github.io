@@ -92,7 +92,8 @@
     "links": [
         {
             "text": "Jugar a Black Friday Cart Race online",
-            "href": "/games/black-friday-cart-race/play"
+            "href": "/games/black-friday-cart-race/play",
+            "warning": "PC"
         },
         {
             "text": "Página de Black Friday Cart Race en Ludum Dare #40",

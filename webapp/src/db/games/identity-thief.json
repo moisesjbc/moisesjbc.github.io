@@ -76,7 +76,8 @@
     "links": [
         {
             "text": "Jugar a «Identity thief» online",
-            "href": "/games/identity-thief/play"
+            "href": "/games/identity-thief/play",
+            "warning": "PC"
         },
         {
             "text": "Descargar «Identity thief» v0.4 para Windows",

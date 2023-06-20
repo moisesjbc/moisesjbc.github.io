@@ -22,7 +22,8 @@
     "links": [
         {
             "text": "Jugar a SnakeJS online",
-            "href": "/games/snakejs/play"
+            "href": "/games/snakejs/play",
+            "warning": "PC"
         },
         {
             "text": "Repositorio de SnakeJS en Github",

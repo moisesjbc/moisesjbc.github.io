@@ -11,7 +11,6 @@ function LinksList(props: any) {
                         <a target="_blank" rel="noopener noreferrer" href={ link.href }>{ link.text }</a>
                         : <span>
                             <a rel="noopener noreferrer" className={`${link.href.indexOf('/play') !== -1 ? 'play-online-link' : ''}`} href={link.href}>{ link.text }</a>
-                            <span className="play-online-notice"></span>
                           </span>
                     }
                     {link.warning && <span> ({ link.warning })</span>}

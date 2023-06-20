@@ -78,7 +78,8 @@
     "links": [
         {
             "text": "Jugar a «UFO Taxi!» online",
-            "href": "/games/ufo-taxi/play"
+            "href": "/games/ufo-taxi/play",
+            "warning": "PC. Accede a la versión de itch.io abajo para jugar en móvil"
         },
         {
             "text": "Descargar «UFO Taxi!» v0.4 para Windows",

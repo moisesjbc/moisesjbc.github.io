@@ -82,7 +82,8 @@
     "links": [
         {
             "text": "Jugar a «Elf hunting» online",
-            "href": "/games/elf-hunting/play"
+            "href": "/games/elf-hunting/play",
+            "warning": "PC"
         },
         {
             "text": "Descargar «Elf hunting» v1.1 para Windows",

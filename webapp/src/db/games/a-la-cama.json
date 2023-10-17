@@ -1,0 +1,84 @@
+{
+    "starred": false,
+    "img": "https://raw.githubusercontent.com/moisesjbc/indie-spain-jam-2023/main/screenshot.png",
+    "year": 2023,
+    "title": "¡A la cama!",
+    "summary": "¡Llega a la cama antes de que caiga la noche (literalmente)! Juego de plataformas desarrollado en solitario para la [Indie Spain Jam 2023](https://itch.io/jam/indie-spain-jam-23).",
+    "mechanics": "- Muévete con las flechas y el espacio\n\n- Llega hasta la cama antes de que se acabe el tiempo",
+    "controls": [
+        {
+            "key": "A/D o flechas izquierda/derecha",
+            "meaning": "mover personaje lateralmente"
+        },
+        {
+            "key": "Espacio",
+            "meaning": "saltar"
+        }
+    ],
+    "credits": {
+        "own": [
+            {
+                "title": "Desarrollo",
+                "people": [
+                    "Moisés J. Bonilla Caraballo"
+                ]
+            }
+        ],
+        "third-party": [
+            {
+                "title": "Software",
+                "resources": [
+                    {
+                        "name": "Godot Engine",
+                        "href": "https://godotengine.org/"
+                    },
+                    {
+                        "name": "GIMP",
+                        "href": "https://www.gimp.org/"
+                    },
+                    {
+                        "name": "sfxr",
+                        "href": "https://www.drpetter.se/project_sfxr.html"
+                    }
+                ]
+            },
+            {
+                "title": "Fuentes",
+                "resources": [
+                    {
+                        "name": "Ubuntu-B.ttf",
+                        "href": "https://design.ubuntu.com/font/"
+                    }
+                ]
+            }
+        ]
+    },
+    "links": [
+        {
+            "text": "Jugar a «¡A la cama!» online",
+            "href": "/games/a-la-cama/play",
+            "warning": "PC"
+        },
+        {
+            "text": "Descargar «¡A la cama!» v0.2 para Windows",
+            "href": "https://github.com/moisesjbc/indie-spain-jam-2023/releases/download/v0.2/a-la-cama_html_v0.2.zip"
+        },
+        {
+            "text": "Descargar «¡A la cama!» v0.2 para GNU/Linux",
+            "href": "https://github.com/moisesjbc/indie-spain-jam-2023/releases/download/v0.2/a-la-cama_linux_v0.2.zip"
+        },
+        {
+            "text": "Página de «¡A la cama!» en itch.io",
+            "href": "https://moisesjbc.itch.io/a-la-cama"
+        },
+        {
+            "text": "Repositorio en Github",
+            "href": "https://github.com/moisesjbc/a-la-cama"
+        }
+    ],
+    "dimensions": {
+        "width": 1920,
+        "height": 1024
+    },
+    "tags": ["godot", "jam", "alone", "browser", "windows", "linux"]
+}

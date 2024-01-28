@@ -1,0 +1,99 @@
+{
+    "starred": true,
+    "img": "https://img.itch.zone/aW1nLzE0Mzc3MjgxLnBuZw==/315x250%23c/AvCcEM.png",
+    "year": 2023,
+    "title": "Atalanta's golden odyssey",
+    "summary": "Defiende la manzana dorada de las hordas de criaturas mitológicas. [Ganador del primer premio](https://www.spegc.org/atalanta-golden-odyssey-mejor-videojuego-de-la-game-island-jam/) en la [Game Island Jam II](https://itch.io/jam/gran-canaria-game-island-jam-2).",
+    "mechanics": "- Sobrevive a oleadas de criaturas mitológicas\n\n- Elige una mejora tras cada oleada",
+    "controls": [
+        {
+            "key": "AWSD o flechas",
+            "meaning": "mover personaje"
+        },
+        {
+            "key": "Movimiento del ratón",
+            "meaning": "apuntar arco"
+        },
+        {
+            "key": "Botón izquierdo del ratón",
+            "meaning": "disparar flecha"
+        }
+    ],
+    "credits": {
+        "own": [
+            {
+                "title": "Diseño",
+                "people": [
+                    "Raúl Iglesias Julios"
+                ]
+            },
+            {
+                "title": "Programación",
+                "people": [
+                    "Audrey Díaz Armas",
+                    "Moisés José Bonilla Caraballo"
+                ]
+            },
+            {
+                "title": "Arte",
+                "people": [
+                    "Victoria Naranjo González",
+                    "Alejandro Perdomo Cano",
+                    "Alejandro Cardenas Alamo",
+                    "Laura Ruíz Almarza",
+                    "Sophie Nikifaravetz"
+                ]
+            },
+            {
+                "title": "Comunidad y marketing",
+                "people": [
+                    "Alessandro Grimon Nuñes",
+                    "Sophie Nikifaravetz"
+                ]
+            }
+        ],
+        "third-party": [
+            {
+                "title": "Software",
+                "resources": [
+                    {
+                        "name": "Godot Engine",
+                        "href": "https://godotengine.org/"
+                    },
+                    {
+                        "name": "Aseprite",
+                        "href": "https://www.aseprite.org/"
+                    }
+                ]
+            }
+        ]
+    },
+    "links": [
+        {
+            "text": "Jugar a «Atalanta's golden odyssey» online",
+            "href": "/games/atalanta-golden-odyssey/play",
+            "warning": "PC"
+        },
+        {
+            "text": "Descargar «Atalanta's golden odyssey» v0.3 para Windows",
+            "href": "https://github.com/moisesjbc/atalanta-golden-odyssey/releases/download/v0.3/atalanta_windows_v0.3.zip"
+        },
+        {
+            "text": "Descargar «Atalanta's golden odyssey» v0.3 para GNU/Linux",
+            "href": "https://github.com/moisesjbc/atalanta-golden-odyssey/releases/download/v0.3/atalanta_linux_v0.3.zip"
+        },
+        {
+            "text": "Página de «Atalanta's golden odyssey» en itch.io",
+            "href": "https://atalantas-odyssey.itch.io/httpsitchiousersettings"
+        },
+        {
+            "text": "Repositorio en Github",
+            "href": "https://github.com/moisesjbc/atalanta-golden-odyssey"
+        }
+    ],
+    "dimensions": {
+        "width": 1920,
+        "height": 1024
+    },
+    "tags": ["godot", "jam", "team", "browser", "windows", "linux"]
+}

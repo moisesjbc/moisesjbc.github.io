@@ -1,0 +1,100 @@
+{
+    "starred": false,
+    "img": "https://raw.githubusercontent.com/moisesjbc/tiny-revolution/refs/heads/main/screenshot.png",
+    "year": 2024,
+    "title": "Tiny revolution",
+    "summary": "Sobrevive a oleadas de pequeñas crituaras. Juego de disparos realizado en solitario para la [Ludum Dare #56](https://ldjam.com/events/ludum-dare/56).",
+    "mechanics": "- Sobrevive el mayor tiempo posible\n\n- Escanea a las criaturas que van a por ti para distinguir las buenas de las malas",
+    "controls": [
+        {
+            "key": "A/D o flechas",
+            "meaning": "mover personaje"
+        },
+        {
+            "key": "Movimiento del ratón",
+            "meaning": "apuntar"
+        },
+        {
+            "key": "Clic izquierdo",
+            "meaning": "disparar"
+        },
+        {
+            "key": "Clic derecho",
+            "meaning": "escanear"
+        }
+    ],
+    "credits": {
+        "own": [
+            {
+                "title": "Desarrollo",
+                "people": [
+                    "Moisés J. Bonilla Caraballo"
+                ]
+            }
+        ],
+        "third-party": [
+            {
+                "title": "Software",
+                "resources": [
+                    {
+                        "name": "Godot Engine",
+                        "href": "https://godotengine.org/"
+                    },
+                    {
+                        "name": "GIMP",
+                        "href": "https://www.gimp.org/"
+                    },
+                    {
+                        "name": "sfxr",
+                        "href": "https://www.drpetter.se/project_sfxr.html"
+                    },
+                    {
+                        "name": "coloors",
+                        "href": "https://coolors.co/"
+                    }
+                ]
+            },
+            {
+                "title": "Fuentes",
+                "resources": [
+                    {
+                        "name": "Ubuntu-B.ttf",
+                        "href": "https://design.ubuntu.com/font/"
+                    }
+                ]
+            }
+        ]
+    },
+    "links": [
+        {
+            "text": "Jugar a «Tiny revolution» online",
+            "href": "/games/tiny-revolution/play",
+            "warning": "PC"
+        },
+        {
+            "text": "Descargar «Tiny revolution» v0.2 para GNU/Linux",
+            "href": "https://github.com/moisesjbc/tiny-revolution/releases/download/v0.2/tiny-revolution_linux_v0.2.zip"
+        },
+        {
+            "text": "Descargar «Tiny revolution» v0.2 para Windows",
+            "href": "https://github.com/moisesjbc/tiny-revolution/releases/download/v0.2/tiny-revolution_windows_v0.2.zip"
+        },
+        {
+            "text": "Entrada de «Tiny revolution» en Ludum Dare",
+            "href": "https://ldjam.com/events/ludum-dare/56/tiny-revolution"
+        },
+        {
+            "text": "Página de «Tiny revolution» en itch.io",
+            "href": "https://moisesjbc.itch.io/tiny-revolution"
+        },
+        {
+            "text": "Repositorio en Github",
+            "href": "https://github.com/moisesjbc/tiny-revolution"
+        }
+    ],
+    "dimensions": {
+        "width": 1280,
+        "height": 720
+    },
+    "tags": ["godot", "jam", "alone", "browser", "windows", "linux"]
+}

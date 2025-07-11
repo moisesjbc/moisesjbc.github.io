@@ -4,7 +4,8 @@ import data from '../../db/home/home.json';
 import './Home.css';
 import ContentHeader from '../../components/content.header/ContentHeader';
 
-function Home() {
+function Home(language: string) {
+    console.log('language ', language)
     return (
         <>
             <ContentHeader path={[['home']]} displayBreadcrumb={false} />

@@ -2,6 +2,14 @@
     "about_me": "Soy un desarrollador software residente en la isla de Gran Canaria (España). A principios de 2015 terminé la carrera de Ingeniería Informática en la [Escuela de Ingeniería Informática de la ULPGC](https://www.eii.ulpgc.es).\n\nActualmente me encuentro trabajando como desarrollador Full Stack para [Ericsson](https://www.ericsson.com) a través de [Edosoft](https://edosoft.es/).\n\nEn mi tiempo libre aprovecho para desarrollar [software libre](/software) y [videojuegos](/games). También me gusta escribir [novelas y relatos cortos](/literature).\n\nBienvenido/a a mi humilde escaparate personal. Siéntete libre de escribirme a [mi correo](mailto:moisesjbc@gmail.com) y husmear mi [Github](https://www.github.com/moisesjbc).",
     "news": [
         {
+            "date": "11/07/2025",
+            "body": "Publicada versión 0.5 de [\"Bubble Bind\"](games/bubble-bind)"
+        },
+        {
+            "date": "11/07/2025",
+            "body": "Publicada versión 0.4 de [\"Fosu!\"](games/fosu)"
+        },
+        {
             "date": "12/10/2024",
             "body": "Publicada versión 0.2 de [\"Tiny revolution\"](games/tiny-revolution)"
         },

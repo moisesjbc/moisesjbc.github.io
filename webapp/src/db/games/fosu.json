@@ -1,0 +1,87 @@
+{
+    "starred": false,
+    "img": "https://raw.githubusercontent.com/moisesjbc/fosu/refs/heads/main/fosu.png",
+    "year": 2025,
+    "title": "Fosu!",
+    "summary": "¡Excava lo más profundo que puedas, pero cuidado con las bombas! Juego desarrollado en solitario para [Ludum Dare #57](https://ldjam.com/events/ludum-dare/57)",
+    "mechanics": "- Desplaza las filas a izquierda / derecha\n\n- Esquiva las bombas",
+    "controls": [
+        {
+            "key": "Ratón",
+            "meaning": "seleccionar / rotar fila"
+        },
+        {
+            "key": "A/D",
+            "meaning": "rotar fila activa"
+        }
+    ],
+    "credits": {
+        "own": [
+            {
+                "title": "Desarrollo",
+                "people": [
+                    "Moisés José Bonilla Caraballo"
+                ]
+            }
+        ],
+        "third-party": [
+            {
+                "title": "Software",
+                "resources": [
+                    {
+                        "name": "Godot Engine",
+                        "href": "https://godotengine.org/"
+                    },
+                    {
+                        "name": "GIMP",
+                        "href": "https://www.gimp.org/"
+                    },
+                    {
+                        "name": "sfxr",
+                        "href": "https://www.drpetter.se/project_sfxr.html"
+                    },
+                    {
+                        "name": "Coolors",
+                        "href": "https://coolors.co/"
+                    }
+                ]
+            },
+            {
+                "title": "Otros recursos",
+                "resources": [
+                    {
+                        "name": "Ubuntu Font",
+                        "href": "https://design.ubuntu.com/font"
+                    }
+                ]
+            }
+        ]
+    },
+    "links": [
+        {
+            "text": "Jugar a «Fosu!» online",
+            "href": "/games/fosu/play"
+        },
+        {
+            "text": "Descargar «Fosu!» v0.4 para Windows",
+            "href": "https://github.com/moisesjbc/fosu/releases/download/v0.4/fosu_windows_v0.4.zip"
+        },
+        {
+            "text": "Descargar «Fosu!» v0.4 para GNU/Linux",
+            "href": "https://github.com/moisesjbc/fosu/releases/download/v0.4/fosu_linux_v0.4.zip"
+        },
+        {
+            "text": "Página de «Fosu!» en la Ludum Dare #57",
+            "href": "https://ldjam.com/events/ludum-dare/57/fosu"
+        },
+        {
+            "text": "Repositorio en Github",
+            "href": "https://github.com/moisesjbc/fosu"
+        }
+    ],
+    "dimensions": {
+        "width": 540,
+        "height": 960
+    },
+    "tags": ["godot", "jam", "alone", "browser", "windows", "linux"]
+}

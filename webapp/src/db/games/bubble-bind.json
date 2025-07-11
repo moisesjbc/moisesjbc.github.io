@@ -1,0 +1,77 @@
+{
+    "starred": true,
+    "img": "https://raw.githubusercontent.com/moisesjbc/global-jam-01-2025/refs/heads/main/godot-project/menus/main_menu/titlescree.png",
+    "year": 2025,
+    "title": "Bubble Bind",
+    "summary": "¡Defiende la fábrica de pompas de la invasión alienígena! Juego desarrollado para la [GGJ2025 Canarias](https://itch.io/jam/ggj2025-canarias)",
+    "mechanics": "- Envuelve a las oleadas de alienígenas en pompas\n\n- Estalla las pompas contra el escenario para acabar con los enenmigos",
+    "controls": [
+        {
+            "key": "AWSD o flechas",
+            "meaning": "mover personaje"
+        },
+        {
+            "key": "Movimiento del ratón",
+            "meaning": "apuntar arma"
+        },
+        {
+            "key": "Botón izquierdo del ratón",
+            "meaning": "disparar pompa"
+        }
+    ],
+    "credits": {
+        "own": [
+            {
+                "title": "Arte",
+                "people": [
+                    "Axel AKA. haxzie",
+                    "Olb"
+                ]
+            },
+            {
+                "title": "Música",
+                "people": [
+                    "Jonatan AKA. ArtisySynth",
+                    "Osca AKA. Olb"
+                ]
+            },
+            {
+                "title": "Programación",
+                "people": [
+                    "Moisés José Bonilla Caraballo"
+                ]
+            }
+        ],
+        "third-party": [
+            {
+                "title": "Software",
+                "resources": [
+                    {
+                        "name": "Godot Engine",
+                        "href": "https://godotengine.org/"
+                    }
+                ]
+            }
+        ]
+    },
+    "links": [
+        {
+            "text": "Jugar a «Bubble Bind» online",
+            "href": "/games/bubble-bind/play",
+            "warning": "PC"
+        },
+        {
+            "text": "Página de «Bubble Bind» en itch.io (contiene descargas paar Winddows y GNU/Linux)",
+            "href": "https://moisesjbc.itch.io/bubble-bind"
+        },
+        {
+            "text": "Repositorio en Github",
+            "href": "https://github.com/moisesjbc/bubble-bind"
+        }
+    ],
+    "dimensions": {
+        "width": 1280,
+        "height": 720
+    },
+    "tags": ["godot", "jam", "team", "browser", "windows", "linux"]
+}

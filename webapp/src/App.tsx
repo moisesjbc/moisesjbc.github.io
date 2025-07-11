@@ -12,6 +12,10 @@ import LiteratureDetail from './sections/literature.detail/LiteratureDetail';
 import NotFound from './sections/not.found/NotFound';
 
 function App() {
+  const [language, setLanguage] = React.useState('es');
+
+  console.log("App language ", language)
+
   const goToTop = (ev: any) => {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
@@ -45,8 +49,8 @@ function App() {
                 <div id="content">
                     <Switch>
                         <Route path="/" exact component={Home} />
-                        <Route path="/home" exact component={Home} />
-                        <Route path="/games" exact component={Games} />
+                        <Route path="/home" exact component={Home} language={language} />
+                        <Route path="/games" exact component={Games} language={language} />
                         <Route path="/games/:id" exact component={GameDetail} />
                         <Route path="/games/:id/play" exact component={GamePlay} />
                         <Route path="/software" exact component={Software} />

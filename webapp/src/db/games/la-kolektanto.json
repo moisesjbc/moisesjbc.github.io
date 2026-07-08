@@ -1,0 +1,92 @@
+{
+    "starred": false,
+    "img": "https://raw.githubusercontent.com/moisesjbc/la-kolektanto/refs/heads/main/screenshot.png",
+    "year": 2025,
+    "title": "La kolektanto",
+    "summary": "Colecciona y vende tantos collecionables como puedas antes de que se acabe el tiempo. Desarrollado para la [Ludum Dare #58](https://ldjam.com/events/ludum-dare/58/).",
+    "mechanics": "- Muevete la plataforma a los lados\n\n- Colleciona los objetos que caen\n\n- Acumula objetos del mismo tipo para una bonificación\n\n- ¡No te olvides de vender!",
+    "controls": [
+        {
+            "key": "A/D o botone izquierda/derecha",
+            "meaning": "mover plataforma lateralmente"
+        },
+        {
+            "key": "Espacio",
+            "meaning": "Vender collección actual"
+        }
+    ],
+    "credits": {
+        "own": [
+            {
+                "title": "Desarrollo",
+                "people": [
+                    "Moisés J. Bonilla Caraballo"
+                ]
+            }
+        ],
+        "third-party": [
+            {
+                "title": "Software",
+                "resources": [
+                    {
+                        "name": "Godot Engine",
+                        "href": "https://godotengine.org/"
+                    },
+                    {
+                        "name": "GIMP",
+                        "href": "https://www.gimp.org/"
+                    },
+                    {
+                        "name": "sfxr",
+                        "href": "https://www.drpetter.se/project_sfxr.html"
+                    },
+                    {
+                        "name": "Coolors",
+                        "href": "https://coolors.co/"
+                    }
+                ]
+            },
+            {
+                "title": "Fuentes",
+                "resources": [
+                    {
+                        "name": "Ubuntu-B.ttf",
+                        "href": "https://design.ubuntu.com/font/"
+                    }
+                ]
+            }
+        ]
+    },
+    "links": [
+        {
+            "text": "Jugar a «La kolektanto» online",
+            "href": "/games/la-kolektanto/play",
+            "warning": "PC"
+        },
+        {
+            "text": "Descargar «La kolektanto» v0.2 para Windows",
+            "href": "https://github.com/moisesjbc/la-kolektanto/releases/download/v0.2/la_kolektanto_windows_v0.2.zip"
+        },
+        {
+            "text": "Descargar «La kolektanto» v0.2 para GNU/Linux",
+            "href": "https://github.com/moisesjbc/la-kolektanto/releases/download/v0.2/la_kolektanto_linux_v0.2.zip"
+        },
+        {
+            "text": "Entrada de «La kolektanto» en la página de la Ludum Dare #58",
+            "href": "https://ldjam.com/events/ludum-dare/58/la-kolektanto"
+        },
+        {
+            "text": "Página de «La kolektanto» en itch.io",
+            "href": "https://moisesjbc.itch.io/la-kolektanto"
+        },
+        {
+            "text": "Repositorio en Github",
+            "href": "https://github.com/moisesjbc/la-kolektanto"
+        }
+    ],
+    "dimensions": {
+        "width": 540,
+        "height": 960
+    },
+    "tags": ["godot", "jam", "alone", "browser", "windows", "linux"]
+}
